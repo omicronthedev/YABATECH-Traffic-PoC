@@ -1,0 +1,5 @@
+counting_line,direction,vehicle_class,count
+East approach,A_to_B,car,1
+East approach,A_to_B,motorcycle,1
+East approach,B_to_A,car,2
+East approach,B_to_A,motorcycle,1

@@ -1,0 +1,23 @@
+# Python environment
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large media files (exceeding GitHub 100MB file limit)
+*.zip
+*.tar.gz
+videos/*.mp4
+outputs/*.mp4
+outputs/simulations/*.mp4
+outputs/video_inspection/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/

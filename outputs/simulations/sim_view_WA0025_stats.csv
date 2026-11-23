@@ -1,0 +1,135 @@
+sim_time,frame,state,active_approach,remaining_time,queue_app1,queue_app2,decision
+0.0,0,GREEN,Hussey Rd (Inbound),8.0,4,0,Simulation initialized
+0.1,3,GREEN,Hussey Rd (Inbound),7.9,2,0,Simulation initialized
+0.2,6,GREEN,Hussey Rd (Inbound),7.8,2,0,Simulation initialized
+0.3,9,GREEN,Hussey Rd (Inbound),7.7,1,0,Simulation initialized
+0.4,12,GREEN,Hussey Rd (Inbound),7.6,1,0,Simulation initialized
+0.5,15,GREEN,Hussey Rd (Inbound),7.5,1,0,Simulation initialized
+0.6,18,GREEN,Hussey Rd (Inbound),7.4,1,0,Simulation initialized
+0.7,21,GREEN,Hussey Rd (Inbound),7.3,1,0,Simulation initialized
+0.8,24,GREEN,Hussey Rd (Inbound),7.2,1,0,Simulation initialized
+0.9,27,GREEN,Hussey Rd (Inbound),7.1,0,0,Simulation initialized
+1.0,30,GREEN,Hussey Rd (Inbound),7.0,1,0,Simulation initialized
+1.1,33,GREEN,Hussey Rd (Inbound),6.9,1,0,Simulation initialized
+1.2,36,GREEN,Hussey Rd (Inbound),6.8,1,0,Simulation initialized
+1.3,39,GREEN,Hussey Rd (Inbound),6.7,2,0,Simulation initialized
+1.4,42,GREEN,Hussey Rd (Inbound),6.6,2,0,Simulation initialized
+1.5,45,GREEN,Hussey Rd (Inbound),6.5,2,0,Simulation initialized
+1.6,48,GREEN,Hussey Rd (Inbound),6.4,2,0,Simulation initialized
+1.7,51,GREEN,Hussey Rd (Inbound),6.3,2,0,Simulation initialized
+1.8,54,GREEN,Hussey Rd (Inbound),6.2,2,0,Simulation initialized
+1.9,57,GREEN,Hussey Rd (Inbound),6.1,2,0,Simulation initialized
+2.0,60,GREEN,Hussey Rd (Inbound),6.0,3,0,Simulation initialized
+2.11,63,GREEN,Hussey Rd (Inbound),5.89,3,0,Simulation initialized
+2.21,66,GREEN,Hussey Rd (Inbound),5.79,3,0,Simulation initialized
+2.31,69,GREEN,Hussey Rd (Inbound),5.69,3,0,Simulation initialized
+2.41,72,GREEN,Hussey Rd (Inbound),5.59,3,0,Simulation initialized
+2.51,75,GREEN,Hussey Rd (Inbound),5.49,3,0,Simulation initialized
+2.61,78,GREEN,Hussey Rd (Inbound),5.39,3,0,Simulation initialized
+2.71,81,GREEN,Hussey Rd (Inbound),5.29,2,0,Simulation initialized
+2.81,84,GREEN,Hussey Rd (Inbound),5.19,2,0,Simulation initialized
+2.91,87,GREEN,Hussey Rd (Inbound),5.09,2,0,Simulation initialized
+3.01,90,GREEN,Hussey Rd (Inbound),4.99,2,0,Simulation initialized
+3.11,93,GREEN,Hussey Rd (Inbound),4.89,2,0,Simulation initialized
+3.21,96,GREEN,Hussey Rd (Inbound),4.79,1,0,Simulation initialized
+3.31,99,GREEN,Hussey Rd (Inbound),4.69,1,0,Simulation initialized
+3.41,102,GREEN,Hussey Rd (Inbound),4.59,2,0,Simulation initialized
+3.51,105,GREEN,Hussey Rd (Inbound),4.49,1,0,Simulation initialized
+3.61,108,GREEN,Hussey Rd (Inbound),4.39,1,0,Simulation initialized
+3.71,111,GREEN,Hussey Rd (Inbound),4.29,1,0,Simulation initialized
+3.81,114,GREEN,Hussey Rd (Inbound),4.19,2,0,Simulation initialized
+3.91,117,GREEN,Hussey Rd (Inbound),4.09,3,0,Simulation initialized
+4.01,120,GREEN,Hussey Rd (Inbound),3.99,3,0,Simulation initialized
+4.11,123,GREEN,Hussey Rd (Inbound),3.89,3,0,Simulation initialized
+4.21,126,GREEN,Hussey Rd (Inbound),3.79,3,0,Simulation initialized
+4.31,129,GREEN,Hussey Rd (Inbound),3.69,3,0,Simulation initialized
+4.41,132,GREEN,Hussey Rd (Inbound),3.59,3,0,Simulation initialized
+4.51,135,GREEN,Hussey Rd (Inbound),3.49,3,0,Simulation initialized
+4.61,138,GREEN,Hussey Rd (Inbound),3.39,3,0,Simulation initialized
+4.71,141,GREEN,Hussey Rd (Inbound),3.29,3,0,Simulation initialized
+4.81,144,GREEN,Hussey Rd (Inbound),3.19,3,0,Simulation initialized
+4.91,147,GREEN,Hussey Rd (Inbound),3.09,3,0,Simulation initialized
+5.01,150,GREEN,Hussey Rd (Inbound),2.99,3,0,Simulation initialized
+5.11,153,GREEN,Hussey Rd (Inbound),2.89,2,0,Simulation initialized
+5.21,156,GREEN,Hussey Rd (Inbound),2.79,2,0,Simulation initialized
+5.31,159,GREEN,Hussey Rd (Inbound),2.69,3,0,Simulation initialized
+5.41,162,GREEN,Hussey Rd (Inbound),2.59,3,0,Simulation initialized
+5.51,165,GREEN,Hussey Rd (Inbound),2.49,3,0,Simulation initialized
+5.61,168,GREEN,Hussey Rd (Inbound),2.39,3,0,Simulation initialized
+5.71,171,GREEN,Hussey Rd (Inbound),2.29,3,0,Simulation initialized
+5.81,174,GREEN,Hussey Rd (Inbound),2.19,2,0,Simulation initialized
+5.91,177,GREEN,Hussey Rd (Inbound),2.09,2,0,Simulation initialized
+6.01,180,GREEN,Hussey Rd (Inbound),1.99,3,0,Simulation initialized
+6.12,183,GREEN,Hussey Rd (Inbound),1.88,3,0,Simulation initialized
+6.22,186,GREEN,Hussey Rd (Inbound),1.78,3,1,Simulation initialized
+6.32,189,GREEN,Hussey Rd (Inbound),1.68,3,1,Simulation initialized
+6.42,192,GREEN,Hussey Rd (Inbound),1.58,2,1,Simulation initialized
+6.52,195,GREEN,Hussey Rd (Inbound),1.48,3,1,Simulation initialized
+6.62,198,GREEN,Hussey Rd (Inbound),1.38,2,1,Simulation initialized
+6.72,201,GREEN,Hussey Rd (Inbound),1.28,2,1,Simulation initialized
+6.82,204,GREEN,Hussey Rd (Inbound),1.18,2,2,Simulation initialized
+6.92,207,GREEN,Hussey Rd (Inbound),1.08,2,0,Simulation initialized
+7.02,210,GREEN,Hussey Rd (Inbound),0.98,2,0,Simulation initialized
+7.12,213,GREEN,Hussey Rd (Inbound),0.88,2,0,Simulation initialized
+7.22,216,GREEN,Hussey Rd (Inbound),0.78,2,0,Simulation initialized
+7.32,219,GREEN,Hussey Rd (Inbound),0.68,2,0,Simulation initialized
+7.42,222,GREEN,Hussey Rd (Inbound),0.58,2,0,Simulation initialized
+7.52,225,GREEN,Hussey Rd (Inbound),0.48,2,0,Simulation initialized
+7.62,228,GREEN,Hussey Rd (Inbound),0.38,2,0,Simulation initialized
+7.72,231,GREEN,Hussey Rd (Inbound),0.28,2,0,Simulation initialized
+7.82,234,GREEN,Hussey Rd (Inbound),0.18,2,0,Simulation initialized
+7.92,237,GREEN,Hussey Rd (Inbound),0.08,3,0,Simulation initialized
+8.02,240,YELLOW,Hussey Rd (Inbound),0.0,3,0,Allocated green (8.0s) expired
+8.12,243,YELLOW,Hussey Rd (Inbound),2.9,3,0,Allocated green (8.0s) expired
+8.22,246,YELLOW,Hussey Rd (Inbound),2.8,4,0,Allocated green (8.0s) expired
+8.32,249,YELLOW,Hussey Rd (Inbound),2.7,4,0,Allocated green (8.0s) expired
+8.42,252,YELLOW,Hussey Rd (Inbound),2.6,4,0,Allocated green (8.0s) expired
+8.52,255,YELLOW,Hussey Rd (Inbound),2.5,4,0,Allocated green (8.0s) expired
+8.62,258,YELLOW,Hussey Rd (Inbound),2.4,4,0,Allocated green (8.0s) expired
+8.72,261,YELLOW,Hussey Rd (Inbound),2.3,3,0,Allocated green (8.0s) expired
+8.82,264,YELLOW,Hussey Rd (Inbound),2.2,3,0,Allocated green (8.0s) expired
+8.92,267,YELLOW,Hussey Rd (Inbound),2.1,3,0,Allocated green (8.0s) expired
+9.02,270,YELLOW,Hussey Rd (Inbound),2.0,3,0,Allocated green (8.0s) expired
+9.12,273,YELLOW,Hussey Rd (Inbound),1.9,4,0,Allocated green (8.0s) expired
+9.22,276,YELLOW,Hussey Rd (Inbound),1.8,4,0,Allocated green (8.0s) expired
+9.32,279,YELLOW,Hussey Rd (Inbound),1.7,4,0,Allocated green (8.0s) expired
+9.42,282,YELLOW,Hussey Rd (Inbound),1.6,4,0,Allocated green (8.0s) expired
+9.52,285,YELLOW,Hussey Rd (Inbound),1.5,3,0,Allocated green (8.0s) expired
+9.62,288,YELLOW,Hussey Rd (Inbound),1.4,4,0,Allocated green (8.0s) expired
+9.72,291,YELLOW,Hussey Rd (Inbound),1.3,4,0,Allocated green (8.0s) expired
+9.82,294,YELLOW,Hussey Rd (Inbound),1.2,3,0,Allocated green (8.0s) expired
+9.92,297,YELLOW,Hussey Rd (Inbound),1.1,4,0,Allocated green (8.0s) expired
+10.02,300,YELLOW,Hussey Rd (Inbound),1.0,3,0,Allocated green (8.0s) expired
+10.13,303,YELLOW,Hussey Rd (Inbound),0.89,3,0,Allocated green (8.0s) expired
+10.23,306,YELLOW,Hussey Rd (Inbound),0.79,3,1,Allocated green (8.0s) expired
+10.33,309,YELLOW,Hussey Rd (Inbound),0.69,4,1,Allocated green (8.0s) expired
+10.43,312,YELLOW,Hussey Rd (Inbound),0.59,4,0,Allocated green (8.0s) expired
+10.53,315,YELLOW,Hussey Rd (Inbound),0.49,4,0,Allocated green (8.0s) expired
+10.63,318,YELLOW,Hussey Rd (Inbound),0.39,4,0,Allocated green (8.0s) expired
+10.73,321,YELLOW,Hussey Rd (Inbound),0.29,3,0,Allocated green (8.0s) expired
+10.83,324,YELLOW,Hussey Rd (Inbound),0.19,3,0,Allocated green (8.0s) expired
+10.93,327,YELLOW,Hussey Rd (Inbound),0.09,2,0,Allocated green (8.0s) expired
+11.03,330,ALL_RED,Hussey Rd (Inbound),0.0,2,0,Intersection clearance (All-Red)
+11.13,333,ALL_RED,Hussey Rd (Inbound),1.9,2,0,Intersection clearance (All-Red)
+11.23,336,ALL_RED,Hussey Rd (Inbound),1.8,2,0,Intersection clearance (All-Red)
+11.33,339,ALL_RED,Hussey Rd (Inbound),1.7,3,0,Intersection clearance (All-Red)
+11.43,342,ALL_RED,Hussey Rd (Inbound),1.6,3,0,Intersection clearance (All-Red)
+11.53,345,ALL_RED,Hussey Rd (Inbound),1.5,2,0,Intersection clearance (All-Red)
+11.63,348,ALL_RED,Hussey Rd (Inbound),1.4,1,0,Intersection clearance (All-Red)
+11.73,351,ALL_RED,Hussey Rd (Inbound),1.3,2,0,Intersection clearance (All-Red)
+11.83,354,ALL_RED,Hussey Rd (Inbound),1.2,2,0,Intersection clearance (All-Red)
+11.93,357,ALL_RED,Hussey Rd (Inbound),1.1,2,0,Intersection clearance (All-Red)
+12.03,360,ALL_RED,Hussey Rd (Inbound),1.0,1,0,Intersection clearance (All-Red)
+12.13,363,ALL_RED,Hussey Rd (Inbound),0.9,1,0,Intersection clearance (All-Red)
+12.23,366,ALL_RED,Hussey Rd (Inbound),0.8,1,0,Intersection clearance (All-Red)
+12.33,369,ALL_RED,Hussey Rd (Inbound),0.7,1,0,Intersection clearance (All-Red)
+12.43,372,ALL_RED,Hussey Rd (Inbound),0.6,1,0,Intersection clearance (All-Red)
+12.53,375,ALL_RED,Hussey Rd (Inbound),0.5,1,0,Intersection clearance (All-Red)
+12.63,378,ALL_RED,Hussey Rd (Inbound),0.4,1,0,Intersection clearance (All-Red)
+12.73,381,ALL_RED,Hussey Rd (Inbound),0.3,0,0,Intersection clearance (All-Red)
+12.83,384,ALL_RED,Hussey Rd (Inbound),0.2,0,0,Intersection clearance (All-Red)
+12.93,387,ALL_RED,Hussey Rd (Inbound),0.1,1,0,Intersection clearance (All-Red)
+13.03,390,GREEN,Hussey Rd (Inbound),0.0,2,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+13.13,393,GREEN,Hussey Rd (Inbound),11.9,3,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+13.23,396,GREEN,Hussey Rd (Inbound),11.8,4,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+13.33,399,GREEN,Hussey Rd (Inbound),11.7,3,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)

@@ -1,0 +1,490 @@
+sim_time,frame,state,active_approach,remaining_time,queue_app1,queue_app2,decision
+0.0,0,GREEN,Hussey Rd (West),8.0,4,0,Simulation initialized
+0.1,3,GREEN,Hussey Rd (West),7.9,3,0,Simulation initialized
+0.2,6,GREEN,Hussey Rd (West),7.8,2,0,Simulation initialized
+0.3,9,GREEN,Hussey Rd (West),7.7,0,0,Simulation initialized
+0.4,12,GREEN,Hussey Rd (West),7.6,2,0,Simulation initialized
+0.5,15,GREEN,Hussey Rd (West),7.5,3,0,Simulation initialized
+0.6,18,GREEN,Hussey Rd (West),7.4,3,0,Simulation initialized
+0.7,21,GREEN,Hussey Rd (West),7.3,3,0,Simulation initialized
+0.8,24,GREEN,Hussey Rd (West),7.2,2,0,Simulation initialized
+0.9,27,GREEN,Hussey Rd (West),7.1,3,0,Simulation initialized
+1.0,30,GREEN,Hussey Rd (West),7.0,2,0,Simulation initialized
+1.1,33,GREEN,Hussey Rd (West),6.9,2,0,Simulation initialized
+1.2,36,GREEN,Hussey Rd (West),6.8,3,0,Simulation initialized
+1.3,39,GREEN,Hussey Rd (West),6.7,3,0,Simulation initialized
+1.4,42,GREEN,Hussey Rd (West),6.6,3,0,Simulation initialized
+1.5,45,GREEN,Hussey Rd (West),6.5,1,0,Simulation initialized
+1.6,48,GREEN,Hussey Rd (West),6.4,3,0,Simulation initialized
+1.7,51,GREEN,Hussey Rd (West),6.3,3,0,Simulation initialized
+1.8,54,GREEN,Hussey Rd (West),6.2,3,0,Simulation initialized
+1.9,57,GREEN,Hussey Rd (West),6.1,3,0,Simulation initialized
+2.0,60,GREEN,Hussey Rd (West),6.0,3,0,Simulation initialized
+2.1,63,GREEN,Hussey Rd (West),5.9,4,0,Simulation initialized
+2.2,66,GREEN,Hussey Rd (West),5.8,4,0,Simulation initialized
+2.3,69,GREEN,Hussey Rd (West),5.7,3,0,Simulation initialized
+2.4,72,GREEN,Hussey Rd (West),5.6,3,0,Simulation initialized
+2.5,75,GREEN,Hussey Rd (West),5.5,3,0,Simulation initialized
+2.6,78,GREEN,Hussey Rd (West),5.4,2,0,Simulation initialized
+2.7,81,GREEN,Hussey Rd (West),5.3,2,0,Simulation initialized
+2.8,84,GREEN,Hussey Rd (West),5.2,3,0,Simulation initialized
+2.9,87,GREEN,Hussey Rd (West),5.1,3,0,Simulation initialized
+3.0,90,GREEN,Hussey Rd (West),5.0,2,0,Simulation initialized
+3.1,93,GREEN,Hussey Rd (West),4.9,1,0,Simulation initialized
+3.2,96,GREEN,Hussey Rd (West),4.8,2,0,Simulation initialized
+3.3,99,GREEN,Hussey Rd (West),4.7,1,0,Simulation initialized
+3.4,102,GREEN,Hussey Rd (West),4.6,2,0,Simulation initialized
+3.5,105,GREEN,Hussey Rd (West),4.5,1,0,Simulation initialized
+3.6,108,GREEN,Hussey Rd (West),4.4,3,0,Simulation initialized
+3.7,111,GREEN,Hussey Rd (West),4.3,4,0,Simulation initialized
+3.8,114,GREEN,Hussey Rd (West),4.2,3,0,Simulation initialized
+3.9,117,GREEN,Hussey Rd (West),4.1,3,0,Simulation initialized
+4.0,120,GREEN,Hussey Rd (West),4.0,2,0,Simulation initialized
+4.1,123,GREEN,Hussey Rd (West),3.9,3,0,Simulation initialized
+4.2,126,GREEN,Hussey Rd (West),3.8,2,0,Simulation initialized
+4.3,129,GREEN,Hussey Rd (West),3.7,3,0,Simulation initialized
+4.4,132,GREEN,Hussey Rd (West),3.6,3,1,Simulation initialized
+4.5,135,GREEN,Hussey Rd (West),3.5,2,1,Simulation initialized
+4.6,138,GREEN,Hussey Rd (West),3.4,2,1,Simulation initialized
+4.7,141,GREEN,Hussey Rd (West),3.3,2,1,Simulation initialized
+4.8,144,GREEN,Hussey Rd (West),3.2,2,1,Simulation initialized
+4.9,147,GREEN,Hussey Rd (West),3.1,1,1,Simulation initialized
+5.0,150,GREEN,Hussey Rd (West),3.0,1,1,Simulation initialized
+5.1,153,GREEN,Hussey Rd (West),2.9,1,2,Simulation initialized
+5.2,156,GREEN,Hussey Rd (West),2.8,1,2,Simulation initialized
+5.3,159,GREEN,Hussey Rd (West),2.7,1,1,Simulation initialized
+5.4,162,GREEN,Hussey Rd (West),2.6,2,0,Simulation initialized
+5.5,165,GREEN,Hussey Rd (West),2.5,3,0,Simulation initialized
+5.6,168,GREEN,Hussey Rd (West),2.4,2,0,Simulation initialized
+5.7,171,GREEN,Hussey Rd (West),2.3,1,1,Simulation initialized
+5.8,174,GREEN,Hussey Rd (West),2.2,1,0,Simulation initialized
+5.9,177,GREEN,Hussey Rd (West),2.1,1,0,Simulation initialized
+6.0,180,GREEN,Hussey Rd (West),2.0,0,0,Simulation initialized
+6.1,183,GREEN,Hussey Rd (West),1.9,0,1,Simulation initialized
+6.2,186,GREEN,Hussey Rd (West),1.8,0,1,Simulation initialized
+6.3,189,GREEN,Hussey Rd (West),1.7,0,1,Simulation initialized
+6.4,192,GREEN,Hussey Rd (West),1.6,0,1,Simulation initialized
+6.5,195,GREEN,Hussey Rd (West),1.5,0,1,Simulation initialized
+6.6,198,GREEN,Hussey Rd (West),1.4,1,1,Simulation initialized
+6.7,201,GREEN,Hussey Rd (West),1.3,1,1,Simulation initialized
+6.8,204,GREEN,Hussey Rd (West),1.2,2,1,Simulation initialized
+6.9,207,GREEN,Hussey Rd (West),1.1,2,1,Simulation initialized
+7.0,210,GREEN,Hussey Rd (West),1.0,3,1,Simulation initialized
+7.1,213,GREEN,Hussey Rd (West),0.9,3,1,Simulation initialized
+7.2,216,GREEN,Hussey Rd (West),0.8,3,1,Simulation initialized
+7.3,219,GREEN,Hussey Rd (West),0.7,3,1,Simulation initialized
+7.4,222,GREEN,Hussey Rd (West),0.6,3,1,Simulation initialized
+7.5,225,GREEN,Hussey Rd (West),0.5,3,1,Simulation initialized
+7.6,228,GREEN,Hussey Rd (West),0.4,3,1,Simulation initialized
+7.7,231,GREEN,Hussey Rd (West),0.3,3,1,Simulation initialized
+7.8,234,GREEN,Hussey Rd (West),0.2,3,1,Simulation initialized
+7.9,237,GREEN,Hussey Rd (West),0.1,3,1,Simulation initialized
+8.0,240,GREEN,Hussey Rd (West),0.0,3,1,Simulation initialized
+8.1,243,YELLOW,Hussey Rd (West),0.0,3,1,Allocated green (8.0s) expired
+8.2,246,YELLOW,Hussey Rd (West),2.9,3,1,Allocated green (8.0s) expired
+8.3,249,YELLOW,Hussey Rd (West),2.8,3,1,Allocated green (8.0s) expired
+8.4,252,YELLOW,Hussey Rd (West),2.7,3,1,Allocated green (8.0s) expired
+8.5,255,YELLOW,Hussey Rd (West),2.6,3,1,Allocated green (8.0s) expired
+8.6,258,YELLOW,Hussey Rd (West),2.5,3,1,Allocated green (8.0s) expired
+8.7,261,YELLOW,Hussey Rd (West),2.4,3,1,Allocated green (8.0s) expired
+8.8,264,YELLOW,Hussey Rd (West),2.3,3,1,Allocated green (8.0s) expired
+8.9,267,YELLOW,Hussey Rd (West),2.2,3,1,Allocated green (8.0s) expired
+9.0,270,YELLOW,Hussey Rd (West),2.1,3,1,Allocated green (8.0s) expired
+9.1,273,YELLOW,Hussey Rd (West),2.0,3,1,Allocated green (8.0s) expired
+9.2,276,YELLOW,Hussey Rd (West),1.9,3,1,Allocated green (8.0s) expired
+9.3,279,YELLOW,Hussey Rd (West),1.8,3,1,Allocated green (8.0s) expired
+9.4,282,YELLOW,Hussey Rd (West),1.7,3,1,Allocated green (8.0s) expired
+9.5,285,YELLOW,Hussey Rd (West),1.6,3,1,Allocated green (8.0s) expired
+9.6,288,YELLOW,Hussey Rd (West),1.5,3,1,Allocated green (8.0s) expired
+9.7,291,YELLOW,Hussey Rd (West),1.4,3,1,Allocated green (8.0s) expired
+9.8,294,YELLOW,Hussey Rd (West),1.3,3,1,Allocated green (8.0s) expired
+9.9,297,YELLOW,Hussey Rd (West),1.2,3,1,Allocated green (8.0s) expired
+10.0,300,YELLOW,Hussey Rd (West),1.1,3,1,Allocated green (8.0s) expired
+10.1,303,YELLOW,Hussey Rd (West),1.0,3,1,Allocated green (8.0s) expired
+10.2,306,YELLOW,Hussey Rd (West),0.9,3,1,Allocated green (8.0s) expired
+10.3,309,YELLOW,Hussey Rd (West),0.8,3,1,Allocated green (8.0s) expired
+10.4,312,YELLOW,Hussey Rd (West),0.7,3,1,Allocated green (8.0s) expired
+10.5,315,YELLOW,Hussey Rd (West),0.6,3,1,Allocated green (8.0s) expired
+10.6,318,YELLOW,Hussey Rd (West),0.5,3,1,Allocated green (8.0s) expired
+10.7,321,YELLOW,Hussey Rd (West),0.4,3,1,Allocated green (8.0s) expired
+10.8,324,YELLOW,Hussey Rd (West),0.3,3,1,Allocated green (8.0s) expired
+10.9,327,YELLOW,Hussey Rd (West),0.2,3,1,Allocated green (8.0s) expired
+11.0,330,YELLOW,Hussey Rd (West),0.1,3,1,Allocated green (8.0s) expired
+11.1,333,YELLOW,Hussey Rd (West),0.0,3,1,Allocated green (8.0s) expired
+11.2,336,ALL_RED,Hussey Rd (West),0.0,3,1,Intersection clearance (All-Red)
+11.3,339,ALL_RED,Hussey Rd (West),1.9,3,1,Intersection clearance (All-Red)
+11.4,342,ALL_RED,Hussey Rd (West),1.8,3,1,Intersection clearance (All-Red)
+11.5,345,ALL_RED,Hussey Rd (West),1.7,3,1,Intersection clearance (All-Red)
+11.6,348,ALL_RED,Hussey Rd (West),1.6,3,1,Intersection clearance (All-Red)
+11.7,351,ALL_RED,Hussey Rd (West),1.5,3,1,Intersection clearance (All-Red)
+11.8,354,ALL_RED,Hussey Rd (West),1.4,3,1,Intersection clearance (All-Red)
+11.9,357,ALL_RED,Hussey Rd (West),1.3,3,1,Intersection clearance (All-Red)
+12.0,360,ALL_RED,Hussey Rd (West),1.2,2,1,Intersection clearance (All-Red)
+12.1,363,ALL_RED,Hussey Rd (West),1.1,2,1,Intersection clearance (All-Red)
+12.2,366,ALL_RED,Hussey Rd (West),1.0,2,1,Intersection clearance (All-Red)
+12.3,369,ALL_RED,Hussey Rd (West),0.9,3,1,Intersection clearance (All-Red)
+12.4,372,ALL_RED,Hussey Rd (West),0.8,2,1,Intersection clearance (All-Red)
+12.5,375,ALL_RED,Hussey Rd (West),0.7,2,1,Intersection clearance (All-Red)
+12.6,378,ALL_RED,Hussey Rd (West),0.6,2,1,Intersection clearance (All-Red)
+12.7,381,ALL_RED,Hussey Rd (West),0.5,2,1,Intersection clearance (All-Red)
+12.8,384,ALL_RED,Hussey Rd (West),0.4,2,1,Intersection clearance (All-Red)
+12.9,387,ALL_RED,Hussey Rd (West),0.3,2,1,Intersection clearance (All-Red)
+13.0,390,ALL_RED,Hussey Rd (West),0.2,2,1,Intersection clearance (All-Red)
+13.1,393,ALL_RED,Hussey Rd (West),0.1,2,1,Intersection clearance (All-Red)
+13.2,396,ALL_RED,Hussey Rd (West),0.0,2,0,Intersection clearance (All-Red)
+13.3,399,GREEN,Hussey Rd (West),0.0,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+13.4,402,GREEN,Hussey Rd (West),11.9,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+13.5,405,GREEN,Hussey Rd (West),11.8,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+13.6,408,GREEN,Hussey Rd (West),11.7,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+13.7,411,GREEN,Hussey Rd (West),11.6,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+13.8,414,GREEN,Hussey Rd (West),11.5,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+13.9,417,GREEN,Hussey Rd (West),11.4,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+14.0,420,GREEN,Hussey Rd (West),11.3,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+14.1,423,GREEN,Hussey Rd (West),11.2,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+14.2,426,GREEN,Hussey Rd (West),11.1,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+14.3,429,GREEN,Hussey Rd (West),11.0,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+14.4,432,GREEN,Hussey Rd (West),10.9,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+14.5,435,GREEN,Hussey Rd (West),10.8,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+14.6,438,GREEN,Hussey Rd (West),10.7,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+14.7,441,GREEN,Hussey Rd (West),10.6,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+14.8,444,GREEN,Hussey Rd (West),10.5,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+14.9,447,GREEN,Hussey Rd (West),10.4,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+15.0,450,GREEN,Hussey Rd (West),10.3,3,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+15.1,453,GREEN,Hussey Rd (West),10.2,3,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+15.2,456,GREEN,Hussey Rd (West),10.1,3,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+15.3,459,GREEN,Hussey Rd (West),10.0,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+15.4,462,GREEN,Hussey Rd (West),9.9,3,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+15.5,465,GREEN,Hussey Rd (West),9.8,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+15.6,468,GREEN,Hussey Rd (West),9.7,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+15.7,471,GREEN,Hussey Rd (West),9.6,1,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+15.8,474,GREEN,Hussey Rd (West),9.5,1,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+15.9,477,GREEN,Hussey Rd (West),9.4,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+16.0,480,GREEN,Hussey Rd (West),9.3,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+16.1,483,GREEN,Hussey Rd (West),9.2,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+16.2,486,GREEN,Hussey Rd (West),9.1,3,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+16.3,489,GREEN,Hussey Rd (West),9.0,3,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+16.4,492,GREEN,Hussey Rd (West),8.9,3,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+16.5,495,GREEN,Hussey Rd (West),8.8,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+16.6,498,GREEN,Hussey Rd (West),8.7,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+16.7,501,GREEN,Hussey Rd (West),8.6,1,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+16.8,504,GREEN,Hussey Rd (West),8.5,1,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+16.9,507,GREEN,Hussey Rd (West),8.4,1,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+17.0,510,GREEN,Hussey Rd (West),8.3,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+17.1,513,GREEN,Hussey Rd (West),8.2,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+17.2,516,GREEN,Hussey Rd (West),8.1,3,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+17.3,519,GREEN,Hussey Rd (West),8.0,3,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+17.4,522,GREEN,Hussey Rd (West),7.9,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+17.5,525,GREEN,Hussey Rd (West),7.8,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+17.6,528,GREEN,Hussey Rd (West),7.7,3,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+17.7,531,GREEN,Hussey Rd (West),7.6,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+17.8,534,GREEN,Hussey Rd (West),7.5,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+17.9,537,GREEN,Hussey Rd (West),7.4,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+18.0,540,GREEN,Hussey Rd (West),7.3,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+18.1,543,GREEN,Hussey Rd (West),7.2,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+18.2,546,GREEN,Hussey Rd (West),7.1,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+18.3,549,GREEN,Hussey Rd (West),7.0,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+18.4,552,GREEN,Hussey Rd (West),6.9,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+18.5,555,GREEN,Hussey Rd (West),6.8,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+18.6,558,GREEN,Hussey Rd (West),6.7,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+18.7,561,GREEN,Hussey Rd (West),6.6,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+18.8,564,GREEN,Hussey Rd (West),6.5,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+18.9,567,GREEN,Hussey Rd (West),6.4,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+19.0,570,GREEN,Hussey Rd (West),6.3,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+19.1,573,GREEN,Hussey Rd (West),6.2,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+19.2,576,GREEN,Hussey Rd (West),6.1,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+19.3,579,GREEN,Hussey Rd (West),6.0,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+19.4,582,GREEN,Hussey Rd (West),5.9,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+19.5,585,GREEN,Hussey Rd (West),5.8,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+19.6,588,GREEN,Hussey Rd (West),5.7,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+19.7,591,GREEN,Hussey Rd (West),5.6,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+19.8,594,GREEN,Hussey Rd (West),5.5,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+19.9,597,GREEN,Hussey Rd (West),5.4,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+20.0,600,GREEN,Hussey Rd (West),5.3,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+20.1,603,GREEN,Hussey Rd (West),5.2,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+20.2,606,GREEN,Hussey Rd (West),5.1,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+20.3,609,GREEN,Hussey Rd (West),5.0,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+20.4,612,GREEN,Hussey Rd (West),4.9,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+20.5,615,GREEN,Hussey Rd (West),4.8,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+20.6,618,GREEN,Hussey Rd (West),4.7,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+20.7,621,GREEN,Hussey Rd (West),4.6,1,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+20.8,624,GREEN,Hussey Rd (West),4.5,1,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+20.9,627,GREEN,Hussey Rd (West),4.4,2,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+21.0,630,GREEN,Hussey Rd (West),4.3,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+21.1,633,GREEN,Hussey Rd (West),4.2,3,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+21.2,636,GREEN,Hussey Rd (West),4.1,3,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+21.3,639,GREEN,Hussey Rd (West),4.0,3,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+21.4,642,GREEN,Hussey Rd (West),3.9,3,0,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+21.5,645,GREEN,Hussey Rd (West),3.8,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+21.6,648,GREEN,Hussey Rd (West),3.7,2,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+21.7,651,GREEN,Hussey Rd (West),3.6,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+21.8,654,GREEN,Hussey Rd (West),3.5,2,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+21.9,657,GREEN,Hussey Rd (West),3.4,2,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+22.0,660,GREEN,Hussey Rd (West),3.3,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+22.1,663,GREEN,Hussey Rd (West),3.2,2,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+22.2,666,GREEN,Hussey Rd (West),3.1,2,4,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+22.3,669,GREEN,Hussey Rd (West),3.0,2,4,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+22.4,672,GREEN,Hussey Rd (West),2.9,2,5,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+22.5,675,GREEN,Hussey Rd (West),2.8,2,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+22.6,678,GREEN,Hussey Rd (West),2.7,2,4,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+22.7,681,GREEN,Hussey Rd (West),2.6,2,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+22.8,684,GREEN,Hussey Rd (West),2.5,2,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+22.9,687,GREEN,Hussey Rd (West),2.4,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+23.0,690,GREEN,Hussey Rd (West),2.3,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+23.1,693,GREEN,Hussey Rd (West),2.2,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+23.2,696,GREEN,Hussey Rd (West),2.1,1,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+23.3,699,GREEN,Hussey Rd (West),2.0,1,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+23.4,702,GREEN,Hussey Rd (West),1.9,3,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+23.5,705,GREEN,Hussey Rd (West),1.8,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+23.6,708,GREEN,Hussey Rd (West),1.7,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+23.7,711,GREEN,Hussey Rd (West),1.6,1,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+23.8,714,GREEN,Hussey Rd (West),1.5,1,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+23.9,717,GREEN,Hussey Rd (West),1.4,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+24.0,720,GREEN,Hussey Rd (West),1.3,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+24.1,723,GREEN,Hussey Rd (West),1.2,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+24.2,726,GREEN,Hussey Rd (West),1.1,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+24.3,729,GREEN,Hussey Rd (West),1.0,1,1,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+24.4,732,GREEN,Hussey Rd (West),0.9,1,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+24.5,735,GREEN,Hussey Rd (West),0.8,1,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+24.6,738,GREEN,Hussey Rd (West),0.7,1,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+24.7,741,GREEN,Hussey Rd (West),0.6,3,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+24.8,744,GREEN,Hussey Rd (West),0.5,2,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+24.9,747,GREEN,Hussey Rd (West),0.4,2,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+25.0,750,GREEN,Hussey Rd (West),0.3,2,2,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+25.1,753,GREEN,Hussey Rd (West),0.2,2,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+25.2,756,GREEN,Hussey Rd (West),0.1,2,3,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+25.3,759,GREEN,Hussey Rd (West),0.0,3,4,Assigned 12.0s green to Hussey Rd (West) (queue: 2 vehicles)
+25.4,762,YELLOW,Hussey Rd (West),0.0,2,3,Allocated green (12.0s) expired
+25.5,765,YELLOW,Hussey Rd (West),2.9,2,4,Allocated green (12.0s) expired
+25.6,768,YELLOW,Hussey Rd (West),2.8,4,4,Allocated green (12.0s) expired
+25.7,771,YELLOW,Hussey Rd (West),2.7,2,5,Allocated green (12.0s) expired
+25.8,774,YELLOW,Hussey Rd (West),2.6,2,7,Allocated green (12.0s) expired
+25.9,777,YELLOW,Hussey Rd (West),2.5,2,5,Allocated green (12.0s) expired
+26.0,780,YELLOW,Hussey Rd (West),2.4,1,4,Allocated green (12.0s) expired
+26.1,783,YELLOW,Hussey Rd (West),2.3,1,4,Allocated green (12.0s) expired
+26.2,786,YELLOW,Hussey Rd (West),2.2,2,5,Allocated green (12.0s) expired
+26.3,789,YELLOW,Hussey Rd (West),2.1,1,4,Allocated green (12.0s) expired
+26.4,792,YELLOW,Hussey Rd (West),2.0,1,2,Allocated green (12.0s) expired
+26.5,795,YELLOW,Hussey Rd (West),1.9,2,2,Allocated green (12.0s) expired
+26.6,798,YELLOW,Hussey Rd (West),1.8,1,2,Allocated green (12.0s) expired
+26.7,801,YELLOW,Hussey Rd (West),1.7,2,2,Allocated green (12.0s) expired
+26.8,804,YELLOW,Hussey Rd (West),1.6,3,2,Allocated green (12.0s) expired
+26.9,807,YELLOW,Hussey Rd (West),1.5,3,2,Allocated green (12.0s) expired
+27.0,810,YELLOW,Hussey Rd (West),1.4,2,2,Allocated green (12.0s) expired
+27.1,813,YELLOW,Hussey Rd (West),1.3,2,3,Allocated green (12.0s) expired
+27.2,816,YELLOW,Hussey Rd (West),1.2,2,2,Allocated green (12.0s) expired
+27.3,819,YELLOW,Hussey Rd (West),1.1,2,3,Allocated green (12.0s) expired
+27.4,822,YELLOW,Hussey Rd (West),1.0,1,3,Allocated green (12.0s) expired
+27.5,825,YELLOW,Hussey Rd (West),0.9,1,3,Allocated green (12.0s) expired
+27.6,828,YELLOW,Hussey Rd (West),0.8,1,2,Allocated green (12.0s) expired
+27.7,831,YELLOW,Hussey Rd (West),0.7,1,2,Allocated green (12.0s) expired
+27.8,834,YELLOW,Hussey Rd (West),0.6,1,2,Allocated green (12.0s) expired
+27.9,837,YELLOW,Hussey Rd (West),0.5,1,2,Allocated green (12.0s) expired
+28.0,840,YELLOW,Hussey Rd (West),0.4,1,4,Allocated green (12.0s) expired
+28.1,843,YELLOW,Hussey Rd (West),0.3,1,3,Allocated green (12.0s) expired
+28.2,846,YELLOW,Hussey Rd (West),0.2,1,4,Allocated green (12.0s) expired
+28.3,849,YELLOW,Hussey Rd (West),0.1,1,2,Allocated green (12.0s) expired
+28.4,852,YELLOW,Hussey Rd (West),0.0,1,2,Allocated green (12.0s) expired
+28.5,855,ALL_RED,Hussey Rd (West),0.0,1,2,Intersection clearance (All-Red)
+28.6,858,ALL_RED,Hussey Rd (West),1.9,1,2,Intersection clearance (All-Red)
+28.7,861,ALL_RED,Hussey Rd (West),1.8,1,2,Intersection clearance (All-Red)
+28.8,864,ALL_RED,Hussey Rd (West),1.7,1,2,Intersection clearance (All-Red)
+28.9,867,ALL_RED,Hussey Rd (West),1.6,1,2,Intersection clearance (All-Red)
+29.0,870,ALL_RED,Hussey Rd (West),1.5,1,2,Intersection clearance (All-Red)
+29.1,873,ALL_RED,Hussey Rd (West),1.4,1,3,Intersection clearance (All-Red)
+29.2,876,ALL_RED,Hussey Rd (West),1.3,1,3,Intersection clearance (All-Red)
+29.3,879,ALL_RED,Hussey Rd (West),1.2,1,3,Intersection clearance (All-Red)
+29.4,882,ALL_RED,Hussey Rd (West),1.1,1,3,Intersection clearance (All-Red)
+29.5,885,ALL_RED,Hussey Rd (West),1.0,1,2,Intersection clearance (All-Red)
+29.6,888,ALL_RED,Hussey Rd (West),0.9,1,1,Intersection clearance (All-Red)
+29.7,891,ALL_RED,Hussey Rd (West),0.8,1,1,Intersection clearance (All-Red)
+29.8,894,ALL_RED,Hussey Rd (West),0.7,1,2,Intersection clearance (All-Red)
+29.9,897,ALL_RED,Hussey Rd (West),0.6,1,2,Intersection clearance (All-Red)
+30.0,900,ALL_RED,Hussey Rd (West),0.5,1,1,Intersection clearance (All-Red)
+30.1,903,ALL_RED,Hussey Rd (West),0.4,1,1,Intersection clearance (All-Red)
+30.2,906,ALL_RED,Hussey Rd (West),0.3,1,3,Intersection clearance (All-Red)
+30.3,909,ALL_RED,Hussey Rd (West),0.2,1,3,Intersection clearance (All-Red)
+30.4,912,ALL_RED,Hussey Rd (West),0.1,1,3,Intersection clearance (All-Red)
+30.5,915,ALL_RED,Hussey Rd (West),0.0,2,2,Intersection clearance (All-Red)
+30.6,918,GREEN,Hussey Rd (East / Gate),0.0,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+30.7,921,GREEN,Hussey Rd (East / Gate),11.9,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+30.8,924,GREEN,Hussey Rd (East / Gate),11.8,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+30.9,927,GREEN,Hussey Rd (East / Gate),11.7,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+31.0,930,GREEN,Hussey Rd (East / Gate),11.6,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+31.1,933,GREEN,Hussey Rd (East / Gate),11.5,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+31.2,936,GREEN,Hussey Rd (East / Gate),11.4,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+31.3,939,GREEN,Hussey Rd (East / Gate),11.3,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+31.4,942,GREEN,Hussey Rd (East / Gate),11.2,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+31.5,945,GREEN,Hussey Rd (East / Gate),11.1,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+31.6,948,GREEN,Hussey Rd (East / Gate),11.0,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+31.7,951,GREEN,Hussey Rd (East / Gate),10.9,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+31.8,954,GREEN,Hussey Rd (East / Gate),10.8,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+31.9,957,GREEN,Hussey Rd (East / Gate),10.7,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+32.0,960,GREEN,Hussey Rd (East / Gate),10.6,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+32.1,963,GREEN,Hussey Rd (East / Gate),10.5,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+32.2,966,GREEN,Hussey Rd (East / Gate),10.4,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+32.3,969,GREEN,Hussey Rd (East / Gate),10.3,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+32.4,972,GREEN,Hussey Rd (East / Gate),10.2,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+32.5,975,GREEN,Hussey Rd (East / Gate),10.1,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+32.6,978,GREEN,Hussey Rd (East / Gate),10.0,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+32.7,981,GREEN,Hussey Rd (East / Gate),9.9,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+32.8,984,GREEN,Hussey Rd (East / Gate),9.8,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+32.9,987,GREEN,Hussey Rd (East / Gate),9.7,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+33.0,990,GREEN,Hussey Rd (East / Gate),9.6,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+33.1,993,GREEN,Hussey Rd (East / Gate),9.5,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+33.2,996,GREEN,Hussey Rd (East / Gate),9.4,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+33.3,999,GREEN,Hussey Rd (East / Gate),9.3,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+33.4,1002,GREEN,Hussey Rd (East / Gate),9.2,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+33.5,1005,GREEN,Hussey Rd (East / Gate),9.1,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+33.6,1008,GREEN,Hussey Rd (East / Gate),9.0,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+33.7,1011,GREEN,Hussey Rd (East / Gate),8.9,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+33.8,1014,GREEN,Hussey Rd (East / Gate),8.8,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+33.9,1017,GREEN,Hussey Rd (East / Gate),8.7,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+34.0,1020,GREEN,Hussey Rd (East / Gate),8.6,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+34.1,1023,GREEN,Hussey Rd (East / Gate),8.5,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+34.2,1026,GREEN,Hussey Rd (East / Gate),8.4,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+34.3,1029,GREEN,Hussey Rd (East / Gate),8.3,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+34.4,1032,GREEN,Hussey Rd (East / Gate),8.2,3,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+34.5,1035,GREEN,Hussey Rd (East / Gate),8.1,1,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+34.6,1038,GREEN,Hussey Rd (East / Gate),8.0,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+34.7,1041,GREEN,Hussey Rd (East / Gate),7.9,4,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+34.8,1044,GREEN,Hussey Rd (East / Gate),7.8,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+34.9,1047,GREEN,Hussey Rd (East / Gate),7.7,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+35.0,1050,GREEN,Hussey Rd (East / Gate),7.6,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+35.1,1053,GREEN,Hussey Rd (East / Gate),7.5,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+35.2,1056,GREEN,Hussey Rd (East / Gate),7.4,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+35.3,1059,GREEN,Hussey Rd (East / Gate),7.3,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+35.4,1062,GREEN,Hussey Rd (East / Gate),7.2,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+35.5,1065,GREEN,Hussey Rd (East / Gate),7.1,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+35.6,1068,GREEN,Hussey Rd (East / Gate),7.0,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+35.7,1071,GREEN,Hussey Rd (East / Gate),6.9,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+35.8,1074,GREEN,Hussey Rd (East / Gate),6.8,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+35.9,1077,GREEN,Hussey Rd (East / Gate),6.7,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+36.0,1080,GREEN,Hussey Rd (East / Gate),6.6,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+36.1,1083,GREEN,Hussey Rd (East / Gate),6.5,1,3,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+36.2,1086,GREEN,Hussey Rd (East / Gate),6.4,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+36.3,1089,GREEN,Hussey Rd (East / Gate),6.3,3,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+36.4,1092,GREEN,Hussey Rd (East / Gate),6.2,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+36.5,1095,GREEN,Hussey Rd (East / Gate),6.1,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+36.6,1098,GREEN,Hussey Rd (East / Gate),6.0,3,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+36.7,1101,GREEN,Hussey Rd (East / Gate),5.9,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+36.8,1104,GREEN,Hussey Rd (East / Gate),5.8,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+36.9,1107,GREEN,Hussey Rd (East / Gate),5.7,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+37.0,1110,GREEN,Hussey Rd (East / Gate),5.6,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+37.1,1113,GREEN,Hussey Rd (East / Gate),5.5,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+37.2,1116,GREEN,Hussey Rd (East / Gate),5.4,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+37.3,1119,GREEN,Hussey Rd (East / Gate),5.3,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+37.4,1122,GREEN,Hussey Rd (East / Gate),5.2,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+37.5,1125,GREEN,Hussey Rd (East / Gate),5.1,3,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+37.6,1128,GREEN,Hussey Rd (East / Gate),5.0,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+37.7,1131,GREEN,Hussey Rd (East / Gate),4.9,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+37.8,1134,GREEN,Hussey Rd (East / Gate),4.8,2,3,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+37.9,1137,GREEN,Hussey Rd (East / Gate),4.7,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+38.0,1140,GREEN,Hussey Rd (East / Gate),4.6,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+38.1,1143,GREEN,Hussey Rd (East / Gate),4.5,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+38.2,1146,GREEN,Hussey Rd (East / Gate),4.4,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+38.3,1149,GREEN,Hussey Rd (East / Gate),4.3,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+38.4,1152,GREEN,Hussey Rd (East / Gate),4.2,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+38.5,1155,GREEN,Hussey Rd (East / Gate),4.1,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+38.6,1158,GREEN,Hussey Rd (East / Gate),4.0,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+38.7,1161,GREEN,Hussey Rd (East / Gate),3.9,2,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+38.8,1164,GREEN,Hussey Rd (East / Gate),3.8,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+38.9,1167,GREEN,Hussey Rd (East / Gate),3.7,1,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+39.0,1170,GREEN,Hussey Rd (East / Gate),3.6,2,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+39.1,1173,GREEN,Hussey Rd (East / Gate),3.5,3,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+39.2,1176,GREEN,Hussey Rd (East / Gate),3.4,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+39.3,1179,GREEN,Hussey Rd (East / Gate),3.3,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+39.4,1182,GREEN,Hussey Rd (East / Gate),3.2,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+39.5,1185,GREEN,Hussey Rd (East / Gate),3.1,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+39.6,1188,GREEN,Hussey Rd (East / Gate),3.0,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+39.7,1191,GREEN,Hussey Rd (East / Gate),2.9,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+39.8,1194,GREEN,Hussey Rd (East / Gate),2.8,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+39.9,1197,GREEN,Hussey Rd (East / Gate),2.7,3,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+40.0,1200,GREEN,Hussey Rd (East / Gate),2.6,4,2,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+40.1,1203,GREEN,Hussey Rd (East / Gate),2.5,4,3,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+40.2,1206,GREEN,Hussey Rd (East / Gate),2.4,4,3,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+40.3,1209,GREEN,Hussey Rd (East / Gate),2.3,4,4,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+40.4,1212,GREEN,Hussey Rd (East / Gate),2.2,6,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+40.5,1215,GREEN,Hussey Rd (East / Gate),2.1,4,1,Assigned 12.0s green to Hussey Rd (East / Gate) (queue: 2 vehicles)
+40.6,1218,YELLOW,Hussey Rd (East / Gate),2.0,4,0,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+40.7,1221,YELLOW,Hussey Rd (East / Gate),2.9,4,1,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+40.8,1224,YELLOW,Hussey Rd (East / Gate),2.8,4,2,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+40.9,1227,YELLOW,Hussey Rd (East / Gate),2.7,4,1,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+41.0,1230,YELLOW,Hussey Rd (East / Gate),2.6,3,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+41.1,1233,YELLOW,Hussey Rd (East / Gate),2.5,4,4,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+41.2,1236,YELLOW,Hussey Rd (East / Gate),2.4,3,4,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+41.3,1239,YELLOW,Hussey Rd (East / Gate),2.3,4,4,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+41.4,1242,YELLOW,Hussey Rd (East / Gate),2.2,2,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+41.5,1245,YELLOW,Hussey Rd (East / Gate),2.1,2,2,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+41.6,1248,YELLOW,Hussey Rd (East / Gate),2.0,2,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+41.7,1251,YELLOW,Hussey Rd (East / Gate),1.9,2,2,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+41.8,1254,YELLOW,Hussey Rd (East / Gate),1.8,1,2,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+41.9,1257,YELLOW,Hussey Rd (East / Gate),1.7,1,2,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+42.0,1260,YELLOW,Hussey Rd (East / Gate),1.6,1,2,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+42.1,1263,YELLOW,Hussey Rd (East / Gate),1.5,1,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+42.2,1266,YELLOW,Hussey Rd (East / Gate),1.4,1,1,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+42.3,1269,YELLOW,Hussey Rd (East / Gate),1.3,2,2,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+42.4,1272,YELLOW,Hussey Rd (East / Gate),1.2,2,2,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+42.5,1275,YELLOW,Hussey Rd (East / Gate),1.1,2,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+42.6,1278,YELLOW,Hussey Rd (East / Gate),1.0,2,2,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+42.7,1281,YELLOW,Hussey Rd (East / Gate),0.9,2,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+42.8,1284,YELLOW,Hussey Rd (East / Gate),0.8,2,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+42.9,1287,YELLOW,Hussey Rd (East / Gate),0.7,2,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+43.0,1290,YELLOW,Hussey Rd (East / Gate),0.6,2,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+43.1,1293,YELLOW,Hussey Rd (East / Gate),0.5,2,4,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+43.2,1296,YELLOW,Hussey Rd (East / Gate),0.4,2,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+43.3,1299,YELLOW,Hussey Rd (East / Gate),0.3,2,2,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+43.4,1302,YELLOW,Hussey Rd (East / Gate),0.2,2,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+43.5,1305,YELLOW,Hussey Rd (East / Gate),0.1,2,3,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+43.6,1308,YELLOW,Hussey Rd (East / Gate),0.0,2,4,Hussey Rd (East / Gate) cleared early (queue=0) -> switching
+43.7,1311,ALL_RED,Hussey Rd (East / Gate),0.0,2,3,Intersection clearance (All-Red)
+43.8,1314,ALL_RED,Hussey Rd (East / Gate),1.9,2,3,Intersection clearance (All-Red)
+43.9,1317,ALL_RED,Hussey Rd (East / Gate),1.8,2,4,Intersection clearance (All-Red)
+44.0,1320,ALL_RED,Hussey Rd (East / Gate),1.7,2,4,Intersection clearance (All-Red)
+44.1,1323,ALL_RED,Hussey Rd (East / Gate),1.6,2,4,Intersection clearance (All-Red)
+44.2,1326,ALL_RED,Hussey Rd (East / Gate),1.5,2,3,Intersection clearance (All-Red)
+44.3,1329,ALL_RED,Hussey Rd (East / Gate),1.4,2,3,Intersection clearance (All-Red)
+44.4,1332,ALL_RED,Hussey Rd (East / Gate),1.3,2,3,Intersection clearance (All-Red)
+44.5,1335,ALL_RED,Hussey Rd (East / Gate),1.2,2,3,Intersection clearance (All-Red)
+44.6,1338,ALL_RED,Hussey Rd (East / Gate),1.1,3,3,Intersection clearance (All-Red)
+44.7,1341,ALL_RED,Hussey Rd (East / Gate),1.0,4,2,Intersection clearance (All-Red)
+44.8,1344,ALL_RED,Hussey Rd (East / Gate),0.9,3,2,Intersection clearance (All-Red)
+44.9,1347,ALL_RED,Hussey Rd (East / Gate),0.8,3,0,Intersection clearance (All-Red)
+45.0,1350,ALL_RED,Hussey Rd (East / Gate),0.7,2,2,Intersection clearance (All-Red)
+45.1,1353,ALL_RED,Hussey Rd (East / Gate),0.6,1,3,Intersection clearance (All-Red)
+45.2,1356,ALL_RED,Hussey Rd (East / Gate),0.5,1,3,Intersection clearance (All-Red)
+45.3,1359,ALL_RED,Hussey Rd (East / Gate),0.4,1,2,Intersection clearance (All-Red)
+45.4,1362,ALL_RED,Hussey Rd (East / Gate),0.3,2,2,Intersection clearance (All-Red)
+45.5,1365,ALL_RED,Hussey Rd (East / Gate),0.2,3,2,Intersection clearance (All-Red)
+45.6,1368,ALL_RED,Hussey Rd (East / Gate),0.1,4,2,Intersection clearance (All-Red)
+45.7,1371,ALL_RED,Hussey Rd (East / Gate),0.0,4,2,Intersection clearance (All-Red)
+45.8,1374,GREEN,Hussey Rd (West),0.0,5,2,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+45.9,1377,GREEN,Hussey Rd (West),17.9,4,2,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+46.0,1380,GREEN,Hussey Rd (West),17.8,6,1,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+46.1,1383,GREEN,Hussey Rd (West),17.7,6,1,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+46.2,1386,GREEN,Hussey Rd (West),17.6,5,1,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+46.3,1389,GREEN,Hussey Rd (West),17.5,5,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+46.4,1392,GREEN,Hussey Rd (West),17.4,4,1,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+46.5,1395,GREEN,Hussey Rd (West),17.3,4,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+46.6,1398,GREEN,Hussey Rd (West),17.2,4,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+46.7,1401,GREEN,Hussey Rd (West),17.1,3,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+46.8,1404,GREEN,Hussey Rd (West),17.0,3,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+46.9,1407,GREEN,Hussey Rd (West),16.9,4,2,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+47.0,1410,GREEN,Hussey Rd (West),16.8,2,1,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+47.1,1413,GREEN,Hussey Rd (West),16.7,3,1,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+47.2,1416,GREEN,Hussey Rd (West),16.6,3,1,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+47.3,1419,GREEN,Hussey Rd (West),16.5,3,1,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+47.4,1422,GREEN,Hussey Rd (West),16.4,1,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+47.5,1425,GREEN,Hussey Rd (West),16.3,1,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+47.6,1428,GREEN,Hussey Rd (West),16.2,1,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+47.7,1431,GREEN,Hussey Rd (West),16.1,1,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+47.8,1434,GREEN,Hussey Rd (West),16.0,1,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+47.9,1437,GREEN,Hussey Rd (West),15.9,1,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+48.0,1440,GREEN,Hussey Rd (West),15.8,2,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+48.1,1443,GREEN,Hussey Rd (West),15.7,3,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+48.2,1446,GREEN,Hussey Rd (West),15.6,4,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+48.3,1449,GREEN,Hussey Rd (West),15.5,4,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+48.4,1452,GREEN,Hussey Rd (West),15.4,4,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+48.5,1455,GREEN,Hussey Rd (West),15.3,4,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+48.6,1458,GREEN,Hussey Rd (West),15.2,3,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+48.7,1461,GREEN,Hussey Rd (West),15.1,2,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)
+48.8,1464,GREEN,Hussey Rd (West),15.0,2,0,Assigned 18.0s green to Hussey Rd (West) (queue: 5 vehicles)

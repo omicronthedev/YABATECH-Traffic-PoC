@@ -1,0 +1,15 @@
+[
+  {
+    "video": "main_intersection.mp4",
+    "duration_sim_seconds": 360.0,
+    "processed_frames": 2371,
+    "real_elapsed_seconds": 562.4,
+    "output_video": "outputs\\simulations\\sim_main_intersection.mp4",
+    "stats_csv": "outputs\\simulations\\sim_main_intersection_stats.csv",
+    "avg_queue_app1": 2.83,
+    "max_queue_app1": 8,
+    "avg_queue_app2": 0.32,
+    "max_queue_app2": 4,
+    "phase_switches": 20
+  }
+]
