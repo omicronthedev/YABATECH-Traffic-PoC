@@ -126,6 +126,19 @@ To redraw the approach polygons to match your phone's camera angle:
 * `r`: Reconfigure / redraw approach zones on the fly without stopping.
 * `q` / `ESC`: Safe shutdown.
 
+#### Live stream tips
+* **Start in any order.** If the phone isn't streaming yet, the program keeps trying and prints tips after 10 s.
+  Press Ctrl+C to stop it.
+* **One viewer at a time.** Free DroidCam serves only one viewer. Close any browser tab that shows the stream
+  before starting the program.
+* **Picture sideways?** Add `--rotate 90` (or `180` / `270`). YOLO misses most vehicles in a sideways picture.
+  In one test clip it found 0 vehicles sideways and 1–2 upright.
+* **Camera angle.** Mount the phone high and tilted down at the road, like a CCTV camera. Don't point it straight
+  down: YOLO was trained on everyday photos and barely sees cars from directly above.
+* **If the camera drops out** (phone locked, app closed, Wi-Fi lost), a "CAMERA LOST" banner appears after 3 s
+  (`--stale-after`). Queues are then ignored and the lights fall back to fixed minimum-green timing. Live counting
+  resumes by itself when the picture returns.
+
 ---
 
 ### Mode B: Multi-Viewpoint Simulation Suite
@@ -160,6 +173,8 @@ Outputs generated:
 | `--skip` | `1` (or `2`) | Process inference every Nth frame for higher FPS on CPU |
 | `--conf` | `0.25` | YOLO detection confidence threshold |
 | `--imgsz` | `640` | Inference resolution |
+| `--rotate` | `0` | Turn the picture clockwise by 90 / 180 / 270 degrees (phone streams that arrive sideways) |
+| `--stale-after` | `3.0` | Seconds without a new picture before the camera counts as lost |
 
 ---
 
