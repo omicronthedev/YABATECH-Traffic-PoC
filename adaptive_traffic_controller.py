@@ -30,6 +30,7 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
+from auto_zones import AutoZones
 from traffic_ui import draw_high_visibility_hud
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -197,6 +198,8 @@ class ApproachZone:
         return np.array(points, dtype=np.int32)
 
     def contains_point(self, point: Tuple[int, int], width: int, height: int) -> bool:
+        if len(self.polygon_norm) < 3:
+            return False  # no area yet (auto zones still learning)
         poly = self.get_pixel_polygon(width, height)
         # cv2.pointPolygonTest returns > 0 inside, == 0 on edge, < 0 outside
         return cv2.pointPolygonTest(poly, (float(point[0]), float(point[1])), False) >= 0
@@ -428,6 +431,13 @@ class AdaptiveTrafficController:
             "reason": self.decision_reason,
         }
 
+    def set_approaches(self, approaches: List[ApproachZone]):
+        """Swap in new zones (redrawn, shifted or relearned) without stopping the light cycle."""
+        self.approaches = approaches
+        if len(approaches) != self.num_approaches or self.active_index >= len(approaches):
+            self.num_approaches = len(approaches)
+            self.active_index = 0
+
     def _select_next_phase(self, queue_counts: Dict[str, int]):
         """Adaptive decision: Next approach is chosen based on highest queue, or round-robin."""
         if self.num_approaches <= 1:
@@ -619,7 +629,27 @@ def parse_arguments():
         help="Seconds without a new picture before the camera counts as lost (queues are then ignored and the "
         "lights fall back to fixed minimum-green timing)",
     )
+    parser.add_argument(
+        "--auto-zones",
+        action="store_true",
+        help="Find the roads automatically and keep the zones matched to the camera: they move with the picture "
+        "when the phone is nudged, and are learned again from passing vehicles when the view changes",
+    )
+    parser.add_argument("--zones", type=int, default=2, help="How many roads to learn with --auto-zones")
+    parser.add_argument(
+        "--learn-seconds", type=float, default=20.0, help="How long --auto-zones watches traffic before drawing zones"
+    )
     return parser.parse_args()
+
+
+ZONE_COLORS = [(0, 165, 255), (255, 100, 0), (0, 200, 200), (200, 0, 255)]
+
+
+def approaches_from_auto(auto: "AutoZones", count: int) -> List[ApproachZone]:
+    """Controller zones from the auto-zone polygons. While learning, placeholder roads with no area."""
+    if auto.learning:
+        return [ApproachZone(f"Road {i + 1}", [], ZONE_COLORS[i % 4]) for i in range(max(1, count))]
+    return [ApproachZone(name, poly, ZONE_COLORS[i % 4]) for i, (name, poly) in enumerate(auto.zones)]
 
 
 ROTATIONS = {90: cv2.ROTATE_90_CLOCKWISE, 180: cv2.ROTATE_180, 270: cv2.ROTATE_90_COUNTERCLOCKWISE}
@@ -639,6 +669,33 @@ def draw_camera_lost(frame: np.ndarray, seconds: float) -> np.ndarray:
     cv2.rectangle(out, (0, y - th - int(20 * scale)), (w, y + int(20 * scale)), (0, 0, 170), -1)
     cv2.putText(out, text, (max(10, (w - tw) // 2), y), cv2.FONT_HERSHEY_DUPLEX, 0.7 * scale, (255, 255, 255), 2, cv2.LINE_AA)
     return out
+
+
+def aim_camera_preview(stream: "LiveStreamCapture", frame: np.ndarray, degrees: int) -> np.ndarray:
+    """Show the live picture until SPACE or ENTER is pressed, so zones are drawn on the real view.
+
+    Without this, setup draws on whatever the camera saw the moment it connected.
+    """
+    window = "Aim the camera - press SPACE when it shows the road"
+    cv2.namedWindow(window, cv2.WINDOW_NORMAL)
+    while True:
+        latest, _, _ = stream.read_latest()
+        if latest is not None:
+            frame = rotate(latest, degrees)
+        shown = frame.copy()
+        scale = max(0.6, min(shown.shape[1] / 1100.0, 1.6))
+        cv2.putText(shown, "Aim the camera at the road, then press SPACE", (15, int(40 * scale)),
+                    cv2.FONT_HERSHEY_DUPLEX, 0.8 * scale, (0, 255, 255), 2, cv2.LINE_AA)
+        cv2.imshow(window, shown)
+        key = cv2.waitKey(30) & 0xFF
+        if key in (32, 13, 10):
+            break
+        if key == 27:
+            cv2.destroyWindow(window)
+            stream.release()
+            sys.exit(0)
+    cv2.destroyWindow(window)
+    return frame
 
 
 def main():
@@ -703,8 +760,16 @@ def main():
     config_path = Path("outputs/approach_zones.json")
 
     # Load or configure approach zones
+    auto = None
     if args.setup:
+        first_frame = aim_camera_preview(stream, first_frame, args.rotate)
         approaches = interactive_roi_setup(first_frame, config_path)
+        if args.auto_zones:
+            drawn = [(a.name, a.polygon_norm) for a in approaches]
+            auto = AutoZones(first_frame, config_path, args.zones, args.learn_seconds, initial=drawn)
+    elif args.auto_zones:
+        auto = AutoZones(first_frame, config_path, args.zones, args.learn_seconds)
+        approaches = approaches_from_auto(auto, args.zones)
     else:
         approaches = load_or_create_approach_zones(config_path, fw, fh)
 
@@ -811,6 +876,12 @@ def main():
                         )
                 latest_boxes = current_detections
 
+                if auto is not None:
+                    event = auto.update(frame, current_detections)
+                    if event:
+                        approaches = approaches_from_auto(auto, args.zones)
+                        controller.set_approaches(approaches)
+
             # Count vehicles currently inside each approach zone
             queue_counts = {app.name: 0 for app in approaches}
             annotated_frame = frame.copy()
@@ -845,6 +916,8 @@ def main():
                 detected_boxes=latest_boxes,
                 title_prefix="LIVE STREAM",
             )
+            if auto is not None:
+                display_frame = auto.draw_learning(display_frame)
             if camera_lost:
                 display_frame = draw_camera_lost(display_frame, age)
 
@@ -866,11 +939,16 @@ def main():
                     cv2.imwrite(str(snap_path), display_frame)
                     print(f"Snapshot saved: {snap_path}")
                 elif key in (ord("r"), ord("R")):
-                    print("\nEntering ROI reconfiguration...")
-                    cv2.destroyWindow(window_title)
-                    approaches = interactive_roi_setup(frame, config_path)
-                    controller.approaches = approaches
-                    cv2.namedWindow(window_title, cv2.WINDOW_NORMAL)
+                    if auto is not None:
+                        auto.relearn(frame)  # no typing needed: learn the roads again from traffic
+                        approaches = approaches_from_auto(auto, args.zones)
+                        controller.set_approaches(approaches)
+                    else:
+                        print("\nEntering ROI reconfiguration...")
+                        cv2.destroyWindow(window_title)
+                        approaches = interactive_roi_setup(frame, config_path)
+                        controller.set_approaches(approaches)
+                        cv2.namedWindow(window_title, cv2.WINDOW_NORMAL)
             else:
                 if new_frame and frame_counter % 30 == 0:
                     logger.info(

@@ -22,3 +22,6 @@ desktop.ini
 # IDE / Editor
 .vscode/
 .idea/
+
+# picture the auto zones were made on (local to each camera)
+outputs/approach_zones_ref.jpg
