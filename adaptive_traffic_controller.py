@@ -71,19 +71,37 @@ class LiveStreamCapture:
 
         self.cap: Optional[cv2.VideoCapture] = None
         self.latest_frame: Optional[np.ndarray] = None
+        self.frame_id = 0  # goes up by one for every new picture, so the main loop never re-counts the same one
+        self.last_frame_time = 0.0
         self.lock = threading.Lock()
         self.running = False
         self.thread: Optional[threading.Thread] = None
         self.is_file = Path(source).is_file() if isinstance(source, str) else False
+        self.is_network = isinstance(source, str) and "://" in source
 
         self._open_capture()
+
+    def _store(self, frame: np.ndarray):
+        with self.lock:
+            self.latest_frame = frame
+            self.frame_id += 1
+            self.last_frame_time = time.time()
 
     def _open_capture(self):
         if self.cap is not None:
             self.cap.release()
 
         logger.info(f"Connecting to video stream: {self.source}")
-        self.cap = cv2.VideoCapture(self.cap_source)
+        if self.is_network:
+            # Phone streams: give up after 5 s instead of hanging (OpenCV's default is 30 s+ when the
+            # phone is off, asleep or on another Wi-Fi), then the reader thread simply tries again.
+            self.cap = cv2.VideoCapture(
+                self.cap_source,
+                cv2.CAP_FFMPEG,
+                [cv2.CAP_PROP_OPEN_TIMEOUT_MSEC, 5000, cv2.CAP_PROP_READ_TIMEOUT_MSEC, 5000],
+            )
+        else:
+            self.cap = cv2.VideoCapture(self.cap_source)
 
         if not self.is_file:
             # Optimize buffer size for live network streams
@@ -96,8 +114,7 @@ class LiveStreamCapture:
         # Read first frame to verify connection
         ok, frame = self.cap.read()
         if ok and frame is not None:
-            with self.lock:
-                self.latest_frame = frame
+            self._store(frame)
             logger.info(f"Stream connected successfully. Resolution: {frame.shape[1]}x{frame.shape[0]}")
             return True
         else:
@@ -136,8 +153,7 @@ class LiveStreamCapture:
                     self._open_capture()
                     continue
 
-            with self.lock:
-                self.latest_frame = frame
+            self._store(frame)
 
             # In file loop mode, throttle to avoid burning 100% CPU on frame grabbing
             if self.is_file:
@@ -150,6 +166,13 @@ class LiveStreamCapture:
             if self.latest_frame is None:
                 return False, None
             return True, self.latest_frame.copy()
+
+    def read_latest(self) -> Tuple[Optional[np.ndarray], int, float]:
+        """Newest frame (a copy), its number, and how many seconds ago it arrived."""
+        with self.lock:
+            if self.latest_frame is None:
+                return None, 0, float("inf")
+            return self.latest_frame.copy(), self.frame_id, time.time() - self.last_frame_time
 
     def release(self):
         self.running = False
@@ -581,7 +604,41 @@ def parse_arguments():
     parser.add_argument(
         "--max-frames", type=int, default=0, help="Stop after processing N frames (0 for unlimited)"
     )
+    parser.add_argument(
+        "--rotate",
+        type=int,
+        default=0,
+        choices=[0, 90, 180, 270],
+        help="Turn the picture clockwise by this many degrees. Use it when the phone's stream arrives sideways: "
+        "YOLO misses most vehicles in a sideways picture",
+    )
+    parser.add_argument(
+        "--stale-after",
+        type=float,
+        default=3.0,
+        help="Seconds without a new picture before the camera counts as lost (queues are then ignored and the "
+        "lights fall back to fixed minimum-green timing)",
+    )
     return parser.parse_args()
+
+
+ROTATIONS = {90: cv2.ROTATE_90_CLOCKWISE, 180: cv2.ROTATE_180, 270: cv2.ROTATE_90_COUNTERCLOCKWISE}
+
+
+def rotate(frame: np.ndarray, degrees: int) -> np.ndarray:
+    return cv2.rotate(frame, ROTATIONS[degrees]) if degrees else frame
+
+
+def draw_camera_lost(frame: np.ndarray, seconds: float) -> np.ndarray:
+    h, w = frame.shape[:2]
+    out = (frame * 0.45).astype(np.uint8)  # dim the frozen picture so nobody mistakes it for live video
+    scale = max(0.6, min(w / 1100.0, 1.6))
+    text = f"CAMERA LOST ({seconds:.0f}s) - reconnecting. Lights on fixed timing."
+    (tw, th), _ = cv2.getTextSize(text, cv2.FONT_HERSHEY_DUPLEX, 0.7 * scale, 2)
+    y = h // 2
+    cv2.rectangle(out, (0, y - th - int(20 * scale)), (w, y + int(20 * scale)), (0, 0, 170), -1)
+    cv2.putText(out, text, (max(10, (w - tw) // 2), y), cv2.FONT_HERSHEY_DUPLEX, 0.7 * scale, (255, 255, 255), 2, cv2.LINE_AA)
+    return out
 
 
 def main():
@@ -598,27 +655,49 @@ def main():
     # Start live stream reader thread
     stream = LiveStreamCapture(args.source, loop=args.loop).start()
 
-    # Wait for first frame
+    # Wait for first frame. A phone stream keeps retrying (Ctrl+C to stop), so the program can be
+    # started before the phone app is ready.
     print("Connecting to live stream and awaiting video frames...")
+    tips = (
+        "\nStill no picture from: " + str(args.source) + "\n"
+        "Troubleshooting tips for Phone Camera streaming:\n"
+        "1. Android IP Webcam App: Enter URL as: http://<PHONE_IP>:8080/video\n"
+        "2. DroidCam App (Android/iPhone): Enter URL as: http://<PHONE_IP>:4747/video\n"
+        "3. Both PC and Phone must be connected to the SAME Wi-Fi network.\n"
+        "4. Keep the app open with the screen on. Free DroidCam serves ONE viewer at a time:\n"
+        "   close any browser tab or other program that is showing the stream.\n"
+        "5. Open the same address in a browser on the PC: if no video shows there, the problem is the network.\n"
+        "   (Close that tab again afterwards.)\n"
+        "6. To test with a local recorded video, run:\n"
+        "   python adaptive_traffic_controller.py --source videos/test_clip.mp4 --loop\n"
+        "Still trying - press Ctrl+C to stop."
+    )
     first_frame = None
-    for _ in range(50):
-        ok, frame = stream.read()
-        if ok and frame is not None:
-            first_frame = frame
-            break
-        time.sleep(0.1)
+    wait_start = time.time()
+    tips_shown = False
+    try:
+        while first_frame is None:
+            ok, frame = stream.read()
+            if ok and frame is not None:
+                first_frame = frame
+                break
+            waited = time.time() - wait_start
+            if not stream.is_network and waited > 5:
+                break  # a file or webcam that gives nothing in 5 s will not start giving pictures
+            if stream.is_network and waited > 10 and not tips_shown:
+                print(tips)
+                tips_shown = True
+            time.sleep(0.1)
+    except KeyboardInterrupt:
+        pass
 
     if first_frame is None:
-        print("\n[ERROR] Unable to receive frames from source:")
-        print(f"  --> {args.source}")
-        print("\nTroubleshooting tips for Phone Camera streaming:")
-        print("1. Android IP Webcam App: Enter URL as: http://<PHONE_IP>:8080/video")
-        print("2. DroidCam App         : Enter URL as: http://<PHONE_IP>:4747/video")
-        print("3. Both PC and Phone must be connected to the SAME Wi-Fi network.")
-        print("4. To test with a local recorded video, run:")
-        print("   python adaptive_traffic_controller.py --source videos/test_clip.mp4 --loop")
+        print(f"\n[ERROR] Unable to receive frames from source: {args.source}")
+        if not tips_shown:
+            print(tips.replace("Still trying - press Ctrl+C to stop.", ""))
         stream.release()
         sys.exit(1)
+    first_frame = rotate(first_frame, args.rotate)
 
     fh, fw = first_frame.shape[:2]
     config_path = Path("outputs/approach_zones.json")
@@ -665,24 +744,49 @@ def main():
     fps_measure_start = time.time()
     fps = 0.0
     latest_boxes = []
+    last_frame_id = 0
+    camera_lost = False
 
     print("\n[SYSTEM RUNNING] Press 'q' to quit, 's' to snapshot, 'r' to redraw zones.\n")
 
     try:
         while True:
-            ok, frame = stream.read()
-            if not ok or frame is None:
+            frame, frame_id, age = stream.read_latest()
+            if frame is None:
                 time.sleep(0.01)
                 continue
 
-            frame_counter += 1
-            if args.max_frames > 0 and frame_counter >= args.max_frames:
-                print(f"Reached max frames limit ({args.max_frames}). Stopping.")
-                break
+            # Camera lost = no new picture for a while (phone locked, app closed, Wi-Fi dropped).
+            lost_now = not stream.is_file and age > args.stale_after
+            if lost_now != camera_lost:
+                camera_lost = lost_now
+                if camera_lost:
+                    logger.warning(f"No new picture for {age:.0f}s - camera lost. Queues ignored until it is back.")
+                else:
+                    logger.info("Camera is back - live counting resumed.")
+
+            new_frame = frame_id != last_frame_id
+            if not new_frame and not camera_lost:
+                if stream.is_file and not (stream.thread and stream.thread.is_alive()):
+                    print("End of video file reached (use --loop to replay it). Stopping.")
+                    break
+                time.sleep(0.003)  # no new picture yet: never detect or count the same frame twice
+                continue
+            frame = rotate(frame, args.rotate)
             h, w = frame.shape[:2]
 
+            if new_frame:
+                last_frame_id = frame_id
+                frame_counter += 1
+                if args.max_frames > 0 and frame_counter >= args.max_frames:
+                    print(f"Reached max frames limit ({args.max_frames}). Stopping.")
+                    break
+            if camera_lost:
+                latest_boxes = []  # a frozen picture says nothing about the queues now
+                time.sleep(0.05)
+
             # Run inference periodically according to --skip
-            if frame_counter % args.skip == 0:
+            if new_frame and frame_counter % args.skip == 0:
                 results = model.predict(
                     frame,
                     imgsz=args.imgsz,
@@ -725,7 +829,7 @@ def main():
             ctrl_info = controller.update(queue_counts)
 
             # Calculate FPS
-            if frame_counter % 15 == 0:
+            if new_frame and frame_counter % 15 == 0:
                 elapsed_sec = time.time() - fps_measure_start
                 if elapsed_sec > 0:
                     fps = 15.0 / elapsed_sec
@@ -741,6 +845,8 @@ def main():
                 detected_boxes=latest_boxes,
                 title_prefix="LIVE STREAM",
             )
+            if camera_lost:
+                display_frame = draw_camera_lost(display_frame, age)
 
             if not args.headless:
                 # Resize for comfortable screen display if video is high resolution
@@ -766,7 +872,7 @@ def main():
                     controller.approaches = approaches
                     cv2.namedWindow(window_title, cv2.WINDOW_NORMAL)
             else:
-                if frame_counter % 30 == 0:
+                if new_frame and frame_counter % 30 == 0:
                     logger.info(
                         f"Frame {frame_counter} | {fps:.1f} FPS | Active: {ctrl_info['active_approach']} ({ctrl_info['state']}) | "
                         f"Remaining: {ctrl_info['remaining_time']:.1f}s | Queues: {queue_counts}"
