@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "C:\\Users\\User\\datasets",
+  "weights_dir": "C:\\Users\\User\\yabatech-traffic-poc\\weights",
+  "runs_dir": "C:\\Users\\User\\yabatech-traffic-poc\\runs",
+  "uuid": "1c4bbf837d659b609d64efed64327d1ce3d279db520a9ca696ec2c283bb55097",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

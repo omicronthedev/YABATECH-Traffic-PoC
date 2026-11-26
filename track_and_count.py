@@ -14,7 +14,9 @@ import csv
 import json
 import time
 from collections import Counter, defaultdict
+import os
 from pathlib import Path
+os.environ["YOLO_CONFIG_DIR"] = str((Path(__file__).resolve().parent / ".ultralytics").resolve())
 
 import cv2
 from ultralytics import YOLO
@@ -169,6 +171,12 @@ def main():
     parser.add_argument("--skip", type=int, default=2, help="Process every Nth frame")
     parser.add_argument("--conf", type=float, default=0.25)
     parser.add_argument("--imgsz", type=int, default=640)
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="models/yolo11n_traffic_keke.pt" if Path("models/yolo11n_traffic_keke.pt").exists() else "yolo11n.pt",
+        help="Path to YOLO weights",
+    )
     args = parser.parse_args()
     if args.skip < 1:
         raise SystemExit("--skip must be at least 1")
@@ -212,8 +220,17 @@ def main():
     if not writer.isOpened():
         raise RuntimeError("Could not create annotated output video.")
 
-    print("\nLoading YOLO11n and starting ByteTrack + line counting...")
-    model = YOLO("yolo11n.pt")
+    print(f"\nLoading model: {args.model} and starting ByteTrack + line counting...")
+    model = YOLO(args.model)
+    if len(model.names) == 5 and "keke" in model.names.values():
+        active_classes = {k: v for k, v in model.names.items()}
+        print(f"Tracking with Custom Nigerian Traffic Model classes: {list(active_classes.values())}")
+    else:
+        active_classes = {k: v for k, v in model.names.items() if v in ["car", "motorcycle", "bus", "truck", "keke"]}
+        if not active_classes:
+            active_classes = VEHICLE_CLASSES
+        print(f"Tracking with classes: {list(active_classes.values())}")
+
     previous_points = {}  # (track_id, line_index) -> last bottom-centre point
     already_counted = set()  # (track_id, line_index)
     event_rows = []
@@ -240,7 +257,7 @@ def main():
             if frame_index % args.skip == 0:
                 result = model.track(
                     frame, persist=True, tracker="bytetrack.yaml",
-                    classes=list(VEHICLE_CLASSES.keys()), conf=args.conf,
+                    classes=list(active_classes.keys()), conf=args.conf,
                     imgsz=args.imgsz, device="cpu", verbose=False
                 )[0]
 
@@ -250,7 +267,7 @@ def main():
                     ids = result.boxes.id.int().cpu().tolist()
                     class_ids = result.boxes.cls.int().cpu().tolist()
                     for box, track_id, class_id in zip(boxes, ids, class_ids):
-                        vehicle_class = VEHICLE_CLASSES.get(class_id, "unknown")
+                        vehicle_class = active_classes.get(class_id, "unknown")
                         x1, y1, x2, y2 = box
                         foot_point = (int((x1 + x2) / 2), int(y2))
                         for line_idx, line in enumerate(lines):

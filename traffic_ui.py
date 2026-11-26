@@ -36,8 +36,8 @@ def draw_high_visibility_hud(
     # 1. Approach ROI Polygons & On-Road Status Badges
     # ------------------------------------------------------------------------
     for app in approaches:
-        name = app["name"]
-        poly = app["poly"] if "poly" in app else app.get_pixel_polygon(w, h)
+        name = app["name"] if isinstance(app, dict) else app.name
+        poly = app["poly"] if (isinstance(app, dict) and "poly" in app) else app.get_pixel_polygon(w, h)
         app_color = app["color"] if isinstance(app, dict) else app.color
         q_count = queue_counts.get(name, 0)
         app_signal = signals.get(name, "RED")

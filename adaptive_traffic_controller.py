@@ -15,12 +15,16 @@ Features:
 import argparse
 import json
 import logging
+import os
 import queue
 import sys
 import threading
 import time
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+
+# Direct Ultralytics config to project folder
+os.environ["YOLO_CONFIG_DIR"] = str((Path(__file__).resolve().parent / ".ultralytics").resolve())
 
 import cv2
 import numpy as np
@@ -31,7 +35,7 @@ from traffic_ui import draw_high_visibility_hud
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("TrafficPoC")
 
-# COCO vehicle classes
+# COCO vehicle classes (fallback if base model is used)
 VEHICLE_CLASSES = {2: "car", 3: "motorcycle", 5: "bus", 7: "truck"}
 
 # Vehicle equivalent weights (Passenger Car Units / PCU equivalent)
@@ -40,6 +44,7 @@ VEHICLE_WEIGHTS = {
     "motorcycle": 0.5,
     "bus": 2.5,
     "truck": 2.5,
+    "keke": 0.8,
     "unknown": 1.0,
 }
 
@@ -568,6 +573,12 @@ def parse_arguments():
         "--headless", action="store_true", help="Run without opening a GUI window (for background/headless testing)"
     )
     parser.add_argument(
+        "--model",
+        type=str,
+        default="models/yolo11n_traffic_keke.pt" if Path("models/yolo11n_traffic_keke.pt").exists() else "yolo11n.pt",
+        help="Path to YOLO weights (defaults to models/yolo11n_traffic_keke.pt if available, else yolo11n.pt)",
+    )
+    parser.add_argument(
         "--max-frames", type=int, default=0, help="Stop after processing N frames (0 for unlimited)"
     )
     return parser.parse_args()
@@ -622,9 +633,19 @@ def main():
     for app in approaches:
         print(f"  - {app.name}")
 
-    # Initialize YOLO11n model
-    print("\nLoading YOLO11n object detector...")
-    model = YOLO("yolo11n.pt")
+    # Initialize YOLO model
+    print(f"\nLoading object detector: {args.model} ...")
+    model = YOLO(args.model)
+
+    # Determine vehicle classes based on model ontology
+    if len(model.names) == 5 and "keke" in model.names.values():
+        active_vehicle_classes = {k: v for k, v in model.names.items()}
+        print(f"Loaded Custom Nigerian Traffic Model: {list(active_vehicle_classes.values())}")
+    else:
+        active_vehicle_classes = {k: v for k, v in model.names.items() if v in ["car", "motorcycle", "bus", "truck", "keke"]}
+        if not active_vehicle_classes:
+            active_vehicle_classes = VEHICLE_CLASSES
+        print(f"Loaded Detection Classes: {list(active_vehicle_classes.values())}")
 
     # Initialize adaptive signal controller
     controller = AdaptiveTrafficController(
@@ -666,7 +687,7 @@ def main():
                     frame,
                     imgsz=args.imgsz,
                     conf=args.conf,
-                    classes=list(VEHICLE_CLASSES.keys()),
+                    classes=list(active_vehicle_classes.keys()),
                     device="cpu",
                     verbose=False,
                 )[0]
@@ -679,7 +700,7 @@ def main():
 
                     for box, cls_id, conf in zip(boxes, classes, confs):
                         x1, y1, x2, y2 = box
-                        vehicle_type = VEHICLE_CLASSES.get(cls_id, "unknown")
+                        vehicle_type = active_vehicle_classes.get(cls_id, "unknown")
                         foot_point = (int((x1 + x2) / 2), int(y2))
                         current_detections.append(
                             {"box": (int(x1), int(y1), int(x2), int(y2)), "type": vehicle_type, "foot": foot_point, "conf": conf}

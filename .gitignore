@@ -10,6 +10,7 @@ __pycache__/
 *.tar.gz
 videos/*.mp4
 outputs/*.mp4
+outputs/*.docx
 outputs/simulations/*.mp4
 outputs/video_inspection/
 

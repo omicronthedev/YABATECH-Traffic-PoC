@@ -1,1 +1,3 @@
 timestamp_seconds,frame,track_id,vehicle_class,counting_line,direction
+19.47,568,142,car,South approach,B_to_A
+25.65,748,184,car,South approach,B_to_A

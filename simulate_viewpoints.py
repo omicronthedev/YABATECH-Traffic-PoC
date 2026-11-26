@@ -13,6 +13,10 @@ import time
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+import os
+from pathlib import Path
+os.environ["YOLO_CONFIG_DIR"] = str((Path(__file__).resolve().parent / ".ultralytics").resolve())
+
 import cv2
 import numpy as np
 from ultralytics import YOLO
@@ -53,6 +57,12 @@ class ViewpointSimulator:
         self.all_red = all_red
         self.time_per_car = time_per_car
         self.max_duration_sec = max_duration_sec
+        if len(model.names) == 5 and "keke" in model.names.values():
+            self.active_classes = {k: v for k, v in model.names.items()}
+        else:
+            self.active_classes = {k: v for k, v in model.names.items() if v in ["car", "motorcycle", "bus", "truck", "keke"]}
+            if not self.active_classes:
+                self.active_classes = VEHICLE_CLASSES
 
     def get_approach_rois(self, width: int, height: int) -> List[Dict]:
         """Generate balanced approach zones suited to the video aspect ratio."""
@@ -177,7 +187,7 @@ class ViewpointSimulator:
                     frame,
                     imgsz=self.imgsz,
                     conf=self.conf,
-                    classes=list(VEHICLE_CLASSES.keys()),
+                    classes=list(self.active_classes.keys()),
                     device="cpu",
                     verbose=False,
                 )[0]
@@ -190,7 +200,7 @@ class ViewpointSimulator:
                     cls_ids = res.boxes.cls.cpu().numpy().astype(int)
                     for box, cls_id in zip(boxes, cls_ids):
                         x1, y1, x2, y2 = box
-                        v_name = VEHICLE_CLASSES.get(cls_id, "car")
+                        v_name = self.active_classes.get(cls_id, "car")
                         foot = (int((x1 + x2) / 2), int(y2))
 
                         assigned = None
@@ -256,19 +266,30 @@ class ViewpointSimulator:
                         )
                         logger.info(f"[{self.video_path.name} @ {sim_time:.1f}s] {decision_reason}")
 
+                # Count vehicle classes detected in current frame
+                v_counts = {cls_name: 0 for cls_name in self.active_classes.values()}
+                for item in detected_boxes:
+                    v_name = item[4]
+                    if v_name in v_counts:
+                        v_counts[v_name] += 1
+
                 # Record statistics
-                queue_records.append(
-                    {
-                        "sim_time": round(sim_time, 2),
-                        "frame": frame_idx,
-                        "state": state,
-                        "active_approach": approaches[active_idx]["name"],
-                        "remaining_time": round(rem_time, 2),
-                        "queue_app1": queue_counts[approaches[0]["name"]],
-                        "queue_app2": queue_counts[approaches[1]["name"]],
-                        "decision": decision_reason,
-                    }
-                )
+                rec = {
+                    "sim_time": round(sim_time, 2),
+                    "frame": frame_idx,
+                    "state": state,
+                    "active_approach": approaches[active_idx]["name"],
+                    "remaining_time": round(rem_time, 2),
+                    "queue_app1": queue_counts[approaches[0]["name"]],
+                    "queue_app2": queue_counts[approaches[1]["name"]] if len(approaches) > 1 else 0,
+                    "keke_count": v_counts.get("keke", 0),
+                    "truck_count": v_counts.get("truck", 0),
+                    "car_count": v_counts.get("car", 0),
+                    "bus_count": v_counts.get("bus", 0),
+                    "motorcycle_count": v_counts.get("motorcycle", 0),
+                    "decision": decision_reason,
+                }
+                queue_records.append(rec)
 
                 # Render high-visibility annotated video frame
                 if writer is not None:
@@ -320,6 +341,12 @@ class ViewpointSimulator:
         max_q1 = max([r["queue_app1"] for r in queue_records]) if queue_records else 0
         max_q2 = max([r["queue_app2"] for r in queue_records]) if queue_records else 0
 
+        total_keke = sum(r.get("keke_count", 0) for r in queue_records)
+        total_truck = sum(r.get("truck_count", 0) for r in queue_records)
+        total_car = sum(r.get("car_count", 0) for r in queue_records)
+        total_bus = sum(r.get("bus_count", 0) for r in queue_records)
+        total_mc = sum(r.get("motorcycle_count", 0) for r in queue_records)
+
         summary = {
             "video": self.video_path.name,
             "duration_sim_seconds": round(sim_time, 1),
@@ -332,6 +359,13 @@ class ViewpointSimulator:
             "avg_queue_app2": round(float(avg_q2), 2),
             "max_queue_app2": int(max_q2),
             "phase_switches": len(cycle_history),
+            "vehicle_detections": {
+                "keke": int(total_keke),
+                "truck": int(total_truck),
+                "car": int(total_car),
+                "bus": int(total_bus),
+                "motorcycle": int(total_mc),
+            },
         }
         logger.info(f"Finished {self.video_path.name}: {summary}")
         return summary
@@ -353,6 +387,12 @@ def main():
     parser.add_argument("--skip", type=int, default=2, help="Process every Nth frame")
     parser.add_argument("--imgsz", type=int, default=640, help="Inference image resolution")
     parser.add_argument("--duration", type=float, default=None, help="Max simulated video duration in seconds (e.g. 360 for 6 mins)")
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="models/yolo11n_traffic_keke.pt" if Path("models/yolo11n_traffic_keke.pt").exists() else "yolo11n.pt",
+        help="Path to YOLO weights",
+    )
     args = parser.parse_args()
 
     out_dir = Path("outputs/simulations")
@@ -361,8 +401,8 @@ def main():
     print("\n" + "=" * 65)
     print("   YABATECH INTERSECTION MULTI-VIEWPOINT SIMULATION SUITE")
     print("=" * 65)
-    print(f"Loading YOLO11n model...")
-    model = YOLO("yolo11n.pt")
+    print(f"Loading object detector: {args.model} ...")
+    model = YOLO(args.model)
 
     results = []
     for vid_str in args.videos:
@@ -395,6 +435,9 @@ def main():
         print(f"  - Approach 1 Queue   : Avg {r['avg_queue_app1']} | Max {r['max_queue_app1']} vehicles")
         print(f"  - Approach 2 Queue   : Avg {r['avg_queue_app2']} | Max {r['max_queue_app2']} vehicles")
         print(f"  - Phase Transitions  : {r['phase_switches']} dynamic signal changes")
+        if "vehicle_detections" in r:
+            vd = r["vehicle_detections"]
+            print(f"  - Vehicle Breakdown  : Kekes: {vd.get('keke', 0)} | Trucks: {vd.get('truck', 0)} | Cars: {vd.get('car', 0)} | Buses: {vd.get('bus', 0)} | Motorcycles: {vd.get('motorcycle', 0)}")
         print(f"  - Annotated Video    : {r['output_video']}")
         print(f"  - Performance Stats  : {r['stats_csv']}\n")
     print(f"Full results saved to: {summary_path}")

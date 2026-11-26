@@ -1,15 +1,22 @@
 [
   {
-    "video": "main_intersection.mp4",
-    "duration_sim_seconds": 360.0,
-    "processed_frames": 2371,
-    "real_elapsed_seconds": 562.4,
-    "output_video": "outputs\\simulations\\sim_main_intersection.mp4",
-    "stats_csv": "outputs\\simulations\\sim_main_intersection_stats.csv",
-    "avg_queue_app1": 2.83,
-    "max_queue_app1": 8,
-    "avg_queue_app2": 0.32,
-    "max_queue_app2": 4,
-    "phase_switches": 20
+    "video": "main_intersection_5min.mp4",
+    "duration_sim_seconds": 300.0,
+    "processed_frames": 1483,
+    "real_elapsed_seconds": 374.3,
+    "output_video": "outputs\\simulations\\sim_main_intersection_5min.mp4",
+    "stats_csv": "outputs\\simulations\\sim_main_intersection_5min_stats.csv",
+    "avg_queue_app1": 2.03,
+    "max_queue_app1": 6,
+    "avg_queue_app2": 0.27,
+    "max_queue_app2": 3,
+    "phase_switches": 19,
+    "vehicle_detections": {
+      "keke": 62,
+      "truck": 5,
+      "car": 3524,
+      "bus": 12,
+      "motorcycle": 78
+    }
   }
 ]

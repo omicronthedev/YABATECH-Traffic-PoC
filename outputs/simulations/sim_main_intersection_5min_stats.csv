@@ -1,0 +1,1484 @@
+sim_time,frame,state,active_approach,remaining_time,queue_app1,queue_app2,keke_count,truck_count,car_count,bus_count,motorcycle_count,decision
+0.0,0,GREEN,Hussey Rd (Inbound),8.0,2,0,0,0,2,0,0,Simulation initialized
+0.2,6,GREEN,Hussey Rd (Inbound),7.8,2,0,0,0,2,0,0,Simulation initialized
+0.4,12,GREEN,Hussey Rd (Inbound),7.6,2,0,0,0,2,0,0,Simulation initialized
+0.61,18,GREEN,Hussey Rd (Inbound),7.39,1,0,0,0,1,0,0,Simulation initialized
+0.81,24,GREEN,Hussey Rd (Inbound),7.19,0,0,0,0,0,0,0,Simulation initialized
+1.01,30,GREEN,Hussey Rd (Inbound),6.99,2,0,0,0,2,0,0,Simulation initialized
+1.21,36,GREEN,Hussey Rd (Inbound),6.79,1,1,0,0,2,0,0,Simulation initialized
+1.42,42,GREEN,Hussey Rd (Inbound),6.58,1,1,0,0,1,0,1,Simulation initialized
+1.62,48,GREEN,Hussey Rd (Inbound),6.38,1,1,0,0,1,0,1,Simulation initialized
+1.82,54,GREEN,Hussey Rd (Inbound),6.18,1,2,0,0,1,0,2,Simulation initialized
+2.02,60,GREEN,Hussey Rd (Inbound),5.98,1,1,0,0,1,0,1,Simulation initialized
+2.23,66,GREEN,Hussey Rd (Inbound),5.77,1,1,0,0,1,0,1,Simulation initialized
+2.43,72,GREEN,Hussey Rd (Inbound),5.57,2,0,0,0,2,0,0,Simulation initialized
+2.63,78,GREEN,Hussey Rd (Inbound),5.37,2,0,0,0,2,0,0,Simulation initialized
+2.83,84,GREEN,Hussey Rd (Inbound),5.17,2,0,0,0,2,0,0,Simulation initialized
+3.04,90,GREEN,Hussey Rd (Inbound),4.96,2,0,0,0,2,0,0,Simulation initialized
+3.24,96,GREEN,Hussey Rd (Inbound),4.76,1,0,0,0,1,0,0,Simulation initialized
+3.44,102,GREEN,Hussey Rd (Inbound),4.56,2,0,0,0,2,0,0,Simulation initialized
+3.64,108,GREEN,Hussey Rd (Inbound),4.36,1,0,0,0,1,0,0,Simulation initialized
+3.84,114,GREEN,Hussey Rd (Inbound),4.16,1,0,0,0,1,0,0,Simulation initialized
+4.05,120,GREEN,Hussey Rd (Inbound),3.95,2,0,0,0,2,0,0,Simulation initialized
+4.25,126,GREEN,Hussey Rd (Inbound),3.75,2,0,0,0,2,0,0,Simulation initialized
+4.45,132,GREEN,Hussey Rd (Inbound),3.55,2,0,0,0,2,0,0,Simulation initialized
+4.65,138,GREEN,Hussey Rd (Inbound),3.35,2,0,1,0,1,0,0,Simulation initialized
+4.86,144,GREEN,Hussey Rd (Inbound),3.14,3,0,1,0,2,0,0,Simulation initialized
+5.06,150,GREEN,Hussey Rd (Inbound),2.94,3,0,1,0,2,0,0,Simulation initialized
+5.26,156,GREEN,Hussey Rd (Inbound),2.74,3,0,1,0,2,0,0,Simulation initialized
+5.46,162,GREEN,Hussey Rd (Inbound),2.54,2,0,1,0,1,0,0,Simulation initialized
+5.67,168,GREEN,Hussey Rd (Inbound),2.33,2,0,1,0,1,0,0,Simulation initialized
+5.87,174,GREEN,Hussey Rd (Inbound),2.13,3,0,1,0,2,0,0,Simulation initialized
+6.07,180,GREEN,Hussey Rd (Inbound),1.93,2,0,0,0,2,0,0,Simulation initialized
+6.27,186,GREEN,Hussey Rd (Inbound),1.73,2,0,0,0,2,0,0,Simulation initialized
+6.48,192,GREEN,Hussey Rd (Inbound),1.52,2,0,0,0,2,0,0,Simulation initialized
+6.68,198,GREEN,Hussey Rd (Inbound),1.32,2,0,0,0,2,0,0,Simulation initialized
+6.88,204,GREEN,Hussey Rd (Inbound),1.12,1,0,0,0,1,0,0,Simulation initialized
+7.08,210,GREEN,Hussey Rd (Inbound),0.92,2,0,0,0,2,0,0,Simulation initialized
+7.29,216,GREEN,Hussey Rd (Inbound),0.71,2,0,0,0,2,0,0,Simulation initialized
+7.49,222,GREEN,Hussey Rd (Inbound),0.51,3,0,0,0,3,0,0,Simulation initialized
+7.69,228,GREEN,Hussey Rd (Inbound),0.31,2,0,0,0,2,0,0,Simulation initialized
+7.89,234,GREEN,Hussey Rd (Inbound),0.11,1,0,0,0,1,0,0,Simulation initialized
+8.09,240,YELLOW,Hussey Rd (Inbound),0.0,1,0,0,0,1,0,0,Allocated green (8.0s) expired
+8.3,246,YELLOW,Hussey Rd (Inbound),2.8,1,0,0,0,1,0,0,Allocated green (8.0s) expired
+8.5,252,YELLOW,Hussey Rd (Inbound),2.6,1,0,0,0,1,0,0,Allocated green (8.0s) expired
+8.7,258,YELLOW,Hussey Rd (Inbound),2.39,1,0,0,0,1,0,0,Allocated green (8.0s) expired
+8.9,264,YELLOW,Hussey Rd (Inbound),2.19,1,0,0,0,1,0,0,Allocated green (8.0s) expired
+9.11,270,YELLOW,Hussey Rd (Inbound),1.99,2,0,0,0,2,0,0,Allocated green (8.0s) expired
+9.31,276,YELLOW,Hussey Rd (Inbound),1.79,2,0,0,0,2,0,0,Allocated green (8.0s) expired
+9.51,282,YELLOW,Hussey Rd (Inbound),1.58,1,0,0,0,1,0,0,Allocated green (8.0s) expired
+9.71,288,YELLOW,Hussey Rd (Inbound),1.38,1,0,0,0,1,0,0,Allocated green (8.0s) expired
+9.92,294,YELLOW,Hussey Rd (Inbound),1.18,1,0,0,0,1,0,0,Allocated green (8.0s) expired
+10.12,300,YELLOW,Hussey Rd (Inbound),0.98,1,1,0,0,2,0,0,Allocated green (8.0s) expired
+10.32,306,YELLOW,Hussey Rd (Inbound),0.77,1,1,0,0,2,0,0,Allocated green (8.0s) expired
+10.52,312,YELLOW,Hussey Rd (Inbound),0.57,2,1,0,0,3,0,0,Allocated green (8.0s) expired
+10.73,318,YELLOW,Hussey Rd (Inbound),0.37,1,1,0,0,2,0,0,Allocated green (8.0s) expired
+10.93,324,YELLOW,Hussey Rd (Inbound),0.17,1,1,0,0,2,0,0,Allocated green (8.0s) expired
+11.13,330,ALL_RED,Hussey Rd (Inbound),0.0,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+11.33,336,ALL_RED,Hussey Rd (Inbound),1.8,1,2,0,0,3,0,0,Intersection clearance (All-Red)
+11.53,342,ALL_RED,Hussey Rd (Inbound),1.6,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+11.74,348,ALL_RED,Hussey Rd (Inbound),1.39,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+11.94,354,ALL_RED,Hussey Rd (Inbound),1.19,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+12.14,360,ALL_RED,Hussey Rd (Inbound),0.99,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+12.34,366,ALL_RED,Hussey Rd (Inbound),0.79,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+12.55,372,ALL_RED,Hussey Rd (Inbound),0.58,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+12.75,378,ALL_RED,Hussey Rd (Inbound),0.38,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+12.95,384,ALL_RED,Hussey Rd (Inbound),0.18,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+13.15,390,GREEN,Hussey Rd (Inbound),0.0,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+13.36,396,GREEN,Hussey Rd (Inbound),11.8,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+13.56,402,GREEN,Hussey Rd (Inbound),11.6,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+13.76,408,GREEN,Hussey Rd (Inbound),11.39,4,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+13.96,414,GREEN,Hussey Rd (Inbound),11.19,4,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+14.17,420,GREEN,Hussey Rd (Inbound),10.99,4,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+14.37,426,GREEN,Hussey Rd (Inbound),10.79,6,0,0,0,4,0,2,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+14.57,432,GREEN,Hussey Rd (Inbound),10.58,4,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+14.77,438,GREEN,Hussey Rd (Inbound),10.38,4,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+14.97,444,GREEN,Hussey Rd (Inbound),10.18,3,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+15.18,450,GREEN,Hussey Rd (Inbound),9.98,2,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+15.38,456,GREEN,Hussey Rd (Inbound),9.77,2,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+15.58,462,GREEN,Hussey Rd (Inbound),9.57,2,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+15.78,468,GREEN,Hussey Rd (Inbound),9.37,3,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+15.99,474,GREEN,Hussey Rd (Inbound),9.17,2,0,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+16.19,480,GREEN,Hussey Rd (Inbound),8.96,3,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+16.39,486,GREEN,Hussey Rd (Inbound),8.76,2,0,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+16.59,492,GREEN,Hussey Rd (Inbound),8.56,3,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+16.8,498,GREEN,Hussey Rd (Inbound),8.36,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+17.0,504,GREEN,Hussey Rd (Inbound),8.16,2,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+17.2,510,GREEN,Hussey Rd (Inbound),7.95,1,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+17.4,516,GREEN,Hussey Rd (Inbound),7.75,1,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+17.61,522,GREEN,Hussey Rd (Inbound),7.55,1,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+17.81,528,GREEN,Hussey Rd (Inbound),7.35,1,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+18.01,534,GREEN,Hussey Rd (Inbound),7.14,2,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+18.21,540,GREEN,Hussey Rd (Inbound),6.94,1,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+18.42,546,GREEN,Hussey Rd (Inbound),6.74,1,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+18.62,552,GREEN,Hussey Rd (Inbound),6.54,2,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+18.82,558,GREEN,Hussey Rd (Inbound),6.33,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+19.02,564,GREEN,Hussey Rd (Inbound),6.13,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+19.22,570,GREEN,Hussey Rd (Inbound),5.93,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+19.43,576,GREEN,Hussey Rd (Inbound),5.73,2,2,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+19.63,582,GREEN,Hussey Rd (Inbound),5.52,2,2,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+19.83,588,GREEN,Hussey Rd (Inbound),5.32,1,3,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+20.03,594,GREEN,Hussey Rd (Inbound),5.12,3,2,0,0,5,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+20.24,600,GREEN,Hussey Rd (Inbound),4.92,2,2,0,0,4,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+20.44,606,GREEN,Hussey Rd (Inbound),4.71,4,1,0,0,5,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+20.64,612,GREEN,Hussey Rd (Inbound),4.51,2,1,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+20.84,618,GREEN,Hussey Rd (Inbound),4.31,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+21.05,624,GREEN,Hussey Rd (Inbound),4.11,2,1,0,0,4,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+21.25,630,GREEN,Hussey Rd (Inbound),3.91,3,1,0,0,4,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+21.45,636,GREEN,Hussey Rd (Inbound),3.7,3,0,0,0,4,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+21.65,642,GREEN,Hussey Rd (Inbound),3.5,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+21.86,648,GREEN,Hussey Rd (Inbound),3.3,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+22.06,654,GREEN,Hussey Rd (Inbound),3.1,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+22.26,660,GREEN,Hussey Rd (Inbound),2.89,3,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+22.46,666,GREEN,Hussey Rd (Inbound),2.69,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+22.66,672,GREEN,Hussey Rd (Inbound),2.49,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+22.87,678,GREEN,Hussey Rd (Inbound),2.29,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+23.07,684,GREEN,Hussey Rd (Inbound),2.08,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+23.27,690,GREEN,Hussey Rd (Inbound),1.88,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+23.47,696,GREEN,Hussey Rd (Inbound),1.68,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+23.68,702,GREEN,Hussey Rd (Inbound),1.48,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+23.88,708,GREEN,Hussey Rd (Inbound),1.27,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+24.08,714,GREEN,Hussey Rd (Inbound),1.07,2,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+24.28,720,GREEN,Hussey Rd (Inbound),0.87,2,1,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+24.49,726,GREEN,Hussey Rd (Inbound),0.67,3,1,0,0,4,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+24.69,732,GREEN,Hussey Rd (Inbound),0.47,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+24.89,738,GREEN,Hussey Rd (Inbound),0.26,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+25.09,744,GREEN,Hussey Rd (Inbound),0.06,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+25.3,750,YELLOW,Hussey Rd (Inbound),0.0,2,1,0,0,3,0,0,Allocated green (12.0s) expired
+25.5,756,YELLOW,Hussey Rd (Inbound),2.8,1,1,0,0,2,0,0,Allocated green (12.0s) expired
+25.7,762,YELLOW,Hussey Rd (Inbound),2.6,2,1,1,0,2,0,0,Allocated green (12.0s) expired
+25.9,768,YELLOW,Hussey Rd (Inbound),2.39,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+26.1,774,YELLOW,Hussey Rd (Inbound),2.19,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+26.31,780,YELLOW,Hussey Rd (Inbound),1.99,2,1,1,0,2,0,0,Allocated green (12.0s) expired
+26.51,786,YELLOW,Hussey Rd (Inbound),1.79,1,1,0,0,2,0,0,Allocated green (12.0s) expired
+26.71,792,YELLOW,Hussey Rd (Inbound),1.58,2,1,0,0,3,0,0,Allocated green (12.0s) expired
+26.91,798,YELLOW,Hussey Rd (Inbound),1.38,3,1,1,0,3,0,0,Allocated green (12.0s) expired
+27.12,804,YELLOW,Hussey Rd (Inbound),1.18,3,1,1,0,3,0,0,Allocated green (12.0s) expired
+27.32,810,YELLOW,Hussey Rd (Inbound),0.98,4,1,1,0,4,0,0,Allocated green (12.0s) expired
+27.52,816,YELLOW,Hussey Rd (Inbound),0.77,4,1,1,0,5,0,0,Allocated green (12.0s) expired
+27.72,822,YELLOW,Hussey Rd (Inbound),0.57,5,1,0,0,6,0,0,Allocated green (12.0s) expired
+27.93,828,YELLOW,Hussey Rd (Inbound),0.37,4,1,0,0,5,0,0,Allocated green (12.0s) expired
+28.13,834,YELLOW,Hussey Rd (Inbound),0.17,4,1,0,0,5,0,0,Allocated green (12.0s) expired
+28.33,840,ALL_RED,Hussey Rd (Inbound),0.0,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+28.53,846,ALL_RED,Hussey Rd (Inbound),1.8,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+28.74,852,ALL_RED,Hussey Rd (Inbound),1.6,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+28.94,858,ALL_RED,Hussey Rd (Inbound),1.39,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+29.14,864,ALL_RED,Hussey Rd (Inbound),1.19,2,1,0,0,3,0,0,Intersection clearance (All-Red)
+29.34,870,ALL_RED,Hussey Rd (Inbound),0.99,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+29.54,876,ALL_RED,Hussey Rd (Inbound),0.79,2,1,0,0,3,0,0,Intersection clearance (All-Red)
+29.75,882,ALL_RED,Hussey Rd (Inbound),0.58,2,2,0,0,4,0,0,Intersection clearance (All-Red)
+29.95,888,ALL_RED,Hussey Rd (Inbound),0.38,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+30.15,894,ALL_RED,Hussey Rd (Inbound),0.18,1,2,0,0,3,0,0,Intersection clearance (All-Red)
+30.35,900,GREEN,Gate Approach (Outbound),0.0,1,3,1,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+30.56,906,GREEN,Gate Approach (Outbound),13.8,1,2,0,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+30.76,912,GREEN,Gate Approach (Outbound),13.6,2,2,0,0,4,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+30.96,918,GREEN,Gate Approach (Outbound),13.39,1,2,0,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+31.16,924,GREEN,Gate Approach (Outbound),13.19,0,1,0,0,1,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+31.37,930,GREEN,Gate Approach (Outbound),12.99,0,1,0,0,1,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+31.57,936,GREEN,Gate Approach (Outbound),12.79,1,1,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+31.77,942,GREEN,Gate Approach (Outbound),12.58,0,1,0,0,1,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+31.97,948,GREEN,Gate Approach (Outbound),12.38,0,1,0,0,1,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+32.18,954,GREEN,Gate Approach (Outbound),12.18,1,1,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+32.38,960,GREEN,Gate Approach (Outbound),11.98,1,1,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+32.58,966,GREEN,Gate Approach (Outbound),11.77,0,1,0,0,1,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+32.78,972,GREEN,Gate Approach (Outbound),11.57,0,1,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+32.99,978,GREEN,Gate Approach (Outbound),11.37,1,1,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+33.19,984,GREEN,Gate Approach (Outbound),11.17,0,2,1,0,1,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+33.39,990,GREEN,Gate Approach (Outbound),10.96,0,1,1,0,0,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+33.59,996,GREEN,Gate Approach (Outbound),10.76,3,1,1,0,4,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+33.79,1002,GREEN,Gate Approach (Outbound),10.56,1,1,0,1,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+34.0,1008,GREEN,Gate Approach (Outbound),10.36,2,1,0,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+34.2,1014,GREEN,Gate Approach (Outbound),10.16,1,1,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+34.4,1020,GREEN,Gate Approach (Outbound),9.95,1,1,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+34.6,1026,GREEN,Gate Approach (Outbound),9.75,1,0,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+34.81,1032,GREEN,Gate Approach (Outbound),9.55,1,0,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+35.01,1038,GREEN,Gate Approach (Outbound),9.35,2,0,0,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+35.21,1044,GREEN,Gate Approach (Outbound),9.14,2,0,0,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+35.41,1050,GREEN,Gate Approach (Outbound),8.94,4,0,0,0,5,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+35.62,1056,GREEN,Gate Approach (Outbound),8.74,4,0,0,0,4,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+35.82,1062,GREEN,Gate Approach (Outbound),8.54,3,0,0,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+36.02,1068,GREEN,Gate Approach (Outbound),8.33,3,0,0,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+36.22,1074,GREEN,Gate Approach (Outbound),8.13,2,0,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+36.43,1080,GREEN,Gate Approach (Outbound),7.93,3,0,0,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+36.63,1086,GREEN,Gate Approach (Outbound),7.73,1,0,0,0,1,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+36.83,1092,GREEN,Gate Approach (Outbound),7.52,3,0,0,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+37.03,1098,GREEN,Gate Approach (Outbound),7.32,2,0,0,0,3,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+37.23,1104,GREEN,Gate Approach (Outbound),7.12,2,0,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+37.44,1110,GREEN,Gate Approach (Outbound),6.92,2,0,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+37.64,1116,GREEN,Gate Approach (Outbound),6.71,2,0,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+37.84,1122,GREEN,Gate Approach (Outbound),6.51,2,0,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+38.04,1128,GREEN,Gate Approach (Outbound),6.31,2,0,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+38.25,1134,GREEN,Gate Approach (Outbound),6.11,2,0,0,0,2,0,0,Assigned 14.0s green to Gate Approach (Outbound) (queue: 3 vehicles)
+38.45,1140,YELLOW,Gate Approach (Outbound),5.91,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+38.65,1146,YELLOW,Gate Approach (Outbound),2.8,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+38.85,1152,YELLOW,Gate Approach (Outbound),2.6,3,0,0,0,3,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+39.06,1158,YELLOW,Gate Approach (Outbound),2.39,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+39.26,1164,YELLOW,Gate Approach (Outbound),2.19,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+39.46,1170,YELLOW,Gate Approach (Outbound),1.99,3,0,0,0,3,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+39.66,1176,YELLOW,Gate Approach (Outbound),1.79,3,0,0,0,3,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+39.87,1182,YELLOW,Gate Approach (Outbound),1.58,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+40.07,1188,YELLOW,Gate Approach (Outbound),1.38,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+40.27,1194,YELLOW,Gate Approach (Outbound),1.18,5,0,0,0,5,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+40.47,1200,YELLOW,Gate Approach (Outbound),0.98,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+40.67,1206,YELLOW,Gate Approach (Outbound),0.77,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+40.88,1212,YELLOW,Gate Approach (Outbound),0.57,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+41.08,1218,YELLOW,Gate Approach (Outbound),0.37,4,0,0,0,4,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+41.28,1224,YELLOW,Gate Approach (Outbound),0.17,4,0,0,0,4,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+41.48,1230,ALL_RED,Gate Approach (Outbound),0.0,4,0,0,0,4,0,0,Intersection clearance (All-Red)
+41.69,1236,ALL_RED,Gate Approach (Outbound),1.8,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+41.89,1242,ALL_RED,Gate Approach (Outbound),1.6,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+42.09,1248,ALL_RED,Gate Approach (Outbound),1.39,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+42.29,1254,ALL_RED,Gate Approach (Outbound),1.19,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+42.5,1260,ALL_RED,Gate Approach (Outbound),0.99,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+42.7,1266,ALL_RED,Gate Approach (Outbound),0.79,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+42.9,1272,ALL_RED,Gate Approach (Outbound),0.58,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+43.1,1278,ALL_RED,Gate Approach (Outbound),0.38,1,0,0,0,2,0,0,Intersection clearance (All-Red)
+43.31,1284,ALL_RED,Gate Approach (Outbound),0.18,1,0,0,0,2,0,0,Intersection clearance (All-Red)
+43.51,1290,GREEN,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+43.71,1296,GREEN,Hussey Rd (Inbound),11.8,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+43.91,1302,GREEN,Hussey Rd (Inbound),11.6,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+44.12,1308,GREEN,Hussey Rd (Inbound),11.39,3,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+44.32,1314,GREEN,Hussey Rd (Inbound),11.19,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+44.52,1320,GREEN,Hussey Rd (Inbound),10.99,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+44.72,1326,GREEN,Hussey Rd (Inbound),10.79,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+44.92,1332,GREEN,Hussey Rd (Inbound),10.58,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+45.13,1338,GREEN,Hussey Rd (Inbound),10.38,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+45.33,1344,GREEN,Hussey Rd (Inbound),10.18,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+45.53,1350,GREEN,Hussey Rd (Inbound),9.98,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+45.73,1356,GREEN,Hussey Rd (Inbound),9.77,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+45.94,1362,GREEN,Hussey Rd (Inbound),9.57,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+46.14,1368,GREEN,Hussey Rd (Inbound),9.37,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+46.34,1374,GREEN,Hussey Rd (Inbound),9.17,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+46.54,1380,GREEN,Hussey Rd (Inbound),8.96,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+46.75,1386,GREEN,Hussey Rd (Inbound),8.76,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+46.95,1392,GREEN,Hussey Rd (Inbound),8.56,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+47.15,1398,GREEN,Hussey Rd (Inbound),8.36,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+47.35,1404,GREEN,Hussey Rd (Inbound),8.16,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+47.56,1410,GREEN,Hussey Rd (Inbound),7.95,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+47.76,1416,GREEN,Hussey Rd (Inbound),7.75,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+47.96,1422,GREEN,Hussey Rd (Inbound),7.55,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+48.16,1428,GREEN,Hussey Rd (Inbound),7.35,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+48.36,1434,GREEN,Hussey Rd (Inbound),7.14,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+48.57,1440,GREEN,Hussey Rd (Inbound),6.94,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+48.77,1446,GREEN,Hussey Rd (Inbound),6.74,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+48.97,1452,GREEN,Hussey Rd (Inbound),6.54,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+49.17,1458,GREEN,Hussey Rd (Inbound),6.33,5,0,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+49.38,1464,GREEN,Hussey Rd (Inbound),6.13,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+49.58,1470,GREEN,Hussey Rd (Inbound),5.93,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+49.78,1476,GREEN,Hussey Rd (Inbound),5.73,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+49.98,1482,GREEN,Hussey Rd (Inbound),5.52,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+50.19,1488,GREEN,Hussey Rd (Inbound),5.32,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+50.39,1494,GREEN,Hussey Rd (Inbound),5.12,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+50.59,1500,GREEN,Hussey Rd (Inbound),4.92,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+50.79,1506,GREEN,Hussey Rd (Inbound),4.71,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+51.0,1512,GREEN,Hussey Rd (Inbound),4.51,0,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+51.2,1518,GREEN,Hussey Rd (Inbound),4.31,3,0,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+51.4,1524,GREEN,Hussey Rd (Inbound),4.11,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+51.6,1530,GREEN,Hussey Rd (Inbound),3.91,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+51.8,1536,GREEN,Hussey Rd (Inbound),3.7,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+52.01,1542,GREEN,Hussey Rd (Inbound),3.5,0,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+52.21,1548,GREEN,Hussey Rd (Inbound),3.3,0,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+52.41,1554,GREEN,Hussey Rd (Inbound),3.1,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+52.61,1560,GREEN,Hussey Rd (Inbound),2.89,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+52.82,1566,GREEN,Hussey Rd (Inbound),2.69,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+53.02,1572,GREEN,Hussey Rd (Inbound),2.49,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+53.22,1578,GREEN,Hussey Rd (Inbound),2.29,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+53.42,1584,GREEN,Hussey Rd (Inbound),2.08,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+53.63,1590,GREEN,Hussey Rd (Inbound),1.88,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+53.83,1596,GREEN,Hussey Rd (Inbound),1.68,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+54.03,1602,GREEN,Hussey Rd (Inbound),1.48,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+54.23,1608,GREEN,Hussey Rd (Inbound),1.27,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+54.44,1614,GREEN,Hussey Rd (Inbound),1.07,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+54.64,1620,GREEN,Hussey Rd (Inbound),0.87,5,0,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+54.84,1626,GREEN,Hussey Rd (Inbound),0.67,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+55.04,1632,GREEN,Hussey Rd (Inbound),0.47,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+55.25,1638,YELLOW,Hussey Rd (Inbound),0.26,0,1,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+55.45,1644,YELLOW,Hussey Rd (Inbound),2.8,1,2,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+55.65,1650,YELLOW,Hussey Rd (Inbound),2.6,1,0,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+55.85,1656,YELLOW,Hussey Rd (Inbound),2.39,0,1,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+56.05,1662,YELLOW,Hussey Rd (Inbound),2.19,0,1,0,0,0,1,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+56.26,1668,YELLOW,Hussey Rd (Inbound),1.99,0,0,0,0,0,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+56.46,1674,YELLOW,Hussey Rd (Inbound),1.79,0,0,0,0,0,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+56.66,1680,YELLOW,Hussey Rd (Inbound),1.58,0,0,0,0,0,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+56.86,1686,YELLOW,Hussey Rd (Inbound),1.38,0,0,0,0,0,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+57.07,1692,YELLOW,Hussey Rd (Inbound),1.18,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+57.27,1698,YELLOW,Hussey Rd (Inbound),0.98,2,0,0,1,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+57.47,1704,YELLOW,Hussey Rd (Inbound),0.77,3,0,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+57.67,1710,YELLOW,Hussey Rd (Inbound),0.57,3,0,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+57.88,1716,YELLOW,Hussey Rd (Inbound),0.37,3,0,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+58.08,1722,YELLOW,Hussey Rd (Inbound),0.17,3,0,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+58.28,1728,ALL_RED,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+58.48,1734,ALL_RED,Hussey Rd (Inbound),1.8,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+58.69,1740,ALL_RED,Hussey Rd (Inbound),1.6,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+58.89,1746,ALL_RED,Hussey Rd (Inbound),1.39,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+59.09,1752,ALL_RED,Hussey Rd (Inbound),1.19,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+59.29,1758,ALL_RED,Hussey Rd (Inbound),0.99,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+59.49,1764,ALL_RED,Hussey Rd (Inbound),0.79,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+59.7,1770,ALL_RED,Hussey Rd (Inbound),0.58,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+59.9,1776,ALL_RED,Hussey Rd (Inbound),0.38,4,0,0,0,4,0,0,Intersection clearance (All-Red)
+60.1,1782,ALL_RED,Hussey Rd (Inbound),0.18,4,0,0,0,4,0,0,Intersection clearance (All-Red)
+60.3,1788,GREEN,Hussey Rd (Inbound),0.0,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+60.51,1794,GREEN,Hussey Rd (Inbound),15.8,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+60.71,1800,GREEN,Hussey Rd (Inbound),15.6,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+60.91,1806,GREEN,Hussey Rd (Inbound),15.39,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+61.11,1812,GREEN,Hussey Rd (Inbound),15.19,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+61.32,1818,GREEN,Hussey Rd (Inbound),14.99,1,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+61.52,1824,GREEN,Hussey Rd (Inbound),14.79,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+61.72,1830,GREEN,Hussey Rd (Inbound),14.58,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+61.92,1836,GREEN,Hussey Rd (Inbound),14.38,2,1,0,0,2,0,1,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+62.13,1842,GREEN,Hussey Rd (Inbound),14.18,6,0,0,0,6,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+62.33,1848,GREEN,Hussey Rd (Inbound),13.98,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+62.53,1854,GREEN,Hussey Rd (Inbound),13.77,1,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+62.73,1860,GREEN,Hussey Rd (Inbound),13.57,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+62.93,1866,GREEN,Hussey Rd (Inbound),13.37,3,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+63.14,1872,GREEN,Hussey Rd (Inbound),13.17,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+63.34,1878,GREEN,Hussey Rd (Inbound),12.96,1,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+63.54,1884,GREEN,Hussey Rd (Inbound),12.76,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+63.74,1890,GREEN,Hussey Rd (Inbound),12.56,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+63.95,1896,GREEN,Hussey Rd (Inbound),12.36,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+64.15,1902,GREEN,Hussey Rd (Inbound),12.16,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+64.35,1908,GREEN,Hussey Rd (Inbound),11.95,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+64.55,1914,GREEN,Hussey Rd (Inbound),11.75,2,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+64.76,1920,GREEN,Hussey Rd (Inbound),11.55,2,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+64.96,1926,GREEN,Hussey Rd (Inbound),11.35,1,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+65.16,1932,GREEN,Hussey Rd (Inbound),11.14,2,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+65.36,1938,GREEN,Hussey Rd (Inbound),10.94,1,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+65.57,1944,GREEN,Hussey Rd (Inbound),10.74,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+65.77,1950,GREEN,Hussey Rd (Inbound),10.54,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+65.97,1956,GREEN,Hussey Rd (Inbound),10.33,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+66.17,1962,GREEN,Hussey Rd (Inbound),10.13,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+66.37,1968,GREEN,Hussey Rd (Inbound),9.93,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+66.58,1974,GREEN,Hussey Rd (Inbound),9.73,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+66.78,1980,GREEN,Hussey Rd (Inbound),9.52,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+66.98,1986,GREEN,Hussey Rd (Inbound),9.32,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+67.18,1992,GREEN,Hussey Rd (Inbound),9.12,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+67.39,1998,GREEN,Hussey Rd (Inbound),8.92,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+67.59,2004,GREEN,Hussey Rd (Inbound),8.71,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+67.79,2010,GREEN,Hussey Rd (Inbound),8.51,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+67.99,2016,GREEN,Hussey Rd (Inbound),8.31,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+68.2,2022,GREEN,Hussey Rd (Inbound),8.11,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+68.4,2028,GREEN,Hussey Rd (Inbound),7.91,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+68.6,2034,GREEN,Hussey Rd (Inbound),7.7,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+68.8,2040,GREEN,Hussey Rd (Inbound),7.5,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+69.01,2046,GREEN,Hussey Rd (Inbound),7.3,1,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+69.21,2052,GREEN,Hussey Rd (Inbound),7.1,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+69.41,2058,GREEN,Hussey Rd (Inbound),6.89,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+69.61,2064,GREEN,Hussey Rd (Inbound),6.69,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+69.82,2070,GREEN,Hussey Rd (Inbound),6.49,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+70.02,2076,GREEN,Hussey Rd (Inbound),6.29,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+70.22,2082,GREEN,Hussey Rd (Inbound),6.08,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+70.42,2088,GREEN,Hussey Rd (Inbound),5.88,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+70.62,2094,GREEN,Hussey Rd (Inbound),5.68,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+70.83,2100,GREEN,Hussey Rd (Inbound),5.48,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+71.03,2106,GREEN,Hussey Rd (Inbound),5.27,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+71.23,2112,GREEN,Hussey Rd (Inbound),5.07,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+71.43,2118,GREEN,Hussey Rd (Inbound),4.87,1,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+71.64,2124,GREEN,Hussey Rd (Inbound),4.67,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+71.84,2130,GREEN,Hussey Rd (Inbound),4.47,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+72.04,2136,GREEN,Hussey Rd (Inbound),4.26,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+72.24,2142,GREEN,Hussey Rd (Inbound),4.06,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+72.45,2148,GREEN,Hussey Rd (Inbound),3.86,2,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+72.65,2154,GREEN,Hussey Rd (Inbound),3.66,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+72.85,2160,GREEN,Hussey Rd (Inbound),3.45,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+73.05,2166,GREEN,Hussey Rd (Inbound),3.25,2,1,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+73.26,2172,GREEN,Hussey Rd (Inbound),3.05,2,2,0,0,3,0,1,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+73.46,2178,GREEN,Hussey Rd (Inbound),2.85,1,1,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+73.66,2184,YELLOW,Hussey Rd (Inbound),2.64,0,1,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+73.86,2190,YELLOW,Hussey Rd (Inbound),2.8,0,1,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+74.06,2196,YELLOW,Hussey Rd (Inbound),2.6,3,1,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+74.27,2202,YELLOW,Hussey Rd (Inbound),2.39,2,1,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+74.47,2208,YELLOW,Hussey Rd (Inbound),2.19,3,1,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+74.67,2214,YELLOW,Hussey Rd (Inbound),1.99,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+74.87,2220,YELLOW,Hussey Rd (Inbound),1.79,4,0,0,0,3,0,1,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+75.08,2226,YELLOW,Hussey Rd (Inbound),1.58,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+75.28,2232,YELLOW,Hussey Rd (Inbound),1.38,3,0,0,0,2,0,1,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+75.48,2238,YELLOW,Hussey Rd (Inbound),1.18,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+75.68,2244,YELLOW,Hussey Rd (Inbound),0.98,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+75.89,2250,YELLOW,Hussey Rd (Inbound),0.77,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+76.09,2256,YELLOW,Hussey Rd (Inbound),0.57,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+76.29,2262,YELLOW,Hussey Rd (Inbound),0.37,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+76.49,2268,YELLOW,Hussey Rd (Inbound),0.17,3,0,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+76.7,2274,ALL_RED,Hussey Rd (Inbound),0.0,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+76.9,2280,ALL_RED,Hussey Rd (Inbound),1.8,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+77.1,2286,ALL_RED,Hussey Rd (Inbound),1.6,4,0,0,0,4,0,0,Intersection clearance (All-Red)
+77.3,2292,ALL_RED,Hussey Rd (Inbound),1.39,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+77.5,2298,ALL_RED,Hussey Rd (Inbound),1.19,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+77.71,2304,ALL_RED,Hussey Rd (Inbound),0.99,3,0,0,0,4,0,0,Intersection clearance (All-Red)
+77.91,2310,ALL_RED,Hussey Rd (Inbound),0.79,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+78.11,2316,ALL_RED,Hussey Rd (Inbound),0.58,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+78.31,2322,ALL_RED,Hussey Rd (Inbound),0.38,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+78.52,2328,ALL_RED,Hussey Rd (Inbound),0.18,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+78.72,2334,GREEN,Hussey Rd (Inbound),0.0,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+78.92,2340,GREEN,Hussey Rd (Inbound),15.8,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+79.12,2346,GREEN,Hussey Rd (Inbound),15.6,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+79.33,2352,GREEN,Hussey Rd (Inbound),15.39,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+79.53,2358,GREEN,Hussey Rd (Inbound),15.19,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+79.73,2364,GREEN,Hussey Rd (Inbound),14.99,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+79.93,2370,GREEN,Hussey Rd (Inbound),14.79,5,0,0,0,5,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+80.14,2376,GREEN,Hussey Rd (Inbound),14.58,4,0,0,0,5,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+80.34,2382,GREEN,Hussey Rd (Inbound),14.38,3,0,0,0,5,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+80.54,2388,GREEN,Hussey Rd (Inbound),14.18,3,1,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+80.74,2394,GREEN,Hussey Rd (Inbound),13.98,3,1,1,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+80.95,2400,GREEN,Hussey Rd (Inbound),13.77,2,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+81.15,2406,GREEN,Hussey Rd (Inbound),13.57,0,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+81.35,2412,GREEN,Hussey Rd (Inbound),13.37,1,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+81.55,2418,GREEN,Hussey Rd (Inbound),13.17,1,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+81.75,2424,GREEN,Hussey Rd (Inbound),12.96,1,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+81.96,2430,GREEN,Hussey Rd (Inbound),12.76,1,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+82.16,2436,GREEN,Hussey Rd (Inbound),12.56,1,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+82.36,2442,GREEN,Hussey Rd (Inbound),12.36,1,0,0,0,1,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+82.56,2448,GREEN,Hussey Rd (Inbound),12.16,1,0,0,0,1,0,1,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+82.77,2454,GREEN,Hussey Rd (Inbound),11.95,2,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+82.97,2460,GREEN,Hussey Rd (Inbound),11.75,4,0,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+83.17,2466,GREEN,Hussey Rd (Inbound),11.55,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+83.37,2472,GREEN,Hussey Rd (Inbound),11.35,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+83.58,2478,GREEN,Hussey Rd (Inbound),11.14,5,0,1,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+83.78,2484,GREEN,Hussey Rd (Inbound),10.94,4,0,1,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+83.98,2490,GREEN,Hussey Rd (Inbound),10.74,4,0,1,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+84.18,2496,GREEN,Hussey Rd (Inbound),10.54,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+84.39,2502,GREEN,Hussey Rd (Inbound),10.33,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+84.59,2508,GREEN,Hussey Rd (Inbound),10.13,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+84.79,2514,GREEN,Hussey Rd (Inbound),9.93,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+84.99,2520,GREEN,Hussey Rd (Inbound),9.73,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+85.19,2526,GREEN,Hussey Rd (Inbound),9.52,1,1,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+85.4,2532,GREEN,Hussey Rd (Inbound),9.32,1,1,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+85.6,2538,GREEN,Hussey Rd (Inbound),9.12,0,2,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+85.8,2544,GREEN,Hussey Rd (Inbound),8.92,0,1,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+86.0,2550,GREEN,Hussey Rd (Inbound),8.71,0,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+86.21,2556,GREEN,Hussey Rd (Inbound),8.51,0,1,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+86.41,2562,GREEN,Hussey Rd (Inbound),8.31,0,1,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+86.61,2568,GREEN,Hussey Rd (Inbound),8.11,0,1,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+86.81,2574,GREEN,Hussey Rd (Inbound),7.91,1,1,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+87.02,2580,GREEN,Hussey Rd (Inbound),7.7,1,1,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+87.22,2586,GREEN,Hussey Rd (Inbound),7.5,1,1,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+87.42,2592,GREEN,Hussey Rd (Inbound),7.3,0,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+87.62,2598,GREEN,Hussey Rd (Inbound),7.1,3,0,0,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+87.83,2604,GREEN,Hussey Rd (Inbound),6.89,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+88.03,2610,GREEN,Hussey Rd (Inbound),6.69,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+88.23,2616,GREEN,Hussey Rd (Inbound),6.49,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+88.43,2622,GREEN,Hussey Rd (Inbound),6.29,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+88.63,2628,GREEN,Hussey Rd (Inbound),6.08,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+88.84,2634,GREEN,Hussey Rd (Inbound),5.88,2,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+89.04,2640,GREEN,Hussey Rd (Inbound),5.68,1,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+89.24,2646,GREEN,Hussey Rd (Inbound),5.48,1,0,0,0,2,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+89.44,2652,GREEN,Hussey Rd (Inbound),5.27,2,2,1,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+89.65,2658,GREEN,Hussey Rd (Inbound),5.07,1,3,0,0,5,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+89.85,2664,GREEN,Hussey Rd (Inbound),4.87,1,2,0,0,4,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+90.05,2670,GREEN,Hussey Rd (Inbound),4.67,1,3,1,0,3,0,0,Assigned 16.0s green to Hussey Rd (Inbound) (queue: 4 vehicles)
+90.25,2676,YELLOW,Hussey Rd (Inbound),4.47,0,1,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+90.46,2682,YELLOW,Hussey Rd (Inbound),2.8,1,1,1,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+90.66,2688,YELLOW,Hussey Rd (Inbound),2.6,1,1,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+90.86,2694,YELLOW,Hussey Rd (Inbound),2.39,1,1,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+91.06,2700,YELLOW,Hussey Rd (Inbound),2.19,1,1,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+91.27,2706,YELLOW,Hussey Rd (Inbound),1.99,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+91.47,2712,YELLOW,Hussey Rd (Inbound),1.79,1,1,1,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+91.67,2718,YELLOW,Hussey Rd (Inbound),1.58,1,0,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+91.87,2724,YELLOW,Hussey Rd (Inbound),1.38,1,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+92.08,2730,YELLOW,Hussey Rd (Inbound),1.18,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+92.28,2736,YELLOW,Hussey Rd (Inbound),0.98,2,0,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+92.48,2742,YELLOW,Hussey Rd (Inbound),0.77,3,0,1,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+92.68,2748,YELLOW,Hussey Rd (Inbound),0.57,2,0,1,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+92.88,2754,YELLOW,Hussey Rd (Inbound),0.37,1,0,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+93.09,2760,YELLOW,Hussey Rd (Inbound),0.17,1,0,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+93.29,2766,ALL_RED,Hussey Rd (Inbound),0.0,0,0,0,0,0,0,0,Intersection clearance (All-Red)
+93.49,2772,ALL_RED,Hussey Rd (Inbound),1.8,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+93.69,2778,ALL_RED,Hussey Rd (Inbound),1.6,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+93.9,2784,ALL_RED,Hussey Rd (Inbound),1.39,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+94.1,2790,ALL_RED,Hussey Rd (Inbound),1.19,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+94.3,2796,ALL_RED,Hussey Rd (Inbound),0.99,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+94.5,2802,ALL_RED,Hussey Rd (Inbound),0.79,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+94.71,2808,ALL_RED,Hussey Rd (Inbound),0.58,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+94.91,2814,ALL_RED,Hussey Rd (Inbound),0.38,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+95.11,2820,ALL_RED,Hussey Rd (Inbound),0.18,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+95.31,2826,GREEN,Hussey Rd (Inbound),0.0,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+95.52,2832,GREEN,Hussey Rd (Inbound),9.8,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+95.72,2838,GREEN,Hussey Rd (Inbound),9.6,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+95.92,2844,GREEN,Hussey Rd (Inbound),9.39,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+96.12,2850,GREEN,Hussey Rd (Inbound),9.19,0,0,0,0,0,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+96.32,2856,GREEN,Hussey Rd (Inbound),8.99,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+96.53,2862,GREEN,Hussey Rd (Inbound),8.79,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+96.73,2868,GREEN,Hussey Rd (Inbound),8.58,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+96.93,2874,GREEN,Hussey Rd (Inbound),8.38,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+97.13,2880,GREEN,Hussey Rd (Inbound),8.18,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+97.34,2886,GREEN,Hussey Rd (Inbound),7.98,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+97.54,2892,GREEN,Hussey Rd (Inbound),7.77,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+97.74,2898,GREEN,Hussey Rd (Inbound),7.57,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+97.94,2904,GREEN,Hussey Rd (Inbound),7.37,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+98.15,2910,GREEN,Hussey Rd (Inbound),7.17,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+98.35,2916,GREEN,Hussey Rd (Inbound),6.96,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+98.55,2922,GREEN,Hussey Rd (Inbound),6.76,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+98.75,2928,GREEN,Hussey Rd (Inbound),6.56,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+98.96,2934,GREEN,Hussey Rd (Inbound),6.36,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+99.16,2940,GREEN,Hussey Rd (Inbound),6.16,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+99.36,2946,GREEN,Hussey Rd (Inbound),5.95,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+99.56,2952,GREEN,Hussey Rd (Inbound),5.75,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+99.76,2958,GREEN,Hussey Rd (Inbound),5.55,0,1,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+99.97,2964,GREEN,Hussey Rd (Inbound),5.35,0,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+100.17,2970,GREEN,Hussey Rd (Inbound),5.14,0,1,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+100.37,2976,GREEN,Hussey Rd (Inbound),4.94,0,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+100.57,2982,GREEN,Hussey Rd (Inbound),4.74,0,0,1,0,1,1,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+100.78,2988,GREEN,Hussey Rd (Inbound),4.54,0,0,1,0,0,1,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+100.98,2994,GREEN,Hussey Rd (Inbound),4.33,0,0,1,0,0,1,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+101.18,3000,GREEN,Hussey Rd (Inbound),4.13,1,0,1,0,0,1,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+101.38,3006,GREEN,Hussey Rd (Inbound),3.93,1,0,0,0,0,1,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+101.59,3012,GREEN,Hussey Rd (Inbound),3.73,2,1,0,0,1,1,1,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+101.79,3018,GREEN,Hussey Rd (Inbound),3.52,1,1,1,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+101.99,3024,GREEN,Hussey Rd (Inbound),3.32,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+102.19,3030,GREEN,Hussey Rd (Inbound),3.12,1,0,1,0,0,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+102.4,3036,GREEN,Hussey Rd (Inbound),2.92,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+102.6,3042,GREEN,Hussey Rd (Inbound),2.71,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+102.8,3048,GREEN,Hussey Rd (Inbound),2.51,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+103.0,3054,GREEN,Hussey Rd (Inbound),2.31,3,0,1,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+103.21,3060,GREEN,Hussey Rd (Inbound),2.11,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+103.41,3066,GREEN,Hussey Rd (Inbound),1.91,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+103.61,3072,GREEN,Hussey Rd (Inbound),1.7,3,0,1,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+103.81,3078,GREEN,Hussey Rd (Inbound),1.5,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+104.01,3084,GREEN,Hussey Rd (Inbound),1.3,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+104.22,3090,GREEN,Hussey Rd (Inbound),1.1,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+104.42,3096,GREEN,Hussey Rd (Inbound),0.89,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+104.62,3102,GREEN,Hussey Rd (Inbound),0.69,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+104.82,3108,GREEN,Hussey Rd (Inbound),0.49,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+105.03,3114,GREEN,Hussey Rd (Inbound),0.29,4,0,0,0,4,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+105.23,3120,GREEN,Hussey Rd (Inbound),0.08,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+105.43,3126,YELLOW,Hussey Rd (Inbound),0.0,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+105.63,3132,YELLOW,Hussey Rd (Inbound),2.8,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+105.84,3138,YELLOW,Hussey Rd (Inbound),2.6,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+106.04,3144,YELLOW,Hussey Rd (Inbound),2.39,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+106.24,3150,YELLOW,Hussey Rd (Inbound),2.19,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+106.44,3156,YELLOW,Hussey Rd (Inbound),1.99,3,0,1,0,2,0,0,Allocated green (10.0s) expired
+106.65,3162,YELLOW,Hussey Rd (Inbound),1.79,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+106.85,3168,YELLOW,Hussey Rd (Inbound),1.58,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+107.05,3174,YELLOW,Hussey Rd (Inbound),1.38,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+107.25,3180,YELLOW,Hussey Rd (Inbound),1.18,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+107.45,3186,YELLOW,Hussey Rd (Inbound),0.98,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+107.66,3192,YELLOW,Hussey Rd (Inbound),0.77,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+107.86,3198,YELLOW,Hussey Rd (Inbound),0.57,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+108.06,3204,YELLOW,Hussey Rd (Inbound),0.37,1,0,0,0,1,0,0,Allocated green (10.0s) expired
+108.26,3210,YELLOW,Hussey Rd (Inbound),0.17,3,0,1,0,2,0,0,Allocated green (10.0s) expired
+108.47,3216,ALL_RED,Hussey Rd (Inbound),0.0,3,0,1,0,2,0,0,Intersection clearance (All-Red)
+108.67,3222,ALL_RED,Hussey Rd (Inbound),1.8,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+108.87,3228,ALL_RED,Hussey Rd (Inbound),1.6,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+109.07,3234,ALL_RED,Hussey Rd (Inbound),1.39,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+109.28,3240,ALL_RED,Hussey Rd (Inbound),1.19,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+109.48,3246,ALL_RED,Hussey Rd (Inbound),0.99,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+109.68,3252,ALL_RED,Hussey Rd (Inbound),0.79,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+109.88,3258,ALL_RED,Hussey Rd (Inbound),0.58,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+110.09,3264,ALL_RED,Hussey Rd (Inbound),0.38,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+110.29,3270,ALL_RED,Hussey Rd (Inbound),0.18,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+110.49,3276,GREEN,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+110.69,3282,GREEN,Hussey Rd (Inbound),11.8,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+110.89,3288,GREEN,Hussey Rd (Inbound),11.6,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+111.1,3294,GREEN,Hussey Rd (Inbound),11.39,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+111.3,3300,GREEN,Hussey Rd (Inbound),11.19,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+111.5,3306,GREEN,Hussey Rd (Inbound),10.99,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+111.7,3312,GREEN,Hussey Rd (Inbound),10.79,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+111.91,3318,GREEN,Hussey Rd (Inbound),10.58,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+112.11,3324,GREEN,Hussey Rd (Inbound),10.38,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+112.31,3330,GREEN,Hussey Rd (Inbound),10.18,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+112.51,3336,GREEN,Hussey Rd (Inbound),9.98,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+112.72,3342,GREEN,Hussey Rd (Inbound),9.77,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+112.92,3348,GREEN,Hussey Rd (Inbound),9.57,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+113.12,3354,GREEN,Hussey Rd (Inbound),9.37,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+113.32,3360,GREEN,Hussey Rd (Inbound),9.17,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+113.53,3366,GREEN,Hussey Rd (Inbound),8.96,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+113.73,3372,GREEN,Hussey Rd (Inbound),8.76,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+113.93,3378,GREEN,Hussey Rd (Inbound),8.56,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+114.13,3384,GREEN,Hussey Rd (Inbound),8.36,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+114.33,3390,GREEN,Hussey Rd (Inbound),8.16,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+114.54,3396,GREEN,Hussey Rd (Inbound),7.95,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+114.74,3402,GREEN,Hussey Rd (Inbound),7.75,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+114.94,3408,GREEN,Hussey Rd (Inbound),7.55,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+115.14,3414,GREEN,Hussey Rd (Inbound),7.35,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+115.35,3420,GREEN,Hussey Rd (Inbound),7.14,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+115.55,3426,GREEN,Hussey Rd (Inbound),6.94,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+115.75,3432,GREEN,Hussey Rd (Inbound),6.74,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+115.95,3438,GREEN,Hussey Rd (Inbound),6.54,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+116.16,3444,GREEN,Hussey Rd (Inbound),6.33,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+116.36,3450,GREEN,Hussey Rd (Inbound),6.13,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+116.56,3456,GREEN,Hussey Rd (Inbound),5.93,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+116.76,3462,GREEN,Hussey Rd (Inbound),5.73,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+116.97,3468,GREEN,Hussey Rd (Inbound),5.52,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+117.17,3474,GREEN,Hussey Rd (Inbound),5.32,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+117.37,3480,GREEN,Hussey Rd (Inbound),5.12,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+117.57,3486,GREEN,Hussey Rd (Inbound),4.92,4,0,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+117.78,3492,GREEN,Hussey Rd (Inbound),4.71,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+117.98,3498,GREEN,Hussey Rd (Inbound),4.51,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+118.18,3504,GREEN,Hussey Rd (Inbound),4.31,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+118.38,3510,GREEN,Hussey Rd (Inbound),4.11,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+118.58,3516,GREEN,Hussey Rd (Inbound),3.91,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+118.79,3522,GREEN,Hussey Rd (Inbound),3.7,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+118.99,3528,GREEN,Hussey Rd (Inbound),3.5,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+119.19,3534,GREEN,Hussey Rd (Inbound),3.3,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+119.39,3540,GREEN,Hussey Rd (Inbound),3.1,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+119.6,3546,GREEN,Hussey Rd (Inbound),2.89,2,1,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+119.8,3552,GREEN,Hussey Rd (Inbound),2.69,2,0,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+120.0,3558,GREEN,Hussey Rd (Inbound),2.49,2,0,0,0,2,0,2,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+120.2,3564,GREEN,Hussey Rd (Inbound),2.29,3,0,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+120.41,3570,GREEN,Hussey Rd (Inbound),2.08,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+120.61,3576,GREEN,Hussey Rd (Inbound),1.88,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+120.81,3582,GREEN,Hussey Rd (Inbound),1.68,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+121.01,3588,GREEN,Hussey Rd (Inbound),1.48,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+121.22,3594,GREEN,Hussey Rd (Inbound),1.27,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+121.42,3600,GREEN,Hussey Rd (Inbound),1.07,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+121.62,3606,GREEN,Hussey Rd (Inbound),0.87,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+121.82,3612,GREEN,Hussey Rd (Inbound),0.67,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+122.02,3618,GREEN,Hussey Rd (Inbound),0.47,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+122.23,3624,GREEN,Hussey Rd (Inbound),0.26,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+122.43,3630,GREEN,Hussey Rd (Inbound),0.06,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+122.63,3636,YELLOW,Hussey Rd (Inbound),0.0,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+122.83,3642,YELLOW,Hussey Rd (Inbound),2.8,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+123.04,3648,YELLOW,Hussey Rd (Inbound),2.6,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+123.24,3654,YELLOW,Hussey Rd (Inbound),2.39,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+123.44,3660,YELLOW,Hussey Rd (Inbound),2.19,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+123.64,3666,YELLOW,Hussey Rd (Inbound),1.99,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+123.85,3672,YELLOW,Hussey Rd (Inbound),1.79,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+124.05,3678,YELLOW,Hussey Rd (Inbound),1.58,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+124.25,3684,YELLOW,Hussey Rd (Inbound),1.38,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+124.45,3690,YELLOW,Hussey Rd (Inbound),1.18,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+124.66,3696,YELLOW,Hussey Rd (Inbound),0.98,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+124.86,3702,YELLOW,Hussey Rd (Inbound),0.77,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+125.06,3708,YELLOW,Hussey Rd (Inbound),0.57,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+125.26,3714,YELLOW,Hussey Rd (Inbound),0.37,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+125.46,3720,YELLOW,Hussey Rd (Inbound),0.17,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+125.67,3726,ALL_RED,Hussey Rd (Inbound),0.0,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+125.87,3732,ALL_RED,Hussey Rd (Inbound),1.8,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+126.07,3738,ALL_RED,Hussey Rd (Inbound),1.6,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+126.27,3744,ALL_RED,Hussey Rd (Inbound),1.39,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+126.48,3750,ALL_RED,Hussey Rd (Inbound),1.19,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+126.68,3756,ALL_RED,Hussey Rd (Inbound),0.99,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+126.88,3762,ALL_RED,Hussey Rd (Inbound),0.79,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+127.08,3768,ALL_RED,Hussey Rd (Inbound),0.58,2,0,0,0,1,0,1,Intersection clearance (All-Red)
+127.29,3774,ALL_RED,Hussey Rd (Inbound),0.38,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+127.49,3780,ALL_RED,Hussey Rd (Inbound),0.18,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+127.69,3786,GREEN,Hussey Rd (Inbound),0.0,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+127.89,3792,GREEN,Hussey Rd (Inbound),9.8,4,0,0,0,4,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+128.1,3798,GREEN,Hussey Rd (Inbound),9.6,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+128.3,3804,GREEN,Hussey Rd (Inbound),9.39,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+128.5,3810,GREEN,Hussey Rd (Inbound),9.19,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+128.7,3816,GREEN,Hussey Rd (Inbound),8.99,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+128.91,3822,GREEN,Hussey Rd (Inbound),8.79,3,0,0,0,4,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+129.11,3828,GREEN,Hussey Rd (Inbound),8.58,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+129.31,3834,GREEN,Hussey Rd (Inbound),8.38,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+129.51,3840,GREEN,Hussey Rd (Inbound),8.18,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+129.71,3846,GREEN,Hussey Rd (Inbound),7.98,1,2,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+129.92,3852,GREEN,Hussey Rd (Inbound),7.77,0,1,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+130.12,3858,GREEN,Hussey Rd (Inbound),7.57,0,1,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+130.32,3864,GREEN,Hussey Rd (Inbound),7.37,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+130.52,3870,GREEN,Hussey Rd (Inbound),7.17,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+130.73,3876,GREEN,Hussey Rd (Inbound),6.96,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+130.93,3882,GREEN,Hussey Rd (Inbound),6.76,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+131.13,3888,GREEN,Hussey Rd (Inbound),6.56,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+131.33,3894,GREEN,Hussey Rd (Inbound),6.36,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+131.54,3900,GREEN,Hussey Rd (Inbound),6.16,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+131.74,3906,GREEN,Hussey Rd (Inbound),5.95,0,0,0,0,0,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+131.94,3912,GREEN,Hussey Rd (Inbound),5.75,0,0,0,0,0,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+132.14,3918,GREEN,Hussey Rd (Inbound),5.55,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+132.35,3924,GREEN,Hussey Rd (Inbound),5.35,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+132.55,3930,GREEN,Hussey Rd (Inbound),5.14,4,0,0,0,4,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+132.75,3936,GREEN,Hussey Rd (Inbound),4.94,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+132.95,3942,GREEN,Hussey Rd (Inbound),4.74,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+133.15,3948,GREEN,Hussey Rd (Inbound),4.54,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+133.36,3954,GREEN,Hussey Rd (Inbound),4.33,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+133.56,3960,GREEN,Hussey Rd (Inbound),4.13,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+133.76,3966,GREEN,Hussey Rd (Inbound),3.93,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+133.96,3972,GREEN,Hussey Rd (Inbound),3.73,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+134.17,3978,GREEN,Hussey Rd (Inbound),3.52,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+134.37,3984,GREEN,Hussey Rd (Inbound),3.32,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+134.57,3990,GREEN,Hussey Rd (Inbound),3.12,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+134.77,3996,GREEN,Hussey Rd (Inbound),2.92,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+134.98,4002,GREEN,Hussey Rd (Inbound),2.71,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+135.18,4008,GREEN,Hussey Rd (Inbound),2.51,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+135.38,4014,GREEN,Hussey Rd (Inbound),2.31,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+135.58,4020,GREEN,Hussey Rd (Inbound),2.11,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+135.79,4026,GREEN,Hussey Rd (Inbound),1.91,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+135.99,4032,GREEN,Hussey Rd (Inbound),1.7,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+136.19,4038,GREEN,Hussey Rd (Inbound),1.5,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+136.39,4044,GREEN,Hussey Rd (Inbound),1.3,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+136.59,4050,GREEN,Hussey Rd (Inbound),1.1,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+136.8,4056,GREEN,Hussey Rd (Inbound),0.89,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+137.0,4062,GREEN,Hussey Rd (Inbound),0.69,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+137.2,4068,GREEN,Hussey Rd (Inbound),0.49,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+137.4,4074,GREEN,Hussey Rd (Inbound),0.29,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+137.61,4080,GREEN,Hussey Rd (Inbound),0.08,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+137.81,4086,YELLOW,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+138.01,4092,YELLOW,Hussey Rd (Inbound),2.8,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+138.21,4098,YELLOW,Hussey Rd (Inbound),2.6,1,0,0,0,1,0,0,Allocated green (10.0s) expired
+138.42,4104,YELLOW,Hussey Rd (Inbound),2.39,1,0,0,0,1,0,0,Allocated green (10.0s) expired
+138.62,4110,YELLOW,Hussey Rd (Inbound),2.19,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+138.82,4116,YELLOW,Hussey Rd (Inbound),1.99,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+139.02,4122,YELLOW,Hussey Rd (Inbound),1.79,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+139.23,4128,YELLOW,Hussey Rd (Inbound),1.58,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+139.43,4134,YELLOW,Hussey Rd (Inbound),1.38,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+139.63,4140,YELLOW,Hussey Rd (Inbound),1.18,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+139.83,4146,YELLOW,Hussey Rd (Inbound),0.98,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+140.04,4152,YELLOW,Hussey Rd (Inbound),0.77,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+140.24,4158,YELLOW,Hussey Rd (Inbound),0.57,2,0,0,0,2,0,0,Allocated green (10.0s) expired
+140.44,4164,YELLOW,Hussey Rd (Inbound),0.37,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+140.64,4170,YELLOW,Hussey Rd (Inbound),0.17,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+140.84,4176,ALL_RED,Hussey Rd (Inbound),0.0,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+141.05,4182,ALL_RED,Hussey Rd (Inbound),1.8,3,0,0,0,4,0,0,Intersection clearance (All-Red)
+141.25,4188,ALL_RED,Hussey Rd (Inbound),1.6,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+141.45,4194,ALL_RED,Hussey Rd (Inbound),1.39,2,0,0,0,3,0,0,Intersection clearance (All-Red)
+141.65,4200,ALL_RED,Hussey Rd (Inbound),1.19,4,1,0,0,5,0,0,Intersection clearance (All-Red)
+141.86,4206,ALL_RED,Hussey Rd (Inbound),0.99,2,1,0,0,3,0,0,Intersection clearance (All-Red)
+142.06,4212,ALL_RED,Hussey Rd (Inbound),0.79,0,1,0,0,1,0,0,Intersection clearance (All-Red)
+142.26,4218,ALL_RED,Hussey Rd (Inbound),0.58,0,1,0,0,1,0,0,Intersection clearance (All-Red)
+142.46,4224,ALL_RED,Hussey Rd (Inbound),0.38,0,1,0,0,1,0,0,Intersection clearance (All-Red)
+142.67,4230,ALL_RED,Hussey Rd (Inbound),0.18,0,1,0,0,1,0,0,Intersection clearance (All-Red)
+142.87,4236,GREEN,Gate Approach (Outbound),0.0,0,1,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+143.07,4242,GREEN,Gate Approach (Outbound),9.8,2,1,0,0,3,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+143.27,4248,GREEN,Gate Approach (Outbound),9.6,1,1,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+143.48,4254,GREEN,Gate Approach (Outbound),9.39,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+143.68,4260,GREEN,Gate Approach (Outbound),9.19,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+143.88,4266,GREEN,Gate Approach (Outbound),8.99,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+144.08,4272,GREEN,Gate Approach (Outbound),8.79,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+144.28,4278,GREEN,Gate Approach (Outbound),8.58,0,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+144.49,4284,GREEN,Gate Approach (Outbound),8.38,1,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+144.69,4290,GREEN,Gate Approach (Outbound),8.18,1,1,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+144.89,4296,GREEN,Gate Approach (Outbound),7.98,1,1,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+145.09,4302,GREEN,Gate Approach (Outbound),7.77,1,1,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+145.3,4308,GREEN,Gate Approach (Outbound),7.57,0,1,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+145.5,4314,GREEN,Gate Approach (Outbound),7.37,0,1,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+145.7,4320,GREEN,Gate Approach (Outbound),7.17,0,1,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+145.9,4326,GREEN,Gate Approach (Outbound),6.96,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+146.11,4332,GREEN,Gate Approach (Outbound),6.76,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+146.31,4338,GREEN,Gate Approach (Outbound),6.56,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+146.51,4344,GREEN,Gate Approach (Outbound),6.36,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+146.71,4350,GREEN,Gate Approach (Outbound),6.16,2,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+146.92,4356,GREEN,Gate Approach (Outbound),5.95,2,0,0,0,1,0,1,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+147.12,4362,GREEN,Gate Approach (Outbound),5.75,2,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+147.32,4368,GREEN,Gate Approach (Outbound),5.55,1,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+147.52,4374,GREEN,Gate Approach (Outbound),5.35,1,0,0,0,3,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+147.72,4380,GREEN,Gate Approach (Outbound),5.14,1,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+147.93,4386,GREEN,Gate Approach (Outbound),4.94,2,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+148.13,4392,GREEN,Gate Approach (Outbound),4.74,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+148.33,4398,GREEN,Gate Approach (Outbound),4.54,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+148.53,4404,GREEN,Gate Approach (Outbound),4.33,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+148.74,4410,GREEN,Gate Approach (Outbound),4.13,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+148.94,4416,GREEN,Gate Approach (Outbound),3.93,2,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+149.14,4422,GREEN,Gate Approach (Outbound),3.73,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+149.34,4428,GREEN,Gate Approach (Outbound),3.52,2,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+149.55,4434,GREEN,Gate Approach (Outbound),3.32,3,0,0,0,3,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+149.75,4440,GREEN,Gate Approach (Outbound),3.12,3,0,0,0,3,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+149.95,4446,GREEN,Gate Approach (Outbound),2.92,2,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+150.15,4452,GREEN,Gate Approach (Outbound),2.71,2,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+150.36,4458,GREEN,Gate Approach (Outbound),2.51,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+150.56,4464,GREEN,Gate Approach (Outbound),2.31,1,0,0,0,1,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+150.76,4470,GREEN,Gate Approach (Outbound),2.11,2,0,0,0,2,0,0,Assigned 10.0s green to Gate Approach (Outbound) (queue: 1 vehicles)
+150.96,4476,YELLOW,Gate Approach (Outbound),1.91,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+151.17,4482,YELLOW,Gate Approach (Outbound),2.8,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+151.37,4488,YELLOW,Gate Approach (Outbound),2.6,1,0,0,0,1,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+151.57,4494,YELLOW,Gate Approach (Outbound),2.39,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+151.77,4500,YELLOW,Gate Approach (Outbound),2.19,2,0,1,0,1,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+151.97,4506,YELLOW,Gate Approach (Outbound),1.99,2,0,1,0,1,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+152.18,4512,YELLOW,Gate Approach (Outbound),1.79,2,0,1,0,1,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+152.38,4518,YELLOW,Gate Approach (Outbound),1.58,2,0,1,0,1,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+152.58,4524,YELLOW,Gate Approach (Outbound),1.38,3,0,1,0,3,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+152.78,4530,YELLOW,Gate Approach (Outbound),1.18,2,0,1,0,1,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+152.99,4536,YELLOW,Gate Approach (Outbound),0.98,2,0,1,0,1,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+153.19,4542,YELLOW,Gate Approach (Outbound),0.77,3,0,1,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+153.39,4548,YELLOW,Gate Approach (Outbound),0.57,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+153.59,4554,YELLOW,Gate Approach (Outbound),0.37,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+153.8,4560,YELLOW,Gate Approach (Outbound),0.17,2,0,0,0,2,0,0,Gate Approach (Outbound) cleared early (queue=0) -> switching
+154.0,4566,ALL_RED,Gate Approach (Outbound),0.0,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+154.2,4572,ALL_RED,Gate Approach (Outbound),1.8,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+154.4,4578,ALL_RED,Gate Approach (Outbound),1.6,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+154.61,4584,ALL_RED,Gate Approach (Outbound),1.39,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+154.81,4590,ALL_RED,Gate Approach (Outbound),1.19,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+155.01,4596,ALL_RED,Gate Approach (Outbound),0.99,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+155.21,4602,ALL_RED,Gate Approach (Outbound),0.79,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+155.41,4608,ALL_RED,Gate Approach (Outbound),0.58,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+155.62,4614,ALL_RED,Gate Approach (Outbound),0.38,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+155.82,4620,ALL_RED,Gate Approach (Outbound),0.18,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+156.02,4626,GREEN,Hussey Rd (Inbound),0.0,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+156.22,4632,GREEN,Hussey Rd (Inbound),13.8,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+156.43,4638,GREEN,Hussey Rd (Inbound),13.6,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+156.63,4644,GREEN,Hussey Rd (Inbound),13.39,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+156.83,4650,GREEN,Hussey Rd (Inbound),13.19,4,0,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+157.03,4656,GREEN,Hussey Rd (Inbound),12.99,3,0,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+157.24,4662,GREEN,Hussey Rd (Inbound),12.79,3,0,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+157.44,4668,GREEN,Hussey Rd (Inbound),12.58,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+157.64,4674,GREEN,Hussey Rd (Inbound),12.38,4,0,1,0,2,1,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+157.84,4680,GREEN,Hussey Rd (Inbound),12.18,4,0,1,0,2,1,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+158.05,4686,GREEN,Hussey Rd (Inbound),11.98,2,0,1,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+158.25,4692,GREEN,Hussey Rd (Inbound),11.77,0,0,0,1,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+158.45,4698,GREEN,Hussey Rd (Inbound),11.57,1,1,1,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+158.65,4704,GREEN,Hussey Rd (Inbound),11.37,1,1,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+158.85,4710,GREEN,Hussey Rd (Inbound),11.17,1,1,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+159.06,4716,GREEN,Hussey Rd (Inbound),10.96,0,1,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+159.26,4722,GREEN,Hussey Rd (Inbound),10.76,0,1,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+159.46,4728,GREEN,Hussey Rd (Inbound),10.56,0,1,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+159.66,4734,GREEN,Hussey Rd (Inbound),10.36,0,1,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+159.87,4740,GREEN,Hussey Rd (Inbound),10.16,0,1,0,0,0,1,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+160.07,4746,GREEN,Hussey Rd (Inbound),9.95,0,1,1,0,0,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+160.27,4752,GREEN,Hussey Rd (Inbound),9.75,0,1,1,0,0,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+160.47,4758,GREEN,Hussey Rd (Inbound),9.55,0,0,0,0,0,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+160.68,4764,GREEN,Hussey Rd (Inbound),9.35,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+160.88,4770,GREEN,Hussey Rd (Inbound),9.14,3,0,1,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+161.08,4776,GREEN,Hussey Rd (Inbound),8.94,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+161.28,4782,GREEN,Hussey Rd (Inbound),8.74,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+161.49,4788,GREEN,Hussey Rd (Inbound),8.54,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+161.69,4794,GREEN,Hussey Rd (Inbound),8.33,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+161.89,4800,GREEN,Hussey Rd (Inbound),8.13,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+162.09,4806,GREEN,Hussey Rd (Inbound),7.93,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+162.29,4812,GREEN,Hussey Rd (Inbound),7.73,4,0,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+162.5,4818,GREEN,Hussey Rd (Inbound),7.52,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+162.7,4824,GREEN,Hussey Rd (Inbound),7.32,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+162.9,4830,GREEN,Hussey Rd (Inbound),7.12,0,0,0,0,0,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+163.1,4836,GREEN,Hussey Rd (Inbound),6.92,0,0,0,0,0,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+163.31,4842,GREEN,Hussey Rd (Inbound),6.71,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+163.51,4848,GREEN,Hussey Rd (Inbound),6.51,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+163.71,4854,GREEN,Hussey Rd (Inbound),6.31,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+163.91,4860,GREEN,Hussey Rd (Inbound),6.11,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+164.12,4866,GREEN,Hussey Rd (Inbound),5.91,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+164.32,4872,GREEN,Hussey Rd (Inbound),5.7,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+164.52,4878,GREEN,Hussey Rd (Inbound),5.5,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+164.72,4884,GREEN,Hussey Rd (Inbound),5.3,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+164.93,4890,GREEN,Hussey Rd (Inbound),5.1,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+165.13,4896,GREEN,Hussey Rd (Inbound),4.89,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+165.33,4902,GREEN,Hussey Rd (Inbound),4.69,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+165.53,4908,GREEN,Hussey Rd (Inbound),4.49,2,1,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+165.74,4914,GREEN,Hussey Rd (Inbound),4.29,3,2,0,0,5,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+165.94,4920,GREEN,Hussey Rd (Inbound),4.08,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+166.14,4926,GREEN,Hussey Rd (Inbound),3.88,2,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+166.34,4932,GREEN,Hussey Rd (Inbound),3.68,2,0,0,0,3,1,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+166.54,4938,GREEN,Hussey Rd (Inbound),3.48,0,0,1,0,1,1,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+166.75,4944,GREEN,Hussey Rd (Inbound),3.27,0,0,1,0,0,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+166.95,4950,GREEN,Hussey Rd (Inbound),3.07,0,0,0,0,0,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+167.15,4956,YELLOW,Hussey Rd (Inbound),2.87,0,1,1,0,0,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+167.35,4962,YELLOW,Hussey Rd (Inbound),2.8,0,2,1,1,0,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+167.56,4968,YELLOW,Hussey Rd (Inbound),2.6,1,0,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+167.76,4974,YELLOW,Hussey Rd (Inbound),2.39,3,0,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+167.96,4980,YELLOW,Hussey Rd (Inbound),2.19,5,0,0,0,5,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+168.16,4986,YELLOW,Hussey Rd (Inbound),1.99,3,0,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+168.37,4992,YELLOW,Hussey Rd (Inbound),1.79,3,0,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+168.57,4998,YELLOW,Hussey Rd (Inbound),1.58,3,0,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+168.77,5004,YELLOW,Hussey Rd (Inbound),1.38,4,0,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+168.97,5010,YELLOW,Hussey Rd (Inbound),1.18,4,0,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+169.18,5016,YELLOW,Hussey Rd (Inbound),0.98,4,0,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+169.38,5022,YELLOW,Hussey Rd (Inbound),0.77,4,0,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+169.58,5028,YELLOW,Hussey Rd (Inbound),0.57,3,0,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+169.78,5034,YELLOW,Hussey Rd (Inbound),0.37,3,0,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+169.98,5040,YELLOW,Hussey Rd (Inbound),0.17,3,0,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+170.19,5046,ALL_RED,Hussey Rd (Inbound),0.0,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+170.39,5052,ALL_RED,Hussey Rd (Inbound),1.8,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+170.59,5058,ALL_RED,Hussey Rd (Inbound),1.6,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+170.79,5064,ALL_RED,Hussey Rd (Inbound),1.39,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+171.0,5070,ALL_RED,Hussey Rd (Inbound),1.19,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+171.2,5076,ALL_RED,Hussey Rd (Inbound),0.99,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+171.4,5082,ALL_RED,Hussey Rd (Inbound),0.79,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+171.6,5088,ALL_RED,Hussey Rd (Inbound),0.58,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+171.81,5094,ALL_RED,Hussey Rd (Inbound),0.38,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+172.01,5100,ALL_RED,Hussey Rd (Inbound),0.18,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+172.21,5106,GREEN,Hussey Rd (Inbound),0.0,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+172.41,5112,GREEN,Hussey Rd (Inbound),13.8,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+172.62,5118,GREEN,Hussey Rd (Inbound),13.6,3,0,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+172.82,5124,GREEN,Hussey Rd (Inbound),13.39,3,1,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+173.02,5130,GREEN,Hussey Rd (Inbound),13.19,2,1,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+173.22,5136,GREEN,Hussey Rd (Inbound),12.99,1,1,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+173.42,5142,GREEN,Hussey Rd (Inbound),12.79,0,1,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+173.63,5148,GREEN,Hussey Rd (Inbound),12.58,0,1,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+173.83,5154,GREEN,Hussey Rd (Inbound),12.38,1,1,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+174.03,5160,GREEN,Hussey Rd (Inbound),12.18,2,1,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+174.23,5166,GREEN,Hussey Rd (Inbound),11.98,5,1,0,0,6,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+174.44,5172,GREEN,Hussey Rd (Inbound),11.77,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+174.64,5178,GREEN,Hussey Rd (Inbound),11.57,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+174.84,5184,GREEN,Hussey Rd (Inbound),11.37,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+175.04,5190,GREEN,Hussey Rd (Inbound),11.17,4,0,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+175.25,5196,GREEN,Hussey Rd (Inbound),10.96,3,0,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+175.45,5202,GREEN,Hussey Rd (Inbound),10.76,3,1,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+175.65,5208,GREEN,Hussey Rd (Inbound),10.56,3,1,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+175.85,5214,GREEN,Hussey Rd (Inbound),10.36,3,1,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+176.06,5220,GREEN,Hussey Rd (Inbound),10.16,1,2,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+176.26,5226,GREEN,Hussey Rd (Inbound),9.95,1,1,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+176.46,5232,GREEN,Hussey Rd (Inbound),9.75,0,1,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+176.66,5238,GREEN,Hussey Rd (Inbound),9.55,1,1,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+176.87,5244,GREEN,Hussey Rd (Inbound),9.35,2,1,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+177.07,5250,GREEN,Hussey Rd (Inbound),9.14,2,1,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+177.27,5256,GREEN,Hussey Rd (Inbound),8.94,1,1,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+177.47,5262,GREEN,Hussey Rd (Inbound),8.74,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+177.67,5268,GREEN,Hussey Rd (Inbound),8.54,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+177.88,5274,GREEN,Hussey Rd (Inbound),8.33,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+178.08,5280,GREEN,Hussey Rd (Inbound),8.13,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+178.28,5286,GREEN,Hussey Rd (Inbound),7.93,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+178.48,5292,GREEN,Hussey Rd (Inbound),7.73,3,0,0,0,2,0,1,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+178.69,5298,GREEN,Hussey Rd (Inbound),7.52,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+178.89,5304,GREEN,Hussey Rd (Inbound),7.32,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+179.09,5310,GREEN,Hussey Rd (Inbound),7.12,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+179.29,5316,GREEN,Hussey Rd (Inbound),6.92,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+179.5,5322,GREEN,Hussey Rd (Inbound),6.71,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+179.7,5328,GREEN,Hussey Rd (Inbound),6.51,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+179.9,5334,GREEN,Hussey Rd (Inbound),6.31,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+180.1,5340,GREEN,Hussey Rd (Inbound),6.11,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+180.31,5346,GREEN,Hussey Rd (Inbound),5.91,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+180.51,5352,GREEN,Hussey Rd (Inbound),5.7,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+180.71,5358,GREEN,Hussey Rd (Inbound),5.5,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+180.91,5364,GREEN,Hussey Rd (Inbound),5.3,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+181.11,5370,GREEN,Hussey Rd (Inbound),5.1,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+181.32,5376,GREEN,Hussey Rd (Inbound),4.89,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+181.52,5382,GREEN,Hussey Rd (Inbound),4.69,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+181.72,5388,GREEN,Hussey Rd (Inbound),4.49,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+181.92,5394,GREEN,Hussey Rd (Inbound),4.29,4,0,0,0,4,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+182.13,5400,GREEN,Hussey Rd (Inbound),4.08,5,0,0,0,5,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+182.33,5406,GREEN,Hussey Rd (Inbound),3.88,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+182.53,5412,GREEN,Hussey Rd (Inbound),3.68,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+182.73,5418,GREEN,Hussey Rd (Inbound),3.48,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+182.94,5424,GREEN,Hussey Rd (Inbound),3.27,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+183.14,5430,GREEN,Hussey Rd (Inbound),3.07,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+183.34,5436,GREEN,Hussey Rd (Inbound),2.87,1,0,0,0,1,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+183.54,5442,GREEN,Hussey Rd (Inbound),2.67,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+183.75,5448,GREEN,Hussey Rd (Inbound),2.47,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+183.95,5454,GREEN,Hussey Rd (Inbound),2.26,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+184.15,5460,GREEN,Hussey Rd (Inbound),2.06,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+184.35,5466,GREEN,Hussey Rd (Inbound),1.86,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+184.55,5472,GREEN,Hussey Rd (Inbound),1.66,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+184.76,5478,GREEN,Hussey Rd (Inbound),1.45,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+184.96,5484,GREEN,Hussey Rd (Inbound),1.25,2,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+185.16,5490,GREEN,Hussey Rd (Inbound),1.05,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+185.36,5496,GREEN,Hussey Rd (Inbound),0.85,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+185.57,5502,GREEN,Hussey Rd (Inbound),0.64,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+185.77,5508,GREEN,Hussey Rd (Inbound),0.44,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+185.97,5514,GREEN,Hussey Rd (Inbound),0.24,3,0,0,0,3,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+186.17,5520,GREEN,Hussey Rd (Inbound),0.04,2,0,0,0,2,0,0,Assigned 14.0s green to Hussey Rd (Inbound) (queue: 3 vehicles)
+186.38,5526,YELLOW,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,0,Allocated green (14.0s) expired
+186.58,5532,YELLOW,Hussey Rd (Inbound),2.8,1,0,0,0,1,0,0,Allocated green (14.0s) expired
+186.78,5538,YELLOW,Hussey Rd (Inbound),2.6,2,0,0,0,2,0,0,Allocated green (14.0s) expired
+186.98,5544,YELLOW,Hussey Rd (Inbound),2.39,2,0,0,0,2,0,0,Allocated green (14.0s) expired
+187.19,5550,YELLOW,Hussey Rd (Inbound),2.19,3,0,0,0,3,0,0,Allocated green (14.0s) expired
+187.39,5556,YELLOW,Hussey Rd (Inbound),1.99,2,0,0,0,2,0,0,Allocated green (14.0s) expired
+187.59,5562,YELLOW,Hussey Rd (Inbound),1.79,1,0,0,0,1,0,0,Allocated green (14.0s) expired
+187.79,5568,YELLOW,Hussey Rd (Inbound),1.58,1,0,0,0,1,0,0,Allocated green (14.0s) expired
+188.0,5574,YELLOW,Hussey Rd (Inbound),1.38,1,0,0,0,1,0,0,Allocated green (14.0s) expired
+188.2,5580,YELLOW,Hussey Rd (Inbound),1.18,1,0,0,0,1,0,0,Allocated green (14.0s) expired
+188.4,5586,YELLOW,Hussey Rd (Inbound),0.98,1,0,0,0,1,0,0,Allocated green (14.0s) expired
+188.6,5592,YELLOW,Hussey Rd (Inbound),0.77,1,0,0,0,1,0,0,Allocated green (14.0s) expired
+188.8,5598,YELLOW,Hussey Rd (Inbound),0.57,1,0,0,0,1,0,0,Allocated green (14.0s) expired
+189.01,5604,YELLOW,Hussey Rd (Inbound),0.37,1,0,0,0,1,0,0,Allocated green (14.0s) expired
+189.21,5610,YELLOW,Hussey Rd (Inbound),0.17,1,0,0,0,1,0,0,Allocated green (14.0s) expired
+189.41,5616,ALL_RED,Hussey Rd (Inbound),0.0,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+189.61,5622,ALL_RED,Hussey Rd (Inbound),1.8,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+189.82,5628,ALL_RED,Hussey Rd (Inbound),1.6,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+190.02,5634,ALL_RED,Hussey Rd (Inbound),1.39,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+190.22,5640,ALL_RED,Hussey Rd (Inbound),1.19,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+190.42,5646,ALL_RED,Hussey Rd (Inbound),0.99,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+190.63,5652,ALL_RED,Hussey Rd (Inbound),0.79,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+190.83,5658,ALL_RED,Hussey Rd (Inbound),0.58,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+191.03,5664,ALL_RED,Hussey Rd (Inbound),0.38,0,0,0,0,0,0,0,Intersection clearance (All-Red)
+191.23,5670,ALL_RED,Hussey Rd (Inbound),0.18,0,0,0,0,0,0,0,Intersection clearance (All-Red)
+191.44,5676,GREEN,Gate Approach (Outbound),0.0,0,0,0,0,0,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+191.64,5682,GREEN,Gate Approach (Outbound),7.8,1,0,0,0,2,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+191.84,5688,GREEN,Gate Approach (Outbound),7.6,1,0,0,0,1,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+192.04,5694,GREEN,Gate Approach (Outbound),7.39,2,0,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+192.24,5700,GREEN,Gate Approach (Outbound),7.19,1,0,0,0,1,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+192.45,5706,GREEN,Gate Approach (Outbound),6.99,3,0,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+192.65,5712,GREEN,Gate Approach (Outbound),6.79,2,0,0,0,1,0,1,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+192.85,5718,GREEN,Gate Approach (Outbound),6.58,3,0,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+193.05,5724,GREEN,Gate Approach (Outbound),6.38,2,0,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+193.26,5730,GREEN,Gate Approach (Outbound),6.18,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+193.46,5736,GREEN,Gate Approach (Outbound),5.98,3,1,0,0,4,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+193.66,5742,GREEN,Gate Approach (Outbound),5.77,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+193.86,5748,GREEN,Gate Approach (Outbound),5.57,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+194.07,5754,GREEN,Gate Approach (Outbound),5.37,0,1,0,0,1,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+194.27,5760,GREEN,Gate Approach (Outbound),5.17,0,1,0,0,1,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+194.47,5766,GREEN,Gate Approach (Outbound),4.96,0,1,0,0,1,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+194.67,5772,GREEN,Gate Approach (Outbound),4.76,1,1,0,0,2,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+194.88,5778,GREEN,Gate Approach (Outbound),4.56,1,1,0,0,2,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+195.08,5784,GREEN,Gate Approach (Outbound),4.36,1,1,0,0,2,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+195.28,5790,GREEN,Gate Approach (Outbound),4.16,1,1,0,0,2,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+195.48,5796,GREEN,Gate Approach (Outbound),3.95,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+195.68,5802,GREEN,Gate Approach (Outbound),3.75,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+195.89,5808,GREEN,Gate Approach (Outbound),3.55,4,1,0,0,5,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+196.09,5814,GREEN,Gate Approach (Outbound),3.35,2,1,0,0,4,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+196.29,5820,GREEN,Gate Approach (Outbound),3.14,1,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+196.49,5826,GREEN,Gate Approach (Outbound),2.94,0,1,0,0,2,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+196.7,5832,GREEN,Gate Approach (Outbound),2.74,0,1,0,0,2,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+196.9,5838,GREEN,Gate Approach (Outbound),2.54,0,1,1,0,1,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+197.1,5844,GREEN,Gate Approach (Outbound),2.33,1,1,1,0,2,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+197.3,5850,GREEN,Gate Approach (Outbound),2.13,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+197.51,5856,GREEN,Gate Approach (Outbound),1.93,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+197.71,5862,GREEN,Gate Approach (Outbound),1.73,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+197.91,5868,GREEN,Gate Approach (Outbound),1.52,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+198.11,5874,GREEN,Gate Approach (Outbound),1.32,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+198.32,5880,GREEN,Gate Approach (Outbound),1.12,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+198.52,5886,GREEN,Gate Approach (Outbound),0.92,0,1,0,0,1,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+198.72,5892,GREEN,Gate Approach (Outbound),0.71,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+198.92,5898,GREEN,Gate Approach (Outbound),0.51,1,1,0,0,2,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+199.12,5904,GREEN,Gate Approach (Outbound),0.31,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+199.33,5910,GREEN,Gate Approach (Outbound),0.11,2,1,0,0,3,0,0,Assigned 8.0s green to Gate Approach (Outbound) (queue: 0 vehicles)
+199.53,5916,YELLOW,Gate Approach (Outbound),0.0,2,1,0,0,3,0,0,Allocated green (8.0s) expired
+199.73,5922,YELLOW,Gate Approach (Outbound),2.8,2,1,0,0,3,0,0,Allocated green (8.0s) expired
+199.93,5928,YELLOW,Gate Approach (Outbound),2.6,2,1,0,0,4,0,0,Allocated green (8.0s) expired
+200.14,5934,YELLOW,Gate Approach (Outbound),2.39,2,0,0,0,2,0,0,Allocated green (8.0s) expired
+200.34,5940,YELLOW,Gate Approach (Outbound),2.19,2,0,0,0,2,0,0,Allocated green (8.0s) expired
+200.54,5946,YELLOW,Gate Approach (Outbound),1.99,2,0,0,0,2,0,0,Allocated green (8.0s) expired
+200.74,5952,YELLOW,Gate Approach (Outbound),1.79,2,1,0,0,3,0,0,Allocated green (8.0s) expired
+200.95,5958,YELLOW,Gate Approach (Outbound),1.58,2,1,0,0,3,0,0,Allocated green (8.0s) expired
+201.15,5964,YELLOW,Gate Approach (Outbound),1.38,2,1,0,0,3,0,0,Allocated green (8.0s) expired
+201.35,5970,YELLOW,Gate Approach (Outbound),1.18,2,1,0,0,3,0,0,Allocated green (8.0s) expired
+201.55,5976,YELLOW,Gate Approach (Outbound),0.98,2,1,0,0,3,0,0,Allocated green (8.0s) expired
+201.76,5982,YELLOW,Gate Approach (Outbound),0.77,2,1,0,0,3,0,0,Allocated green (8.0s) expired
+201.96,5988,YELLOW,Gate Approach (Outbound),0.57,3,1,0,0,4,0,0,Allocated green (8.0s) expired
+202.16,5994,YELLOW,Gate Approach (Outbound),0.37,2,1,0,0,3,0,0,Allocated green (8.0s) expired
+202.36,6000,YELLOW,Gate Approach (Outbound),0.17,1,1,0,0,2,0,0,Allocated green (8.0s) expired
+202.57,6006,ALL_RED,Gate Approach (Outbound),0.0,2,1,0,0,3,0,0,Intersection clearance (All-Red)
+202.77,6012,ALL_RED,Gate Approach (Outbound),1.8,2,1,0,0,3,0,0,Intersection clearance (All-Red)
+202.97,6018,ALL_RED,Gate Approach (Outbound),1.6,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+203.17,6024,ALL_RED,Gate Approach (Outbound),1.39,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+203.37,6030,ALL_RED,Gate Approach (Outbound),1.19,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+203.58,6036,ALL_RED,Gate Approach (Outbound),0.99,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+203.78,6042,ALL_RED,Gate Approach (Outbound),0.79,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+203.98,6048,ALL_RED,Gate Approach (Outbound),0.58,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+204.18,6054,ALL_RED,Gate Approach (Outbound),0.38,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+204.39,6060,ALL_RED,Gate Approach (Outbound),0.18,3,1,0,0,4,0,0,Intersection clearance (All-Red)
+204.59,6066,GREEN,Hussey Rd (Inbound),0.0,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+204.79,6072,GREEN,Hussey Rd (Inbound),11.8,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+204.99,6078,GREEN,Hussey Rd (Inbound),11.6,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+205.2,6084,GREEN,Hussey Rd (Inbound),11.39,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+205.4,6090,GREEN,Hussey Rd (Inbound),11.19,4,1,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+205.6,6096,GREEN,Hussey Rd (Inbound),10.99,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+205.8,6102,GREEN,Hussey Rd (Inbound),10.79,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+206.01,6108,GREEN,Hussey Rd (Inbound),10.58,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+206.21,6114,GREEN,Hussey Rd (Inbound),10.38,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+206.41,6120,GREEN,Hussey Rd (Inbound),10.18,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+206.61,6126,GREEN,Hussey Rd (Inbound),9.98,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+206.81,6132,GREEN,Hussey Rd (Inbound),9.77,3,1,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+207.02,6138,GREEN,Hussey Rd (Inbound),9.57,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+207.22,6144,GREEN,Hussey Rd (Inbound),9.37,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+207.42,6150,GREEN,Hussey Rd (Inbound),9.17,6,0,0,0,6,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+207.62,6156,GREEN,Hussey Rd (Inbound),8.96,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+207.83,6162,GREEN,Hussey Rd (Inbound),8.76,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+208.03,6168,GREEN,Hussey Rd (Inbound),8.56,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+208.23,6174,GREEN,Hussey Rd (Inbound),8.36,4,1,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+208.43,6180,GREEN,Hussey Rd (Inbound),8.16,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+208.64,6186,GREEN,Hussey Rd (Inbound),7.95,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+208.84,6192,GREEN,Hussey Rd (Inbound),7.75,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+209.04,6198,GREEN,Hussey Rd (Inbound),7.55,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+209.24,6204,GREEN,Hussey Rd (Inbound),7.35,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+209.45,6210,GREEN,Hussey Rd (Inbound),7.14,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+209.65,6216,GREEN,Hussey Rd (Inbound),6.94,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+209.85,6222,GREEN,Hussey Rd (Inbound),6.74,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+210.05,6228,GREEN,Hussey Rd (Inbound),6.54,3,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+210.25,6234,GREEN,Hussey Rd (Inbound),6.33,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+210.46,6240,GREEN,Hussey Rd (Inbound),6.13,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+210.66,6246,GREEN,Hussey Rd (Inbound),5.93,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+210.86,6252,GREEN,Hussey Rd (Inbound),5.73,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+211.06,6258,GREEN,Hussey Rd (Inbound),5.52,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+211.27,6264,GREEN,Hussey Rd (Inbound),5.32,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+211.47,6270,GREEN,Hussey Rd (Inbound),5.12,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+211.67,6276,GREEN,Hussey Rd (Inbound),4.92,1,1,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+211.87,6282,GREEN,Hussey Rd (Inbound),4.71,1,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+212.08,6288,GREEN,Hussey Rd (Inbound),4.51,2,1,1,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+212.28,6294,GREEN,Hussey Rd (Inbound),4.31,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+212.48,6300,GREEN,Hussey Rd (Inbound),4.11,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+212.68,6306,GREEN,Hussey Rd (Inbound),3.91,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+212.89,6312,GREEN,Hussey Rd (Inbound),3.7,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+213.09,6318,GREEN,Hussey Rd (Inbound),3.5,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+213.29,6324,GREEN,Hussey Rd (Inbound),3.3,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+213.49,6330,GREEN,Hussey Rd (Inbound),3.1,1,1,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+213.7,6336,GREEN,Hussey Rd (Inbound),2.89,1,1,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+213.9,6342,GREEN,Hussey Rd (Inbound),2.69,2,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+214.1,6348,GREEN,Hussey Rd (Inbound),2.49,2,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+214.3,6354,GREEN,Hussey Rd (Inbound),2.29,2,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+214.5,6360,GREEN,Hussey Rd (Inbound),2.08,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+214.71,6366,GREEN,Hussey Rd (Inbound),1.88,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+214.91,6372,GREEN,Hussey Rd (Inbound),1.68,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+215.11,6378,GREEN,Hussey Rd (Inbound),1.48,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+215.31,6384,GREEN,Hussey Rd (Inbound),1.27,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+215.52,6390,GREEN,Hussey Rd (Inbound),1.07,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+215.72,6396,GREEN,Hussey Rd (Inbound),0.87,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+215.92,6402,GREEN,Hussey Rd (Inbound),0.67,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+216.12,6408,GREEN,Hussey Rd (Inbound),0.47,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+216.33,6414,GREEN,Hussey Rd (Inbound),0.26,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+216.53,6420,GREEN,Hussey Rd (Inbound),0.06,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+216.73,6426,YELLOW,Hussey Rd (Inbound),0.0,2,1,0,0,3,0,0,Allocated green (12.0s) expired
+216.93,6432,YELLOW,Hussey Rd (Inbound),2.8,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+217.14,6438,YELLOW,Hussey Rd (Inbound),2.6,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+217.34,6444,YELLOW,Hussey Rd (Inbound),2.39,2,1,0,0,3,0,0,Allocated green (12.0s) expired
+217.54,6450,YELLOW,Hussey Rd (Inbound),2.19,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+217.74,6456,YELLOW,Hussey Rd (Inbound),1.99,2,1,0,0,3,0,0,Allocated green (12.0s) expired
+217.94,6462,YELLOW,Hussey Rd (Inbound),1.79,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+218.15,6468,YELLOW,Hussey Rd (Inbound),1.58,3,1,0,0,4,0,0,Allocated green (12.0s) expired
+218.35,6474,YELLOW,Hussey Rd (Inbound),1.38,3,1,0,0,4,0,0,Allocated green (12.0s) expired
+218.55,6480,YELLOW,Hussey Rd (Inbound),1.18,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+218.75,6486,YELLOW,Hussey Rd (Inbound),0.98,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+218.96,6492,YELLOW,Hussey Rd (Inbound),0.77,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+219.16,6498,YELLOW,Hussey Rd (Inbound),0.57,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+219.36,6504,YELLOW,Hussey Rd (Inbound),0.37,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+219.56,6510,YELLOW,Hussey Rd (Inbound),0.17,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+219.77,6516,ALL_RED,Hussey Rd (Inbound),0.0,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+219.97,6522,ALL_RED,Hussey Rd (Inbound),1.8,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+220.17,6528,ALL_RED,Hussey Rd (Inbound),1.6,1,0,0,0,2,0,0,Intersection clearance (All-Red)
+220.37,6534,ALL_RED,Hussey Rd (Inbound),1.39,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+220.58,6540,ALL_RED,Hussey Rd (Inbound),1.19,2,0,0,0,3,0,0,Intersection clearance (All-Red)
+220.78,6546,ALL_RED,Hussey Rd (Inbound),0.99,2,1,0,0,3,0,0,Intersection clearance (All-Red)
+220.98,6552,ALL_RED,Hussey Rd (Inbound),0.79,2,1,0,0,3,0,0,Intersection clearance (All-Red)
+221.18,6558,ALL_RED,Hussey Rd (Inbound),0.58,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+221.38,6564,ALL_RED,Hussey Rd (Inbound),0.38,2,1,0,0,4,0,0,Intersection clearance (All-Red)
+221.59,6570,ALL_RED,Hussey Rd (Inbound),0.18,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+221.79,6576,GREEN,Hussey Rd (Inbound),0.0,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+221.99,6582,GREEN,Hussey Rd (Inbound),11.8,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+222.19,6588,GREEN,Hussey Rd (Inbound),11.6,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+222.4,6594,GREEN,Hussey Rd (Inbound),11.39,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+222.6,6600,GREEN,Hussey Rd (Inbound),11.19,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+222.8,6606,GREEN,Hussey Rd (Inbound),10.99,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+223.0,6612,GREEN,Hussey Rd (Inbound),10.79,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+223.21,6618,GREEN,Hussey Rd (Inbound),10.58,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+223.41,6624,GREEN,Hussey Rd (Inbound),10.38,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+223.61,6630,GREEN,Hussey Rd (Inbound),10.18,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+223.81,6636,GREEN,Hussey Rd (Inbound),9.98,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+224.02,6642,GREEN,Hussey Rd (Inbound),9.77,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+224.22,6648,GREEN,Hussey Rd (Inbound),9.57,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+224.42,6654,GREEN,Hussey Rd (Inbound),9.37,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+224.62,6660,GREEN,Hussey Rd (Inbound),9.17,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+224.83,6666,GREEN,Hussey Rd (Inbound),8.96,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+225.03,6672,GREEN,Hussey Rd (Inbound),8.76,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+225.23,6678,GREEN,Hussey Rd (Inbound),8.56,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+225.43,6684,GREEN,Hussey Rd (Inbound),8.36,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+225.63,6690,GREEN,Hussey Rd (Inbound),8.16,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+225.84,6696,GREEN,Hussey Rd (Inbound),7.95,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+226.04,6702,GREEN,Hussey Rd (Inbound),7.75,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+226.24,6708,GREEN,Hussey Rd (Inbound),7.55,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+226.44,6714,GREEN,Hussey Rd (Inbound),7.35,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+226.65,6720,GREEN,Hussey Rd (Inbound),7.14,4,1,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+226.85,6726,GREEN,Hussey Rd (Inbound),6.94,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+227.05,6732,GREEN,Hussey Rd (Inbound),6.74,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+227.25,6738,GREEN,Hussey Rd (Inbound),6.54,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+227.46,6744,GREEN,Hussey Rd (Inbound),6.33,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+227.66,6750,GREEN,Hussey Rd (Inbound),6.13,2,1,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+227.86,6756,GREEN,Hussey Rd (Inbound),5.93,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+228.06,6762,GREEN,Hussey Rd (Inbound),5.73,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+228.27,6768,GREEN,Hussey Rd (Inbound),5.52,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+228.47,6774,GREEN,Hussey Rd (Inbound),5.32,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+228.67,6780,GREEN,Hussey Rd (Inbound),5.12,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+228.87,6786,GREEN,Hussey Rd (Inbound),4.92,3,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+229.07,6792,GREEN,Hussey Rd (Inbound),4.71,2,2,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+229.28,6798,GREEN,Hussey Rd (Inbound),4.51,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+229.48,6804,GREEN,Hussey Rd (Inbound),4.31,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+229.68,6810,GREEN,Hussey Rd (Inbound),4.11,5,0,0,0,4,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+229.88,6816,GREEN,Hussey Rd (Inbound),3.91,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+230.09,6822,GREEN,Hussey Rd (Inbound),3.7,4,1,0,0,4,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+230.29,6828,GREEN,Hussey Rd (Inbound),3.5,3,1,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+230.49,6834,GREEN,Hussey Rd (Inbound),3.3,2,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+230.69,6840,GREEN,Hussey Rd (Inbound),3.1,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+230.9,6846,GREEN,Hussey Rd (Inbound),2.89,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+231.1,6852,GREEN,Hussey Rd (Inbound),2.69,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+231.3,6858,GREEN,Hussey Rd (Inbound),2.49,2,0,0,0,1,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+231.5,6864,GREEN,Hussey Rd (Inbound),2.29,2,1,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+231.71,6870,GREEN,Hussey Rd (Inbound),2.08,3,0,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+231.91,6876,GREEN,Hussey Rd (Inbound),1.88,2,1,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+232.11,6882,GREEN,Hussey Rd (Inbound),1.68,3,0,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+232.31,6888,GREEN,Hussey Rd (Inbound),1.48,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+232.51,6894,GREEN,Hussey Rd (Inbound),1.27,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+232.72,6900,GREEN,Hussey Rd (Inbound),1.07,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+232.92,6906,GREEN,Hussey Rd (Inbound),0.87,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+233.12,6912,GREEN,Hussey Rd (Inbound),0.67,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+233.32,6918,GREEN,Hussey Rd (Inbound),0.47,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+233.53,6924,GREEN,Hussey Rd (Inbound),0.26,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+233.73,6930,GREEN,Hussey Rd (Inbound),0.06,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+233.93,6936,YELLOW,Hussey Rd (Inbound),0.0,0,0,0,0,0,0,0,Allocated green (12.0s) expired
+234.13,6942,YELLOW,Hussey Rd (Inbound),2.8,0,0,0,0,1,0,0,Allocated green (12.0s) expired
+234.34,6948,YELLOW,Hussey Rd (Inbound),2.6,0,0,0,0,1,0,0,Allocated green (12.0s) expired
+234.54,6954,YELLOW,Hussey Rd (Inbound),2.39,0,0,0,0,1,0,0,Allocated green (12.0s) expired
+234.74,6960,YELLOW,Hussey Rd (Inbound),2.19,0,1,0,0,1,0,0,Allocated green (12.0s) expired
+234.94,6966,YELLOW,Hussey Rd (Inbound),1.99,0,0,1,0,1,0,0,Allocated green (12.0s) expired
+235.15,6972,YELLOW,Hussey Rd (Inbound),1.79,0,0,0,0,1,0,0,Allocated green (12.0s) expired
+235.35,6978,YELLOW,Hussey Rd (Inbound),1.58,0,1,0,0,1,0,0,Allocated green (12.0s) expired
+235.55,6984,YELLOW,Hussey Rd (Inbound),1.38,0,1,0,0,1,0,0,Allocated green (12.0s) expired
+235.75,6990,YELLOW,Hussey Rd (Inbound),1.18,1,1,0,0,2,0,0,Allocated green (12.0s) expired
+235.96,6996,YELLOW,Hussey Rd (Inbound),0.98,3,1,0,0,4,0,0,Allocated green (12.0s) expired
+236.16,7002,YELLOW,Hussey Rd (Inbound),0.77,4,1,0,0,5,0,0,Allocated green (12.0s) expired
+236.36,7008,YELLOW,Hussey Rd (Inbound),0.57,5,1,0,0,6,0,0,Allocated green (12.0s) expired
+236.56,7014,YELLOW,Hussey Rd (Inbound),0.37,4,0,0,0,4,0,0,Allocated green (12.0s) expired
+236.76,7020,YELLOW,Hussey Rd (Inbound),0.17,4,0,0,0,4,0,0,Allocated green (12.0s) expired
+236.97,7026,ALL_RED,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+237.17,7032,ALL_RED,Hussey Rd (Inbound),1.8,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+237.37,7038,ALL_RED,Hussey Rd (Inbound),1.6,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+237.57,7044,ALL_RED,Hussey Rd (Inbound),1.39,4,0,0,0,3,0,1,Intersection clearance (All-Red)
+237.78,7050,ALL_RED,Hussey Rd (Inbound),1.19,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+237.98,7056,ALL_RED,Hussey Rd (Inbound),0.99,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+238.18,7062,ALL_RED,Hussey Rd (Inbound),0.79,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+238.38,7068,ALL_RED,Hussey Rd (Inbound),0.58,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+238.59,7074,ALL_RED,Hussey Rd (Inbound),0.38,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+238.79,7080,ALL_RED,Hussey Rd (Inbound),0.18,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+238.99,7086,GREEN,Hussey Rd (Inbound),0.0,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+239.19,7092,GREEN,Hussey Rd (Inbound),9.8,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+239.4,7098,GREEN,Hussey Rd (Inbound),9.6,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+239.6,7104,GREEN,Hussey Rd (Inbound),9.39,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+239.8,7110,GREEN,Hussey Rd (Inbound),9.19,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+240.0,7116,GREEN,Hussey Rd (Inbound),8.99,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+240.2,7122,GREEN,Hussey Rd (Inbound),8.79,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+240.41,7128,GREEN,Hussey Rd (Inbound),8.58,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+240.61,7134,GREEN,Hussey Rd (Inbound),8.38,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+240.81,7140,GREEN,Hussey Rd (Inbound),8.18,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+241.01,7146,GREEN,Hussey Rd (Inbound),7.98,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+241.22,7152,GREEN,Hussey Rd (Inbound),7.77,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+241.42,7158,GREEN,Hussey Rd (Inbound),7.57,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+241.62,7164,GREEN,Hussey Rd (Inbound),7.37,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+241.82,7170,GREEN,Hussey Rd (Inbound),7.17,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+242.03,7176,GREEN,Hussey Rd (Inbound),6.96,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+242.23,7182,GREEN,Hussey Rd (Inbound),6.76,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+242.43,7188,GREEN,Hussey Rd (Inbound),6.56,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+242.63,7194,GREEN,Hussey Rd (Inbound),6.36,2,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+242.84,7200,GREEN,Hussey Rd (Inbound),6.16,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+243.04,7206,GREEN,Hussey Rd (Inbound),5.95,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+243.24,7212,GREEN,Hussey Rd (Inbound),5.75,3,0,0,0,4,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+243.44,7218,GREEN,Hussey Rd (Inbound),5.55,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+243.64,7224,GREEN,Hussey Rd (Inbound),5.35,1,0,0,0,1,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+243.85,7230,GREEN,Hussey Rd (Inbound),5.14,1,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+244.05,7236,GREEN,Hussey Rd (Inbound),4.94,1,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+244.25,7242,GREEN,Hussey Rd (Inbound),4.74,1,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+244.45,7248,GREEN,Hussey Rd (Inbound),4.54,2,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+244.66,7254,GREEN,Hussey Rd (Inbound),4.33,1,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+244.86,7260,GREEN,Hussey Rd (Inbound),4.13,1,0,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+245.06,7266,GREEN,Hussey Rd (Inbound),3.93,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+245.26,7272,GREEN,Hussey Rd (Inbound),3.73,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+245.47,7278,GREEN,Hussey Rd (Inbound),3.52,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+245.67,7284,GREEN,Hussey Rd (Inbound),3.32,2,1,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+245.87,7290,GREEN,Hussey Rd (Inbound),3.12,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+246.07,7296,GREEN,Hussey Rd (Inbound),2.92,1,1,0,0,2,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+246.28,7302,GREEN,Hussey Rd (Inbound),2.71,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+246.48,7308,GREEN,Hussey Rd (Inbound),2.51,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+246.68,7314,GREEN,Hussey Rd (Inbound),2.31,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+246.88,7320,GREEN,Hussey Rd (Inbound),2.11,4,0,0,0,4,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+247.08,7326,GREEN,Hussey Rd (Inbound),1.91,3,0,0,0,3,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+247.29,7332,GREEN,Hussey Rd (Inbound),1.7,4,0,0,0,4,0,1,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+247.49,7338,GREEN,Hussey Rd (Inbound),1.5,6,0,0,0,5,0,1,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+247.69,7344,GREEN,Hussey Rd (Inbound),1.3,5,0,0,0,5,0,1,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+247.89,7350,GREEN,Hussey Rd (Inbound),1.1,2,1,0,0,2,0,1,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+248.1,7356,GREEN,Hussey Rd (Inbound),0.89,3,1,0,0,3,0,1,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+248.3,7362,GREEN,Hussey Rd (Inbound),0.69,2,1,0,0,3,0,1,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+248.5,7368,GREEN,Hussey Rd (Inbound),0.49,3,1,0,0,4,0,1,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+248.7,7374,GREEN,Hussey Rd (Inbound),0.29,3,1,0,0,3,0,1,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+248.91,7380,GREEN,Hussey Rd (Inbound),0.08,4,0,0,0,4,0,0,Assigned 10.0s green to Hussey Rd (Inbound) (queue: 1 vehicles)
+249.11,7386,YELLOW,Hussey Rd (Inbound),0.0,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+249.31,7392,YELLOW,Hussey Rd (Inbound),2.8,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+249.51,7398,YELLOW,Hussey Rd (Inbound),2.6,3,0,0,0,3,0,0,Allocated green (10.0s) expired
+249.72,7404,YELLOW,Hussey Rd (Inbound),2.39,4,0,0,0,4,0,0,Allocated green (10.0s) expired
+249.92,7410,YELLOW,Hussey Rd (Inbound),2.19,4,0,0,0,4,0,0,Allocated green (10.0s) expired
+250.12,7416,YELLOW,Hussey Rd (Inbound),1.99,4,1,0,0,5,0,0,Allocated green (10.0s) expired
+250.32,7422,YELLOW,Hussey Rd (Inbound),1.79,4,1,0,0,5,0,0,Allocated green (10.0s) expired
+250.53,7428,YELLOW,Hussey Rd (Inbound),1.58,2,1,0,0,3,0,0,Allocated green (10.0s) expired
+250.73,7434,YELLOW,Hussey Rd (Inbound),1.38,2,1,0,0,3,0,0,Allocated green (10.0s) expired
+250.93,7440,YELLOW,Hussey Rd (Inbound),1.18,1,1,0,0,2,0,0,Allocated green (10.0s) expired
+251.13,7446,YELLOW,Hussey Rd (Inbound),0.98,1,1,0,0,2,0,0,Allocated green (10.0s) expired
+251.33,7452,YELLOW,Hussey Rd (Inbound),0.77,1,1,0,0,2,0,0,Allocated green (10.0s) expired
+251.54,7458,YELLOW,Hussey Rd (Inbound),0.57,3,1,0,0,4,0,0,Allocated green (10.0s) expired
+251.74,7464,YELLOW,Hussey Rd (Inbound),0.37,4,1,0,0,5,0,0,Allocated green (10.0s) expired
+251.94,7470,YELLOW,Hussey Rd (Inbound),0.17,4,0,0,0,4,0,0,Allocated green (10.0s) expired
+252.14,7476,ALL_RED,Hussey Rd (Inbound),0.0,3,0,0,0,4,0,0,Intersection clearance (All-Red)
+252.35,7482,ALL_RED,Hussey Rd (Inbound),1.8,4,0,0,0,5,0,0,Intersection clearance (All-Red)
+252.55,7488,ALL_RED,Hussey Rd (Inbound),1.6,2,0,0,0,4,0,0,Intersection clearance (All-Red)
+252.75,7494,ALL_RED,Hussey Rd (Inbound),1.39,4,0,0,0,6,0,0,Intersection clearance (All-Red)
+252.95,7500,ALL_RED,Hussey Rd (Inbound),1.19,2,0,0,0,4,0,0,Intersection clearance (All-Red)
+253.16,7506,ALL_RED,Hussey Rd (Inbound),0.99,3,1,0,0,5,0,0,Intersection clearance (All-Red)
+253.36,7512,ALL_RED,Hussey Rd (Inbound),0.79,1,1,0,0,3,0,0,Intersection clearance (All-Red)
+253.56,7518,ALL_RED,Hussey Rd (Inbound),0.58,1,1,0,0,3,0,0,Intersection clearance (All-Red)
+253.76,7524,ALL_RED,Hussey Rd (Inbound),0.38,1,1,0,0,3,0,0,Intersection clearance (All-Red)
+253.97,7530,ALL_RED,Hussey Rd (Inbound),0.18,1,1,0,0,3,0,0,Intersection clearance (All-Red)
+254.17,7536,GREEN,Hussey Rd (Inbound),0.0,2,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+254.37,7542,GREEN,Hussey Rd (Inbound),11.8,1,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+254.57,7548,GREEN,Hussey Rd (Inbound),11.6,1,1,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+254.77,7554,GREEN,Hussey Rd (Inbound),11.39,1,1,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+254.98,7560,GREEN,Hussey Rd (Inbound),11.19,3,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+255.18,7566,GREEN,Hussey Rd (Inbound),10.99,2,1,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+255.38,7572,GREEN,Hussey Rd (Inbound),10.79,2,2,0,0,4,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+255.58,7578,GREEN,Hussey Rd (Inbound),10.58,2,1,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+255.79,7584,GREEN,Hussey Rd (Inbound),10.38,1,1,0,0,3,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+255.99,7590,GREEN,Hussey Rd (Inbound),10.18,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+256.19,7596,GREEN,Hussey Rd (Inbound),9.98,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+256.39,7602,GREEN,Hussey Rd (Inbound),9.77,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+256.6,7608,GREEN,Hussey Rd (Inbound),9.57,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+256.8,7614,GREEN,Hussey Rd (Inbound),9.37,0,1,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+257.0,7620,GREEN,Hussey Rd (Inbound),9.17,1,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+257.2,7626,GREEN,Hussey Rd (Inbound),8.96,1,1,0,0,1,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+257.41,7632,GREEN,Hussey Rd (Inbound),8.76,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+257.61,7638,GREEN,Hussey Rd (Inbound),8.56,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+257.81,7644,GREEN,Hussey Rd (Inbound),8.36,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+258.01,7650,GREEN,Hussey Rd (Inbound),8.16,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+258.21,7656,GREEN,Hussey Rd (Inbound),7.95,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+258.42,7662,GREEN,Hussey Rd (Inbound),7.75,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+258.62,7668,GREEN,Hussey Rd (Inbound),7.55,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+258.82,7674,GREEN,Hussey Rd (Inbound),7.35,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+259.02,7680,GREEN,Hussey Rd (Inbound),7.14,2,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+259.23,7686,GREEN,Hussey Rd (Inbound),6.94,3,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+259.43,7692,GREEN,Hussey Rd (Inbound),6.74,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+259.63,7698,GREEN,Hussey Rd (Inbound),6.54,4,0,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+259.83,7704,GREEN,Hussey Rd (Inbound),6.33,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+260.04,7710,GREEN,Hussey Rd (Inbound),6.13,5,0,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+260.24,7716,GREEN,Hussey Rd (Inbound),5.93,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+260.44,7722,GREEN,Hussey Rd (Inbound),5.73,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+260.64,7728,GREEN,Hussey Rd (Inbound),5.52,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+260.85,7734,GREEN,Hussey Rd (Inbound),5.32,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+261.05,7740,GREEN,Hussey Rd (Inbound),5.12,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+261.25,7746,GREEN,Hussey Rd (Inbound),4.92,5,0,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+261.45,7752,GREEN,Hussey Rd (Inbound),4.71,3,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+261.66,7758,GREEN,Hussey Rd (Inbound),4.51,3,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+261.86,7764,GREEN,Hussey Rd (Inbound),4.31,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+262.06,7770,GREEN,Hussey Rd (Inbound),4.11,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+262.26,7776,GREEN,Hussey Rd (Inbound),3.91,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+262.46,7782,GREEN,Hussey Rd (Inbound),3.7,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+262.67,7788,GREEN,Hussey Rd (Inbound),3.5,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+262.87,7794,GREEN,Hussey Rd (Inbound),3.3,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+263.07,7800,GREEN,Hussey Rd (Inbound),3.1,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+263.27,7806,GREEN,Hussey Rd (Inbound),2.89,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+263.48,7812,GREEN,Hussey Rd (Inbound),2.69,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+263.68,7818,GREEN,Hussey Rd (Inbound),2.49,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+263.88,7824,GREEN,Hussey Rd (Inbound),2.29,3,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+264.08,7830,GREEN,Hussey Rd (Inbound),2.08,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+264.29,7836,GREEN,Hussey Rd (Inbound),1.88,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+264.49,7842,GREEN,Hussey Rd (Inbound),1.68,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+264.69,7848,GREEN,Hussey Rd (Inbound),1.48,5,0,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+264.89,7854,GREEN,Hussey Rd (Inbound),1.27,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+265.1,7860,GREEN,Hussey Rd (Inbound),1.07,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+265.3,7866,GREEN,Hussey Rd (Inbound),0.87,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+265.5,7872,GREEN,Hussey Rd (Inbound),0.67,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+265.7,7878,GREEN,Hussey Rd (Inbound),0.47,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+265.9,7884,GREEN,Hussey Rd (Inbound),0.26,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+266.11,7890,GREEN,Hussey Rd (Inbound),0.06,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+266.31,7896,YELLOW,Hussey Rd (Inbound),0.0,4,0,0,0,4,0,0,Allocated green (12.0s) expired
+266.51,7902,YELLOW,Hussey Rd (Inbound),2.8,4,0,0,0,4,0,0,Allocated green (12.0s) expired
+266.71,7908,YELLOW,Hussey Rd (Inbound),2.6,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+266.92,7914,YELLOW,Hussey Rd (Inbound),2.39,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+267.12,7920,YELLOW,Hussey Rd (Inbound),2.19,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+267.32,7926,YELLOW,Hussey Rd (Inbound),1.99,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+267.52,7932,YELLOW,Hussey Rd (Inbound),1.79,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+267.73,7938,YELLOW,Hussey Rd (Inbound),1.58,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+267.93,7944,YELLOW,Hussey Rd (Inbound),1.38,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+268.13,7950,YELLOW,Hussey Rd (Inbound),1.18,3,0,1,0,2,0,0,Allocated green (12.0s) expired
+268.33,7956,YELLOW,Hussey Rd (Inbound),0.98,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+268.54,7962,YELLOW,Hussey Rd (Inbound),0.77,5,0,0,0,5,0,0,Allocated green (12.0s) expired
+268.74,7968,YELLOW,Hussey Rd (Inbound),0.57,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+268.94,7974,YELLOW,Hussey Rd (Inbound),0.37,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+269.14,7980,YELLOW,Hussey Rd (Inbound),0.17,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+269.34,7986,ALL_RED,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+269.55,7992,ALL_RED,Hussey Rd (Inbound),1.8,4,0,0,0,4,0,0,Intersection clearance (All-Red)
+269.75,7998,ALL_RED,Hussey Rd (Inbound),1.6,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+269.95,8004,ALL_RED,Hussey Rd (Inbound),1.39,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+270.15,8010,ALL_RED,Hussey Rd (Inbound),1.19,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+270.36,8016,ALL_RED,Hussey Rd (Inbound),0.99,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+270.56,8022,ALL_RED,Hussey Rd (Inbound),0.79,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+270.76,8028,ALL_RED,Hussey Rd (Inbound),0.58,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+270.96,8034,ALL_RED,Hussey Rd (Inbound),0.38,1,0,0,0,1,0,0,Intersection clearance (All-Red)
+271.17,8040,ALL_RED,Hussey Rd (Inbound),0.18,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+271.37,8046,GREEN,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+271.57,8052,GREEN,Hussey Rd (Inbound),11.8,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+271.77,8058,GREEN,Hussey Rd (Inbound),11.6,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+271.98,8064,GREEN,Hussey Rd (Inbound),11.39,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+272.18,8070,GREEN,Hussey Rd (Inbound),11.19,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+272.38,8076,GREEN,Hussey Rd (Inbound),10.99,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+272.58,8082,GREEN,Hussey Rd (Inbound),10.79,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+272.79,8088,GREEN,Hussey Rd (Inbound),10.58,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+272.99,8094,GREEN,Hussey Rd (Inbound),10.38,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+273.19,8100,GREEN,Hussey Rd (Inbound),10.18,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+273.39,8106,GREEN,Hussey Rd (Inbound),9.98,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+273.59,8112,GREEN,Hussey Rd (Inbound),9.77,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+273.8,8118,GREEN,Hussey Rd (Inbound),9.57,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+274.0,8124,GREEN,Hussey Rd (Inbound),9.37,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+274.2,8130,GREEN,Hussey Rd (Inbound),9.17,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+274.4,8136,GREEN,Hussey Rd (Inbound),8.96,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+274.61,8142,GREEN,Hussey Rd (Inbound),8.76,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+274.81,8148,GREEN,Hussey Rd (Inbound),8.56,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+275.01,8154,GREEN,Hussey Rd (Inbound),8.36,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+275.21,8160,GREEN,Hussey Rd (Inbound),8.16,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+275.42,8166,GREEN,Hussey Rd (Inbound),7.95,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+275.62,8172,GREEN,Hussey Rd (Inbound),7.75,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+275.82,8178,GREEN,Hussey Rd (Inbound),7.55,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+276.02,8184,GREEN,Hussey Rd (Inbound),7.35,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+276.23,8190,GREEN,Hussey Rd (Inbound),7.14,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+276.43,8196,GREEN,Hussey Rd (Inbound),6.94,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+276.63,8202,GREEN,Hussey Rd (Inbound),6.74,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+276.83,8208,GREEN,Hussey Rd (Inbound),6.54,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+277.03,8214,GREEN,Hussey Rd (Inbound),6.33,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+277.24,8220,GREEN,Hussey Rd (Inbound),6.13,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+277.44,8226,GREEN,Hussey Rd (Inbound),5.93,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+277.64,8232,GREEN,Hussey Rd (Inbound),5.73,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+277.84,8238,GREEN,Hussey Rd (Inbound),5.52,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+278.05,8244,GREEN,Hussey Rd (Inbound),5.32,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+278.25,8250,GREEN,Hussey Rd (Inbound),5.12,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+278.45,8256,GREEN,Hussey Rd (Inbound),4.92,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+278.65,8262,GREEN,Hussey Rd (Inbound),4.71,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+278.86,8268,GREEN,Hussey Rd (Inbound),4.51,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+279.06,8274,GREEN,Hussey Rd (Inbound),4.31,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+279.26,8280,GREEN,Hussey Rd (Inbound),4.11,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+279.46,8286,GREEN,Hussey Rd (Inbound),3.91,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+279.67,8292,GREEN,Hussey Rd (Inbound),3.7,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+279.87,8298,GREEN,Hussey Rd (Inbound),3.5,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+280.07,8304,GREEN,Hussey Rd (Inbound),3.3,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+280.27,8310,GREEN,Hussey Rd (Inbound),3.1,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+280.47,8316,GREEN,Hussey Rd (Inbound),2.89,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+280.68,8322,GREEN,Hussey Rd (Inbound),2.69,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+280.88,8328,GREEN,Hussey Rd (Inbound),2.49,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+281.08,8334,GREEN,Hussey Rd (Inbound),2.29,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+281.28,8340,GREEN,Hussey Rd (Inbound),2.08,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+281.49,8346,GREEN,Hussey Rd (Inbound),1.88,0,0,0,0,0,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+281.69,8352,GREEN,Hussey Rd (Inbound),1.68,0,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+281.89,8358,GREEN,Hussey Rd (Inbound),1.48,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+282.09,8364,GREEN,Hussey Rd (Inbound),1.27,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+282.3,8370,GREEN,Hussey Rd (Inbound),1.07,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+282.5,8376,GREEN,Hussey Rd (Inbound),0.87,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+282.7,8382,GREEN,Hussey Rd (Inbound),0.67,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+282.9,8388,GREEN,Hussey Rd (Inbound),0.47,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+283.11,8394,GREEN,Hussey Rd (Inbound),0.26,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+283.31,8400,GREEN,Hussey Rd (Inbound),0.06,1,0,0,0,1,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+283.51,8406,YELLOW,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+283.71,8412,YELLOW,Hussey Rd (Inbound),2.8,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+283.91,8418,YELLOW,Hussey Rd (Inbound),2.6,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+284.12,8424,YELLOW,Hussey Rd (Inbound),2.39,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+284.32,8430,YELLOW,Hussey Rd (Inbound),2.19,1,0,0,0,2,0,0,Allocated green (12.0s) expired
+284.52,8436,YELLOW,Hussey Rd (Inbound),1.99,0,0,0,0,2,0,0,Allocated green (12.0s) expired
+284.72,8442,YELLOW,Hussey Rd (Inbound),1.79,1,0,0,0,1,0,0,Allocated green (12.0s) expired
+284.93,8448,YELLOW,Hussey Rd (Inbound),1.58,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+285.13,8454,YELLOW,Hussey Rd (Inbound),1.38,2,0,0,0,2,0,0,Allocated green (12.0s) expired
+285.33,8460,YELLOW,Hussey Rd (Inbound),1.18,1,0,0,0,2,0,0,Allocated green (12.0s) expired
+285.53,8466,YELLOW,Hussey Rd (Inbound),0.98,1,0,0,0,2,0,0,Allocated green (12.0s) expired
+285.74,8472,YELLOW,Hussey Rd (Inbound),0.77,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+285.94,8478,YELLOW,Hussey Rd (Inbound),0.57,4,0,0,0,4,0,0,Allocated green (12.0s) expired
+286.14,8484,YELLOW,Hussey Rd (Inbound),0.37,3,0,0,0,3,0,0,Allocated green (12.0s) expired
+286.34,8490,YELLOW,Hussey Rd (Inbound),0.17,3,0,0,0,4,0,0,Allocated green (12.0s) expired
+286.55,8496,ALL_RED,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+286.75,8502,ALL_RED,Hussey Rd (Inbound),1.8,2,0,0,0,2,0,0,Intersection clearance (All-Red)
+286.95,8508,ALL_RED,Hussey Rd (Inbound),1.6,4,0,0,0,4,0,0,Intersection clearance (All-Red)
+287.15,8514,ALL_RED,Hussey Rd (Inbound),1.39,3,0,0,0,3,0,0,Intersection clearance (All-Red)
+287.36,8520,ALL_RED,Hussey Rd (Inbound),1.19,3,0,0,0,3,0,1,Intersection clearance (All-Red)
+287.56,8526,ALL_RED,Hussey Rd (Inbound),0.99,1,0,0,0,1,0,1,Intersection clearance (All-Red)
+287.76,8532,ALL_RED,Hussey Rd (Inbound),0.79,1,0,0,0,1,0,1,Intersection clearance (All-Red)
+287.96,8538,ALL_RED,Hussey Rd (Inbound),0.58,2,0,0,0,2,0,1,Intersection clearance (All-Red)
+288.16,8544,ALL_RED,Hussey Rd (Inbound),0.38,2,0,0,0,2,0,1,Intersection clearance (All-Red)
+288.37,8550,ALL_RED,Hussey Rd (Inbound),0.18,3,0,0,0,3,0,1,Intersection clearance (All-Red)
+288.57,8556,GREEN,Hussey Rd (Inbound),0.0,2,0,0,0,2,0,1,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+288.77,8562,GREEN,Hussey Rd (Inbound),11.8,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+288.97,8568,GREEN,Hussey Rd (Inbound),11.6,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+289.18,8574,GREEN,Hussey Rd (Inbound),11.39,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+289.38,8580,GREEN,Hussey Rd (Inbound),11.19,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+289.58,8586,GREEN,Hussey Rd (Inbound),10.99,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+289.78,8592,GREEN,Hussey Rd (Inbound),10.79,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+289.99,8598,GREEN,Hussey Rd (Inbound),10.58,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+290.19,8604,GREEN,Hussey Rd (Inbound),10.38,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+290.39,8610,GREEN,Hussey Rd (Inbound),10.18,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+290.59,8616,GREEN,Hussey Rd (Inbound),9.98,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+290.8,8622,GREEN,Hussey Rd (Inbound),9.77,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+291.0,8628,GREEN,Hussey Rd (Inbound),9.57,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+291.2,8634,GREEN,Hussey Rd (Inbound),9.37,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+291.4,8640,GREEN,Hussey Rd (Inbound),9.17,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+291.6,8646,GREEN,Hussey Rd (Inbound),8.96,5,0,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+291.81,8652,GREEN,Hussey Rd (Inbound),8.76,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+292.01,8658,GREEN,Hussey Rd (Inbound),8.56,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+292.21,8664,GREEN,Hussey Rd (Inbound),8.36,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+292.41,8670,GREEN,Hussey Rd (Inbound),8.16,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+292.62,8676,GREEN,Hussey Rd (Inbound),7.95,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+292.82,8682,GREEN,Hussey Rd (Inbound),7.75,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+293.02,8688,GREEN,Hussey Rd (Inbound),7.55,5,0,0,0,5,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+293.22,8694,GREEN,Hussey Rd (Inbound),7.35,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+293.43,8700,GREEN,Hussey Rd (Inbound),7.14,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+293.63,8706,GREEN,Hussey Rd (Inbound),6.94,4,0,0,0,4,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+293.83,8712,GREEN,Hussey Rd (Inbound),6.74,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+294.03,8718,GREEN,Hussey Rd (Inbound),6.54,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+294.24,8724,GREEN,Hussey Rd (Inbound),6.33,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+294.44,8730,GREEN,Hussey Rd (Inbound),6.13,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+294.64,8736,GREEN,Hussey Rd (Inbound),5.93,3,0,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+294.84,8742,GREEN,Hussey Rd (Inbound),5.73,2,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+295.04,8748,GREEN,Hussey Rd (Inbound),5.52,1,0,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+295.25,8754,GREEN,Hussey Rd (Inbound),5.32,1,2,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+295.45,8760,GREEN,Hussey Rd (Inbound),5.12,0,2,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+295.65,8766,GREEN,Hussey Rd (Inbound),4.92,0,1,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+295.85,8772,GREEN,Hussey Rd (Inbound),4.71,0,2,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+296.06,8778,GREEN,Hussey Rd (Inbound),4.51,0,2,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+296.26,8784,GREEN,Hussey Rd (Inbound),4.31,0,2,0,0,2,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+296.46,8790,GREEN,Hussey Rd (Inbound),4.11,0,3,0,0,3,0,0,Assigned 12.0s green to Hussey Rd (Inbound) (queue: 2 vehicles)
+296.66,8796,YELLOW,Hussey Rd (Inbound),3.91,0,2,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+296.87,8802,YELLOW,Hussey Rd (Inbound),2.8,0,1,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+297.07,8808,YELLOW,Hussey Rd (Inbound),2.6,0,1,0,0,1,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+297.27,8814,YELLOW,Hussey Rd (Inbound),2.39,0,2,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+297.47,8820,YELLOW,Hussey Rd (Inbound),2.19,0,3,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+297.68,8826,YELLOW,Hussey Rd (Inbound),1.99,0,2,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+297.88,8832,YELLOW,Hussey Rd (Inbound),1.79,2,1,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+298.08,8838,YELLOW,Hussey Rd (Inbound),1.58,2,1,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+298.28,8844,YELLOW,Hussey Rd (Inbound),1.38,2,2,0,1,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+298.49,8850,YELLOW,Hussey Rd (Inbound),1.18,1,1,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+298.69,8856,YELLOW,Hussey Rd (Inbound),0.98,1,1,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+298.89,8862,YELLOW,Hussey Rd (Inbound),0.77,2,1,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+299.09,8868,YELLOW,Hussey Rd (Inbound),0.57,2,1,0,0,4,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+299.29,8874,YELLOW,Hussey Rd (Inbound),0.37,1,1,0,0,3,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+299.5,8880,YELLOW,Hussey Rd (Inbound),0.17,0,1,0,0,2,0,0,Hussey Rd (Inbound) cleared early (queue=0) -> switching
+299.7,8886,ALL_RED,Hussey Rd (Inbound),0.0,1,1,0,0,2,0,0,Intersection clearance (All-Red)
+299.9,8892,ALL_RED,Hussey Rd (Inbound),1.8,0,2,0,0,2,0,0,Intersection clearance (All-Red)
