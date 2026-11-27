@@ -117,9 +117,29 @@ To redraw the approach polygons to match your phone's camera angle:
 ```powershell
 .\venv\Scripts\python adaptive_traffic_controller.py --source http://<PHONE_IP>:8080/video --setup
 ```
+* The live picture shows first: aim the phone, then press `SPACE` to freeze the picture you will draw on.
 * Click 4 corner points for each approach.
 * Press `ENTER` to accept, `R` to redraw.
 * Polygons are saved to `outputs/approach_zones.json` in normalized coordinates (auto-scaling to any resolution).
+
+#### 5. Automatic Approach Zones (`--auto-zones`)
+Instead of drawing the zones by hand, let the system find the roads and keep them lined up with the camera:
+```powershell
+.\venv\Scripts\python adaptive_traffic_controller.py --source http://<PHONE_IP>:4747/video --auto-zones
+```
+* **Learning:** for the first 20 s (`--learn-seconds`), it watches where vehicles are detected. A yellow dot marks
+  each spot. Then it splits those spots into `--zones` roads (default 2, named left to right). Each road's area
+  covers the whole stretch where vehicles were seen, plus a margin. The lights run on fixed timing while it learns.
+* **Phone nudged or hand-held:** about once a second it matches the live picture against the one the zones were made
+  on, and moves the zones with the picture.
+* **New view:** if the picture stops matching for 4 s (the phone was turned to another road), or a road slides out
+  of the picture, it learns the roads again by itself.
+* **Press `R`** in the video window to relearn at any time (no typing needed in this mode).
+* **Saved between runs:** the zones are saved to `outputs/approach_zones.json`, plus the picture they were made on
+  (`approach_zones_ref.jpg`). If the camera is pointed the same way next time, they are reused straight away.
+* **Combine with `--setup`** to draw the zones by hand once, and still have them follow the camera.
+* **Limit:** the roads are found from where vehicles appear, so a quiet road needs some traffic before it gets a
+  zone. A side view of a single road gets split into halves.
 
 #### On-Screen Keyboard Controls:
 * `s`: Save a high-resolution snapshot to `outputs/snapshot_<timestamp>.jpg`.
@@ -175,6 +195,9 @@ Outputs generated:
 | `--imgsz` | `640` | Inference resolution |
 | `--rotate` | `0` | Turn the picture clockwise by 90 / 180 / 270 degrees (phone streams that arrive sideways) |
 | `--stale-after` | `3.0` | Seconds without a new picture before the camera counts as lost |
+| `--auto-zones` | off | Find the roads from passing traffic and keep the zones matched to the camera |
+| `--zones` | `2` | How many roads `--auto-zones` learns |
+| `--learn-seconds` | `20.0` | How long `--auto-zones` watches traffic before drawing zones |
 
 ---
 

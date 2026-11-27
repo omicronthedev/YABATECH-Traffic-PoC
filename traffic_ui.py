@@ -41,6 +41,8 @@ def draw_high_visibility_hud(
             name, poly, app_color = app["name"], app["poly"], app["color"]
         else:
             name, poly, app_color = app.name, app.get_pixel_polygon(w, h), app.color
+        if len(poly) < 3:
+            continue  # zone not known yet (auto zones still learning the roads)
         q_count = queue_counts.get(name, 0)
         app_signal = signals.get(name, "RED")
 
